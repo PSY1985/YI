@@ -5,6 +5,7 @@
   <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="资源还不错啊"
     iconUrl="http://pic21.nipic.com/20120527/2367496_223318025363_2.jpg"
     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppmicaitu.html"/>
+
   <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
         url="https://m.micaitu.net/dy/index_%count%_____hits__1.html" currentPageCountHolder="%count%"
         searchKeywordHolder="">
@@ -13,6 +14,7 @@
       var host = "https://m.micaitu.net";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
+
       if (datalist.length == 0) {
         var response = {"code": "200", "msg": "suc", "content": ""};
         return response;
@@ -40,6 +42,7 @@
       var host = "https://m.micaitu.net";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
+
       if (datalist.length == 0) {
         var response = {"code": "200", "msg": "suc", "content": ""};
         return response;
@@ -66,6 +69,7 @@
       var host = "https://m.micaitu.net";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
+
       if (datalist.length == 0) {
         var response = {"code": "200", "msg": "suc", "content": ""};
         return response;
@@ -92,6 +96,7 @@
       var host = "https://m.micaitu.net";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
+
       if (datalist.length == 0) {
         var response = {"code": "200", "msg": "suc", "content": ""};
         return response;
@@ -199,9 +204,11 @@
   <packgetname>com.pipigui</packgetname>
   <minapi>1</minapi>
   <author name="xiaoliang" avatarUrl="" description="群友提供" donateUrl="" />
-  <info type="801" versionCode="005" versionName="v5.0" name="皮皮虾" description="资源还不错啊" iconUrl="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3563646043,1894795836&fm=26&gp=0.jpg"
-        subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApppipigui.html" />
-  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.zhudaye.com/kehuan/index_%count%_____hits__1.html"
+  <info type="801" versionCode="005" versionName="v5.0" name="皮皮虾" description="资源还不错啊"     iconUrl="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3563646043,1894795836&fm=26&gp=0.jpg"
+    subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApppipigui.html" />
+
+  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+    url="https://m.zhudaye.com/kehuan/index_%count%_____hits__1.html"
         currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
@@ -226,7 +233,8 @@
     }
   </script>
   </rule>
-  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.zhudaye.com/tv/index_%count%_____addtime__1.html"
+  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+    url="https://m.zhudaye.com/tv/index_%count%_____addtime__1.html"
         currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
@@ -251,7 +259,8 @@
     }
   </script>
   </rule>
-  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.zhudaye.com/dongman/index_%count%_____addtime__1.html"
+  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+    url="https://m.zhudaye.com/dongman/index_%count%_____addtime__1.html"
         currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
@@ -277,7 +286,8 @@
     }
   </script>
   </rule>
-  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.zhudaye.com/zongyi/index_%count%_____addtime__1.html"
+  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+    url="https://m.zhudaye.com/zongyi/index_%count%_____addtime__1.html"
         currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
@@ -355,7 +365,8 @@
     }
   </script>
   </rule>
-  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.zhudaye.com/vod-search-wd-%keyword%-p-%count%.html"
+  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+    url="https://m.zhudaye.com/vod-search-wd-%keyword%-p-%count%.html"
         currentpagecountholder="%count%" searchkeywordholder="%keyword%">
       <script>
     function search() {
@@ -391,6 +402,7 @@
   <info type="801" versionCode="008" versionName="v8.0" name="爱水果" description="资源还不错啊"
     iconUrl="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1555347375963&amp;di=5c1908e2907b30988ecdba26ec3ea05a&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0189965785b2130000018c1baeb944.jpg%401280w_1l_2o_100sh.jpg"
     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppa4yy.html" />
+
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://m.aaqqw.com/vod-type-id-1-pg-%count%.html"
     currentpagecountholder="%count%" searchkeywordholder="">
@@ -583,10 +595,11 @@
   <packgetName>com.kankanwu</packgetName>
   <minApi>1</minApi>
   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v2.0" name="看看屋" description="资源还不错啊" iconUrl="http://pic65.nipic.com/file/20150423/18010600_134444583000_2.jpg"
+  <info type="801" versionCode="003" versionName="v2.0" name="看看屋" description="资源还不错啊"     iconUrl="http://pic65.nipic.com/file/20150423/18010600_134444583000_2.jpg"
     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppkankanwu.html" />
 
-  <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();" url="https://m.kankanwu.com/dy/index_%count%_____hits__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
+     url="https://m.kankanwu.com/dy/index_%count%_____hits__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -627,7 +640,8 @@
       }
     </script>
   </rule>
-  <rule type="101" typeOnclickAction="" subTypeName="追剧" jsMethod="list();" url="https://m.kankanwu.com/dsj/index_%count%_____addtime__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="追剧" jsMethod="list();"
+    url="https://m.kankanwu.com/dsj/index_%count%_____addtime__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -668,7 +682,8 @@
       }
     </script>
   </rule>
-  <rule type="101" typeOnclickAction="" subTypeName="动漫" jsMethod="list();" url="https://m.kankanwu.com/Animation/index_%count%_____addtime__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="动漫" jsMethod="list();"
+    url="https://m.kankanwu.com/Animation/index_%count%_____addtime__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -709,7 +724,8 @@
       }
     </script>
   </rule>
-  <rule type="101" typeOnclickAction="" subTypeName="综艺" jsMethod="list();" url="https://m.kankanwu.com/Arts/index_%count%_____addtime__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="综艺" jsMethod="list();"
+    url="https://m.kankanwu.com/Arts/index_%count%_____addtime__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -750,7 +766,6 @@
       }
     </script>
   </rule>
-
   <rule type="102" jsMethod="detail();">
     <script>
       function detail() {
@@ -815,8 +830,8 @@
       }
     </script>
   </rule>
-
-  <rule type="103" typeOnclickAction="" subTypeName="" jsMethod="search();" url="https://m.kankanwu.com/vod-search-wd-%keyword%-p-%count%.html"
+  <rule type="103" typeOnclickAction="" subTypeName="" jsMethod="search();"
+    url="https://m.kankanwu.com/vod-search-wd-%keyword%-p-%count%.html"
     currentPageCountHolder="%count%" searchKeywordHolder="%keyword%">
     <script>
       function search() {
@@ -862,8 +877,12 @@
    <packgetname>com.benbenj</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v2.0" name="笨笨鸡" description="资源还不错啊" iconUrl="https://tse1.mm.bing.net/th?id=OIP.MLDfDxtTueTlNXI1skFONwHaJR&amp;w=166&amp;h=208&amp;c=7&amp;o=5&amp;dpr=3&amp;pid=1.7" subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.benbenji.com/dzp/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <info type="801" versionCode="001" versionName="v2.0" name="笨笨鸡" description="资源还不错啊"
+     iconUrl="https://tse1.mm.bing.net/th?id=OIP.MLDfDxtTueTlNXI1skFONwHaJR&amp;w=166&amp;h=208&amp;c=7&amp;o=5&amp;dpr=3&amp;pid=1.7"
+     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" />
+ 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.benbenji.com/dzp/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -887,7 +906,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.benbenji.com/gcj/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.benbenji.com/gcj/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -911,7 +931,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.benbenji.com/dm/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.benbenji.com/dm/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -935,7 +956,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.benbenji.com/arts/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.benbenji.com/arts/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -961,14 +983,12 @@
    </rule> 
    <rule type="102" jsmethod="detail();"> 
     <script>
-
       function detail() {
         var host = "http://m.benbenji.com";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
         var actorTmp = $("div.vod-n-l:first p").toArray();
         for (var i = 0; i < actorTmp.length; i++) {
@@ -985,7 +1005,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -1002,7 +1021,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -1016,7 +1034,8 @@
       }
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.benbenji.com/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.benbenji.com/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.benbenji.com";
@@ -1049,9 +1068,12 @@
    <packgetname>com.kuaikan66</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊" iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165964720&di=bb0b8509b304378024b31291605c5ac9&imgtype=0&src=http%3A%2F%2Fis3.mzstatic.com%2Fimage%2Fthumb%2FPurple3%2Fv4%2Fcd%2Faa%2Fb0%2Fcdaab085-610b-256f-918c-8ae988f0d4e1%2Fsource%2F512x512bb.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.kuaikan66.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165964720&di=bb0b8509b304378024b31291605c5ac9&imgtype=0&src=http%3A%2F%2Fis3.mzstatic.com%2Fimage%2Fthumb%2FPurple3%2Fv4%2Fcd%2Faa%2Fb0%2Fcdaab085-610b-256f-918c-8ae988f0d4e1%2Fsource%2F512x512bb.jpg"
+     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" />
+ 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="https://m.kuaikan66.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1075,7 +1097,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.kuaikan66.com/list/dsj______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="https://m.kuaikan66.com/list/dsj______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1099,7 +1122,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.kuaikan66.com/list/Animation______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://m.kuaikan66.com/list/Animation______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1123,7 +1147,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.kuaikan66.com/list/Arts______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://m.kuaikan66.com/list/Arts______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1172,7 +1197,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -1189,7 +1213,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -1203,7 +1226,8 @@
       }
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.kuaikan66.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="https://m.kuaikan66.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.kuaikan66.com";
@@ -1238,8 +1262,10 @@
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="七马影视" description="资源还不错啊"
      iconUrl="http://www.juimg.com/tuku/yulantu/131118/328765-13111P0344880.jpg"
-     subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.7704.cc/list/dianying_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     subscribeUrl="" />
+ 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.7704.cc/list/dianying_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1263,7 +1289,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.7704.cc/list/dianshiju_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.7704.cc/list/dianshiju_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1287,7 +1314,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.7704.cc/list/dongman_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.7704.cc/list/dongman_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1311,7 +1339,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.7704.cc/list/zongyi_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.7704.cc/list/zongyi_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1335,7 +1364,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="http://m.7704.cc/list/gushipian______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="http://m.7704.cc/list/gushipian______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1361,14 +1391,12 @@
    </rule> 
    <rule type="102" jsmethod="detail();"> 
     <script>
-
       function detail() {
         var host = "http://m.7704.cc";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
         var actorTmp = $("div.vod-n-l:first p").toArray();
         for (var i = 0; i < actorTmp.length; i++) {
@@ -1385,7 +1413,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -1416,7 +1443,8 @@
       }
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.7704.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.7704.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.7704.cc";
@@ -1450,8 +1478,10 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="可喜影院" description="资源还不错啊" iconUrl="https://tse2.mm.bing.net/th?id=OIP.t5ekAlsEDm7FewO_73mYTQHaHa&amp"
-     subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.kexi.cc/?s=vod-type-id-1-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     subscribeUrl="" />
+ 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="https://m.kexi.cc/?s=vod-type-id-1-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1475,7 +1505,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.kexi.cc/?s=vod-type-id-2-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="https://m.kexi.cc/?s=vod-type-id-2-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1499,7 +1530,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.kexi.cc/?s=vod-type-id-3-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://m.kexi.cc/?s=vod-type-id-3-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1523,7 +1555,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.kexi.cc/?s=vod-type-id-4-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://m.kexi.cc/?s=vod-type-id-4-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1547,7 +1580,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="https://m.kexi.cc/Lunlipian/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="https://m.kexi.cc/Lunlipian/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1596,7 +1630,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -1613,7 +1646,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -1625,10 +1657,10 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.kexi.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="https://m.kexi.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.kexi.cc";
@@ -1663,8 +1695,10 @@
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="屠夫影视" description="资源还不错啊"
      iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559821399845&di=06ad1c2c7d761e2378495e9d52ef964b&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F50%2F17%2F581648650bbbb_610.jpg"
-     subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.tufutv8.com/Kehuan/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     subscribeUrl="" />
+
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.tufutv8.com/Kehuan/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1688,7 +1722,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.tufutv8.com/Dianshiju/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.tufutv8.com/Dianshiju/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1712,7 +1747,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.tufutv8.com/dongman/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.tufutv8.com/dongman/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1736,7 +1772,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.tufutv8.com/zongyi/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.tufutv8.com/zongyi/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1760,7 +1797,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="http://m.tufutv8.com/donghuapian/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="http://m.tufutv8.com/donghuapian/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1786,14 +1824,12 @@
    </rule> 
    <rule type="102" jsmethod="detail();"> 
     <script>
-
       function detail() {
         var host = "http://m.tufutv8.com";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
         var actorTmp = $("div.vod-n-l:first p").toArray();
         for (var i = 0; i < actorTmp.length; i++) {
@@ -1810,7 +1846,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -1827,7 +1862,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -1839,10 +1873,10 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.tufutv8.com/vod-search-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.tufutv8.com/vod-search-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.tufutv8.com";
@@ -1875,9 +1909,12 @@
    <packgetname>com.m.chinachenxi</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="资源还不错啊" iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165882407&di=9183cdc0c3adc5c11f1855c8c196182f&imgtype=0&src=http%3A%2F%2Fimglf1.ph.126.net%2FWG30_bBnazywnvm8-6kepg%3D%3D%2F3302827376822897920.jpg"
-     subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.chinachenxi.com/xijupian/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="资源还不错啊"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165882407&di=9183cdc0c3adc5c11f1855c8c196182f&imgtype=0&src=http%3A%2F%2Fimglf1.ph.126.net%2FWG30_bBnazywnvm8-6kepg%3D%3D%2F3302827376822897920.jpg"
+     subscribeUrl="" />
+
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="https://m.chinachenxi.com/xijupian/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "https://m.chinachenxi.com";
@@ -1902,7 +1939,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.chinachenxi.com/guocanju/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="https://m.chinachenxi.com/guocanju/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "https://m.chinachenxi.com";
@@ -1927,7 +1965,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.chinachenxi.com/dongman/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://m.chinachenxi.com/dongman/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "https://m.chinachenxi.com";
@@ -1952,7 +1991,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.chinachenxi.com/?s=vod-type-id-4-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://m.chinachenxi.com/?s=vod-type-id-4-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "https://m.chinachenxi.com";
@@ -1977,7 +2017,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="https://m.chinachenxi.com/?s=vod-type-id-61-order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="https://m.chinachenxi.com/?s=vod-type-id-61-order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "https://m.chinachenxi.com";
@@ -2055,7 +2096,8 @@
       }
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.chinachenxi.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="https://m.chinachenxi.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.chinachenxi.com";
@@ -2088,9 +2130,11 @@
    <packgetname>com.4ktv8</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="影兔网" description="资源还不错啊" iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560145352593&di=ba0445cae9b8d9417aae8cef3c4aabe0&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20161005%2Fe8310eb337bc4a849e528efb92aef783_th.jpg"
+   <info type="801" versionCode="001" versionName="v1.0" name="影兔网" description="资源还不错啊"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560145352593&di=ba0445cae9b8d9417aae8cef3c4aabe0&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20161005%2Fe8310eb337bc4a849e528efb92aef783_th.jpg"
      subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.4ktv8.com/vod-list-id-1-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.4ktv8.com/vod-list-id-1-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2114,7 +2158,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.4ktv8.com/vod-list-id-2-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.4ktv8.com/vod-list-id-2-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2138,7 +2183,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.4ktv8.com/vod-list-id-4-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.4ktv8.com/vod-list-id-4-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2162,7 +2208,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.4ktv8.com/vod-list-id-3-pg-%count%-order--by-time-class-0-year-2018-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.4ktv8.com/vod-list-id-3-pg-%count%-order--by-time-class-0-year-2018-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2186,7 +2233,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="http://m.4ktv8.com/vod-list-id-18-pg-%count%-order--by-time-class-0-year-2017-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="http://m.4ktv8.com/vod-list-id-18-pg-%count%-order--by-time-class-0-year-2017-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2235,7 +2283,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -2252,7 +2299,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -2266,7 +2312,8 @@
       }
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.4ktv8.com/index.php?m=vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.4ktv8.com/index.php?m=vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.4ktv8.com";
@@ -2301,8 +2348,10 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="影视吧" description="资源还不错啊"
      iconUrl="https://bpic.588ku.com/element_pic/19/03/11/ec0a9f146b54d8446654a2e8bc2bbb66.jpg"
-     subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.ysba.cc/Comedy/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     subscribeUrl="" />
+
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="https://m.ysba.cc/Comedy/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2326,7 +2375,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.ysba.cc/Inland/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="https://m.ysba.cc/Inland/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2350,7 +2400,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.ysba.cc/Cartoon/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://m.ysba.cc/Cartoon/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2374,7 +2425,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.ysba.cc/Variety/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://m.ysba.cc/Variety/index_%count%______%E5%A4%A7%E9%99%86_1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2424,7 +2476,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -2441,7 +2492,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -2453,10 +2503,10 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.ysba.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="https://m.ysba.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.ysba.cc";
@@ -2492,7 +2542,8 @@
    <info type="801" versionCode="001" versionName="v1.0" name="美剧鸟" description="资源还不错啊"
      iconUrl="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3689540488,597212576&fm=11&gp=0.jpg"
      subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.meijuniao.com/dianying/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.meijuniao.com/dianying/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2516,7 +2567,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.meijuniao.com/meiju/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.meijuniao.com/meiju/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2540,7 +2592,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.meijuniao.com/dongman/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.meijuniao.com/dongman/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2564,7 +2617,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.meijuniao.com/zongyi/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.meijuniao.com/zongyi/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2614,7 +2668,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -2631,7 +2684,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -2643,7 +2695,6 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.meijuniao.com/vod-search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
@@ -2676,16 +2727,13 @@
 
 
 <site>
-  <packgetname>
-    com.nek8
-  </packgetname>
-  <minapi>
-    1
-  </minapi>
+  <packgetname>com.nek8</packgetname>
+  <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="004" versionName="v4.0" name="逗别看" description="资源还不错啊"
     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559819517377&di=fcf0ccc08ab478ffdb6b1f75f9c623bd&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01613e5bf536cda80121ab5daaa8eb.png%402o.png"
     subscribeUrl="" />
+
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://m.nek8.com/?s=vod-type-id-1-order-hits-p-%count%.html" currentpagecountholder="%count%"
     searchkeywordholder="">
@@ -2816,7 +2864,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -2833,7 +2880,6 @@
           var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -2845,10 +2891,10 @@
         var response = { "code": "200", "msg": "suc", "content": pageInfo };
         return response;
       }
-
     </script>
   </rule>
-  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.nek8.com/mso/"
+  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+    url="http://m.nek8.com/mso/"
     searchPostData="wd=%keyword%" currentPageCountHolder="%count%" searchKeywordHolder="%keyword%">
     <script>
       function search() {
@@ -2891,20 +2937,15 @@
 
 
 <site>
- 
    <packgetname>com.qydy</packgetname>
- 
-   <minapi>
-1</minapi>
- 
+   <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="大神在此" donateUrl="" />
- 
    <info type="801" versionCode="001" versionName="v1.0" name="奇影酷" description="资源还不错啊"
-      iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560235332341&di=04467916b137194a5ace36cc912213b4&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F31%2F13%2F5810a58038c2e_610.jpg"
-      subscribeUrl="" />
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560235332341&di=04467916b137194a5ace36cc912213b4&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F31%2F13%2F5810a58038c2e_610.jpg"
+     subscribeUrl="" />
  
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.qydy8.com/vod-list-id-1-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
- 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.qydy8.com/vod-list-id-1-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2928,7 +2969,8 @@
       }
     </script>
    </rule>
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.qydy8.com/vod-list-id-2-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.qydy8.com/vod-list-id-2-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2952,7 +2994,8 @@
       }
     </script>
    </rule>
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.qydy8.com/vod-list-id-4-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.qydy8.com/vod-list-id-4-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2976,7 +3019,8 @@
       }
     </script>
    </rule>
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.qydy8.com/vod-list-id-3-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.qydy8.com/vod-list-id-3-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3000,7 +3044,8 @@
       }
     </script>
    </rule>
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="http://m.qydy8.com/vod-list-id-1-pg-%count%-order--by-time-class-61-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="http://m.qydy8.com/vod-list-id-1-pg-%count%-order--by-time-class-61-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3050,7 +3095,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -3067,7 +3111,6 @@
           var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -3082,7 +3125,8 @@
     </script>
    </rule>
 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.qydy8.com/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.qydy8.com/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
  
     <script>
       function search() {
@@ -3120,7 +3164,8 @@
    <info type="801" versionCode="001" versionName="v1.0" name="优片库" description="资源还不错啊"
      iconUrl="http://thumb102.hellorf.com/preview/391638718.jpg"
      subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.iupian.com/dianying/index_%count%_____gold__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.iupian.com/dianying/index_%count%_____gold__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -3145,7 +3190,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.iupian.com/dianshiju/index_%count%_____gold__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.iupian.com/dianshiju/index_%count%_____gold__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -3170,7 +3216,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.iupian.com/dongman/index_%count%_____gold__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.iupian.com/dongman/index_%count%_____gold__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -3195,7 +3242,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="http://m.iupian.com/lunli/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
+     url="http://m.iupian.com/weifuli/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -3220,8 +3268,8 @@
       }
     </script> 
    </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();" url="http://m.iupian.com/weifuli/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+     url="http://m.iupian.com/lunli/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -3273,7 +3321,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -3290,7 +3337,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -3302,10 +3348,10 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.iupian.com/vod-search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.iupian.com/vod-search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.iupian.com";
@@ -3337,10 +3383,12 @@
 <site> 
    <packgetname>com.xindongmanshijie</packgetname> 
    <minapi>1</minapi> 
-   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="动漫世界" description="资源还不错啊"     iconUrl="http://pic.90sjimg.com/design/00/07/85/23/5933c89eecfff.png"
-    subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" /> 
-   <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();" url="https://m.x4jdm.tv/2/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
+   <info type="801" versionCode="001" versionName="v1.0" name="动漫世界" description="资源还不错啊"
+     iconUrl="http://pic.90sjimg.com/design/00/07/85/23/5933c89eecfff.png"
+     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" /> 
+   <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
+     url="https://m.x4jdm.tv/2/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3364,7 +3412,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="日版" jsmethod="list();" url="https://m.x4jdm.tv/1/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="日版" jsmethod="list();"
+     url="https://m.x4jdm.tv/1/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3388,7 +3437,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="欧美" jsmethod="list();" url="https://m.x4jdm.tv/3/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="欧美" jsmethod="list();"
+     url="https://m.x4jdm.tv/3/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3412,7 +3462,8 @@
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="剧场" jsmethod="list();" url="https://m.x4jdm.tv/4/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="剧场" jsmethod="list();"
+     url="https://m.x4jdm.tv/4/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3445,7 +3496,6 @@
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
         var actorTmp = $("div.vod-n-l:first p").toArray();
         for (var i = 0; i < actorTmp.length; i++) {
@@ -3462,7 +3512,6 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -3479,7 +3528,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -3491,10 +3539,10 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.x4jdm.tv/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="https://m.x4jdm.tv/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.x4jdm.tv";
@@ -3524,374 +3572,196 @@
 
 
 <site>
- 
-   <packgetname>
-com.jukan</packgetname>
- 
-   <minapi>1</minapi>
- 
-   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
- 
-   <info type="801" versionCode="004" versionName="v3.0" name="聚看tv" description="聚看tv，资源还不错啊"
+   <packgetname>com.jukan</packgetname> 
+   <minapi>1</minapi> 
+   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
+   <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="聚看tv，资源还不错啊"
       iconUrl="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1536516001550&amp;di=776d182acfda693a471c6ccd6e9d1cd7&amp;imgtype=0&amp;src=http%3A%2F%2Fimg3.doubanio.com%2Fpview%2Fevent_poster%2Fraw%2Fpublic%2F9d2da8b890c94e1.jpg"
      subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
       url="https://m.jukantv.com/dy/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
- 
     <script>
-
       function list() {
-
         var host = "https://m.jukantv.com";
-
         var root = document.getElementById("vod_list");
-
         var datalist = root.getElementsByTagName("li");
 
-
         if (datalist.length == 0) {
-
           var response = {"code": "200", "msg": "suc", "content": ""};
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         for (var i = 0; i < datalist.length; i++) {
-
           var href = datalist[i].getElementsByTagName("a")[0].href;
-
           var title = datalist[i].getElementsByTagName("a")[0].title;
-
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-
           tmparray.push(obj);
-
         }
-
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-
         return response;
-
       }
-
     </script>
- 
    </rule>
- 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
       url="https://m.jukantv.com/dsj/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
- 
     <script>
-
       function list() {
-
         var host = "https://m.jukantv.com";
-
         var root = document.getElementById("vod_list");
-
         var datalist = root.getElementsByTagName("li");
 
-
         if (datalist.length == 0) {
-
           var response = {"code": "200", "msg": "suc", "content": ""};
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         for (var i = 0; i < datalist.length; i++) {
-
           var href = datalist[i].getElementsByTagName("a")[0].href;
-
           var title = datalist[i].getElementsByTagName("a")[0].title;
-
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-
           tmparray.push(obj);
-
         }
-
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-
         return response;
-
       }
-
     </script>
- 
    </rule>
- 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-      url="https://m.jukantv.com/Animation/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
- 
+     url="https://m.jukantv.com/Animation/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
-
       function list() {
-
         var host = "https://m.jukantv.com";
-
         var root = document.getElementById("vod_list");
-
         var datalist = root.getElementsByTagName("li");
 
-
         if (datalist.length == 0) {
-
           var response = {"code": "200", "msg": "suc", "content": ""};
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         for (var i = 0; i < datalist.length; i++) {
-
           var href = datalist[i].getElementsByTagName("a")[0].href;
-
           var title = datalist[i].getElementsByTagName("a")[0].title;
-
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-
           tmparray.push(obj);
-
         }
-
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-
         return response;
-
       }
-
     </script>
- 
    </rule>
- 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-      url="https://m.jukantv.com/Arts/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
- 
+     url="https://m.jukantv.com/Arts/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
-
         var host = "https://m.jukantv.com";
-
         var root = document.getElementById("vod_list");
-
         var datalist = root.getElementsByTagName("li");
 
-
         if (datalist.length == 0) {
-
           var response = {"code": "200", "msg": "suc", "content": ""};
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         for (var i = 0; i < datalist.length; i++) {
-
           var href = datalist[i].getElementsByTagName("a")[0].href;
-
           var title = datalist[i].getElementsByTagName("a")[0].title;
-
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-
           tmparray.push(obj);
-
         }
-
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-
         return response;
-
       }
-
     </script>
- 
    </rule>
- 
    <rule type="102" jsmethod="detail();">
- 
     <script>
-
 
       function detail() {
-
         var host = "https://m.jukantv.com";
-
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
-
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
-
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
-
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
 
-
         var actor;
-
         var actorTmp = $("div.vod-n-l:first p").toArray();
-
         for (var i = 0; i < actorTmp.length; i++) {
-
           var stTmp;
-
           stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
-
           if (stTmp.indexOf("主演") != -1) continue;
-
           if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
-
             stTmp = actorTmp[i].innerHTML;
-
           }
-
           var stDetail = actorTmp[i].getElementsByTagName("a");
-
           for (var j = 0; j < stDetail.length; j++) {
-
             var stDetailTmp = stDetail[j].innerHTML;
-
             stTmp = stTmp + " " + stDetailTmp;
-
           }
-
           actor = actor + "<br>" + stTmp;
-
         }
-
-
         var allDownList = new Array();
-
         var allDownTitleTmp = $("div.play-title a").toArray();
-
         var allDownListTmp = $(".play-box").toArray();
-
         for (var i = 0; i < allDownListTmp.length; i++) {
-
           var titleSort = allDownTitleTmp[i].innerHTML;
-
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
-
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-
             var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
-
             var downloadBean = {"name": title, "href": href};
-
             oneDownList.push(downloadBean);
-
           }
-
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
-
           allDownList.push(pageDetail);
-
         }
-
-
         var pageInfo = {
-
           "posterUrl": posterUrl,
-
           "title": pageTitle,
-
           "allText": allText,
-
           "shortText": shortText,
-
           "summary": actor.replace("undefined", ""),
-
           "downlist": allDownList
-
         };
-
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
-
         return response;
-
       }
-
-
     </script>
- 
    </rule>
- 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.jukantv.com/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
- 
     <script>
-
       function search() {
-
         var host = "https://m.jukantv.com";
-
         var root = document.getElementById("resize_list");
-
         var datalist = root.getElementsByTagName("li");
 
-
         if (datalist.length == 0) {
-
           var response = {"code": "200", "msg": "suc", "content": ""};
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         for (var i = 0; i < datalist.length; i++) {
-
           var href = datalist[i].getElementsByTagName("a")[0].href;
-
           var title = datalist[i].getElementsByTagName("a")[0].title;
-
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-
           tmparray.push(obj);
-
         }
-
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-
         return response;
-
       }
-
     </script>
- 
    </rule>
 </site>
 
@@ -3901,11 +3771,12 @@ com.jukan</packgetname>
   <packgetName>com.56kandy</packgetName>
   <minApi>1</minApi>
   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-
-  <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊" iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516220629&di=f9cb2dcb91f4a9f06f1371ec13f706f7&imgtype=0&src=http%3A%2F%2Fuploads.xuexila.com%2Fallimg%2F1611%2F857-16112Q2004G62.jpg"
+  <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
+    iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516220629&di=f9cb2dcb91f4a9f06f1371ec13f706f7&imgtype=0&src=http%3A%2F%2Fuploads.xuexila.com%2Fallimg%2F1611%2F857-16112Q2004G62.jpg"
     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp56kandy.html" />
 
-  <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();" url="http://m.56kandy.com/dianying/index_%count%_____hits__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
+    url="http://m.56kandy.com/dianying/index_%count%_____hits__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -3930,8 +3801,8 @@ com.jukan</packgetname>
       }
     </script>
   </rule>
-
-  <rule type="101" typeOnclickAction="" subTypeName="追剧" jsMethod="list();" url="http://m.56kandy.com/dianshiju/index_%count%_____addtime__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="追剧" jsMethod="list();"
+    url="http://m.56kandy.com/dianshiju/index_%count%_____addtime__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -3956,35 +3827,8 @@ com.jukan</packgetname>
       }
     </script>
   </rule>
-
-  <rule type="101" typeOnclickAction="" subTypeName="动漫" jsMethod="list();" url="http://m.56kandy.com/dongman/index_%count%_____addtime__1.html"
-    currentPageCountHolder="%count%" searchKeywordHolder="">
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-        if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
-          tmparray.push(obj);
-        }
-        var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
-        return response;
-      }
-    </script>
-
-  </rule>
-
-  <rule type="101" typeOnclickAction="" subTypeName="综艺" jsMethod="list();" url="http://m.56kandy.com/zongyi/index_%count%_____addtime__1.html"
+  <rule type="101" typeOnclickAction="" subTypeName="动漫" jsMethod="list();"
+    url="http://m.56kandy.com/dongman/index_%count%_____addtime__1.html"
     currentPageCountHolder="%count%" searchKeywordHolder="">
     <script>
       function list() {
@@ -4009,10 +3853,34 @@ com.jukan</packgetname>
       }
     </script>
   </rule>
+  <rule type="101" typeOnclickAction="" subTypeName="综艺" jsMethod="list();"
+    url="http://m.56kandy.com/zongyi/index_%count%_____addtime__1.html"
+    currentPageCountHolder="%count%" searchKeywordHolder="">
+    <script>
+      function list() {
+        var root = document.getElementById("vod_list");
+        var datalist = root.getElementsByTagName("li");
 
+        if (datalist.length == 0) {
+          var response = { "code": "200", "msg": "suc", "content": "" };
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          tmparray.push(obj);
+        }
+        var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
+        return response;
+      }
+    </script>
+  </rule>
   <rule type="102" jsMethod="detail();">
     <script>
-
       function detail() {
         var host = "http://m.56kandy.com";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
@@ -4036,7 +3904,6 @@ com.jukan</packgetname>
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -4053,7 +3920,6 @@ com.jukan</packgetname>
           var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -4067,8 +3933,8 @@ com.jukan</packgetname>
       }
     </script>
   </rule>
-
-  <rule type="103" typeOnclickAction="" subTypeName="" jsMethod="search();" url="http://m.56kandy.com/vod-search-wd-%keyword%-p-%count%.html"
+  <rule type="103" typeOnclickAction="" subTypeName="" jsMethod="search();"
+    url="http://m.56kandy.com/vod-search-wd-%keyword%-p-%count%.html"
     currentPageCountHolder="%count%" searchKeywordHolder="%keyword%">
     <script>
       function search() {
@@ -4098,21 +3964,21 @@ com.jukan</packgetname>
 
 
 
-<site>
-  <packgetName>com.191ysw</packgetName>
-  <minApi>1</minApi>
-  <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="191影视屋" description="资源还不错啊"
-    iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516263810&di=3536438ba38de3ae3b59e89ad6d73bc6&imgtype=0&src=http%3A%2F%2Fimage.yy.com%2Fyywebalbumbs2bucket%2Fd8be68cf098e472eb5e1295524f00359_1501812711042.jpg"
-    subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp191ysw.html" />
+<site> 
+   <packgetname>com.191ysw</packgetname> 
+   <minapi>1</minapi> 
+   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
+   <info type="801" versionCode="003" versionName="v3.0" name="191影视屋" description="资源还不错啊"
+     iconUrl="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1536516263810&amp;di=3536438ba38de3ae3b59e89ad6d73bc6&amp;imgtype=0&amp;src=http%3A%2F%2Fimage.yy.com%2Fyywebalbumbs2bucket%2Fd8be68cf098e472eb5e1295524f00359_1501812711042.jpg"
+     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp191ysw.html" /> 
 
-  <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-1-type--area--year--star--state--order-hits-p-%count%.html"
-    currentPageCountHolder="%count%" searchKeywordHolder="">
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.191ysw.com/index.php?s=/vod-type-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -4121,24 +3987,20 @@ com.jukan</packgetname>
           var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = { "code": "200", "msg": "suc", "content": tmparray };
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
-    </script>
-
-  </rule>
-
-  <rule type="101" typeOnclickAction="" subTypeName="追剧" jsMethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-2-type--area--year--star--state--order-addtime-p-%count%.html"
-    currentPageCountHolder="%count%" searchKeywordHolder="">
+    </script> 
+   </rule> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-2-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -4147,23 +4009,20 @@ com.jukan</packgetname>
           var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = { "code": "200", "msg": "suc", "content": tmparray };
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
-    </script>
-  </rule>
-
-  <rule type="101" typeOnclickAction="" subTypeName="动漫" jsMethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-3-type--area--year--star--state--order-addtime-p-%count%.html"
-    currentPageCountHolder="%count%" searchKeywordHolder="">
+    </script> 
+   </rule> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-3-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -4172,24 +4031,20 @@ com.jukan</packgetname>
           var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = { "code": "200", "msg": "suc", "content": tmparray };
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
-    </script>
-
-  </rule>
-
-  <rule type="101" typeOnclickAction="" subTypeName="综艺" jsMethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-4-type--area--year--star--state--order-addtime-p-%count%.html"
-    currentPageCountHolder="%count%" searchKeywordHolder="">
+    </script> 
+   </rule> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.191ysw.com/index.php?s=/vod-type-id-4-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -4198,25 +4053,22 @@ com.jukan</packgetname>
           var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = { "code": "200", "msg": "suc", "content": tmparray };
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
-    </script>
-  </rule>
-
-  <rule type="102" jsMethod="detail();">
+    </script> 
+   </rule> 
+   <rule type="102" jsmethod="detail();"> 
     <script>
-
       function detail() {
         var host = "http://m.191ysw.com";
         var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
         var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
         var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
         var actorTitle = $("div.media-body dt").toArray();
         var actorText = $("div.media-body dd").toArray();
@@ -4233,7 +4085,6 @@ com.jukan</packgetname>
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("ul.dropdown-menu a").toArray();
         var allDownListTmp = $("div.tab-content.ff-playurl-dropdown ul").toArray();
@@ -4244,13 +4095,12 @@ com.jukan</packgetname>
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
             var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
-            var downloadBean = { "name": title, "href": href };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle.replace("免费观看", ""),
@@ -4259,20 +4109,17 @@ com.jukan</packgetname>
           "summary": actor.replace("undefined", ""),
           "downlist": allDownList
         };
-        var response = { "code": "200", "msg": "suc", "content": pageInfo };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-    </script>
-  </rule>
-
-  <rule type="103" typeOnclickAction="" subTypeName="" jsMethod="search();" url="http://m.191ysw.com/index.php?s=/vod-search-name-%keyword%-p-%count%.html"
-    currentPageCountHolder="%count%" searchKeywordHolder="%keyword%">
+    </script> 
+   </rule> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.191ysw.com/index.php?s=/vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -4281,14 +4128,14 @@ com.jukan</packgetname>
           var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 </site>
 
 
@@ -4297,7 +4144,6 @@ com.jukan</packgetname>
   <packgetName>com.4kwu</packgetName>
   <minApi>1</minApi>
   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-
   <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="4k屋，资源还不错啊"
     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516929639&di=d4817d69a8ee7080130ddfa4ebedab7f&imgtype=0&src=http%3A%2F%2Fwww.4aqq.com%2Fshufa%2Fgif%2F5c4b_41%2F4.jpg"
     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp4kwu.html" />
@@ -4410,9 +4256,7 @@ com.jukan</packgetname>
         return response;
       }
     </script>
-
   </rule>
-
   <rule type="102" jsMethod="detail();">
     <script>
 
@@ -4439,7 +4283,6 @@ com.jukan</packgetname>
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
         var allDownTitleTmp = $("div.play-title a").toArray();
         var allDownListTmp = $(".play-box").toArray();
@@ -4456,7 +4299,6 @@ com.jukan</packgetname>
           var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -4468,10 +4310,8 @@ com.jukan</packgetname>
         var response = { "code": "200", "msg": "suc", "content": pageInfo };
         return response;
       }
-
     </script>
   </rule>
-
   <rule type="103" typeOnclickAction="" subTypeName="" jsMethod="search();"
     url="http://m.kkkkmao.com/vod-search-wd-%keyword%-p-%count%.html" currentPageCountHolder="%count%"
     searchKeywordHolder="%keyword%">
@@ -4504,403 +4344,208 @@ com.jukan</packgetname>
 
 
 <site>
- 
    <packgetname>com.80sla</packgetname>
- 
-   <minapi>
-1</minapi>
- 
-   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-
- 
+   <minapi>1</minapi> 
+   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="012" versionName="v1.2" name="80s" description=""
       iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560172994092&di=53a27494fa38959ec995d8ced9d424ea&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F01921a459b7f3f07a35297ebf6e5d1d90531e860b369-fVrgpn_fw658"
       subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp80sla.html" />
-
  
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.80s.la/movie/1-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
- 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="https://m.80s.la/movie/1-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
-
       function list() {
-
         var host = "";
-
         var datalist = $("div.col-xs-4.col-md-2.list_mov");
-
-        if (datalist.length == 0) {
-
-          var response = { "code": "200", "msg": "suc", "content": "" };
-
-          return response;
-
-        }
-
-        var tmparray = new Array();
-
-        $(datalist).each(function () {
-
-          var href = $(this).find("div.list_mov_title").find("a").attr("href").trim();
-
-          var title = $(this).find("div.list_mov_title").find("a").text().trim();
-
-          var imgurl = "https:" + $(this).find("img").attr("src").trim();
-
-          var content = $(this).find("div.list_mov_title").find("em").text().trim();
-
-          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
-
-          tmparray.push(obj);
-
-        });
-
-        var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
-
-        return response;
-
-      }
-
-    </script>
- 
-   </rule>
-
- 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.80s.la/ju/12-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
- 
-    <script>
-
-      function list() {
-
-        var host = "";
-
-        var datalist = $("div.col-xs-4.col-md-2.list_mov");
-
         if (datalist.length == 0) {
           var response = { "code": "200", "msg": "suc", "content": "" };
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         $(datalist).each(function () {
-
           var href = $(this).find("div.list_mov_title").find("a").attr("href").trim();
-
           var title = $(this).find("div.list_mov_title").find("a").text().trim();
-
           var imgurl = "https:" + $(this).find("img").attr("src").trim();
-
           var content = $(this).find("div.list_mov_title").find("em").text().trim();
-
           var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
-
           tmparray.push(obj);
-
         });
-
         var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
-
         return response;
-
       }
-
     </script>
- 
    </rule>
-
- 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.80s.la/dm/14-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
- 
-    <script>
-
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="https://m.80s.la/ju/12-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
+     <script>
       function list() {
-
         var host = "";
-
         var datalist = $("div.col-xs-4.col-md-2.list_mov");
-
         if (datalist.length == 0) {
-
           var response = { "code": "200", "msg": "suc", "content": "" };
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         $(datalist).each(function () {
-
           var href = $(this).find("div.list_mov_title").find("a").attr("href").trim();
-
           var title = $(this).find("div.list_mov_title").find("a").text().trim();
-
           var imgurl = "https:" + $(this).find("img").attr("src").trim();
-
           var content = $(this).find("div.list_mov_title").find("em").text().trim();
-
           var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
-
           tmparray.push(obj);
-
         });
-
         var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
-
         return response;
-
       }
-
     </script>
- 
    </rule>
-
- 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.80s.la/zy/4-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
- 
-    <script>
-
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://m.80s.la/dm/14-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
+     <script>
       function list() {
-
         var host = "";
-
         var datalist = $("div.col-xs-4.col-md-2.list_mov");
-
         if (datalist.length == 0) {
-
           var response = { "code": "200", "msg": "suc", "content": "" };
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         $(datalist).each(function () {
-
           var href = $(this).find("div.list_mov_title").find("a").attr("href").trim();
-
           var title = $(this).find("div.list_mov_title").find("a").text().trim();
-
           var imgurl = "https:" + $(this).find("img").attr("src").trim();
-
           var content = $(this).find("div.list_mov_title").find("em").text().trim();
-
           var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
-
           tmparray.push(obj);
-
         });
-
         var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
-
         return response;
-
       }
-
     </script>
- 
    </rule>
-
- 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://m.80s.la/zy/4-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+      function list() {
+        var host = "";
+        var datalist = $("div.col-xs-4.col-md-2.list_mov");
+        if (datalist.length == 0) {
+          var response = { "code": "200", "msg": "suc", "content": "" };
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var href = $(this).find("div.list_mov_title").find("a").attr("href").trim();
+          var title = $(this).find("div.list_mov_title").find("a").text().trim();
+          var imgurl = "https:" + $(this).find("img").attr("src").trim();
+          var content = $(this).find("div.list_mov_title").find("em").text().trim();
+          var obj = { "title": title, "detailUrl": href, "posterUrl": imgurl, "content": content };
+          tmparray.push(obj);
+        });
+        var response = { "code": "200", "msg": "suc", "content": JSON.stringify(tmparray) };
+        return response;
+      }
+    </script>
+   </rule>
    <rule type="102" jsmethod="detail();">
- 
     <script>
-
       function detail() {
-
         var host = "";
-
         var response;
-
         var posterUrl;
-
         var pageTitle;
-
         var content;
-
         var allText;
-
         var shortText;
-
         var actor = "<br>";
-
         var allDownList = new Array();
 
-
         posterUrl = "https:" + $("img.img-responsive.col-xs-6").attr("src").trim();
-
         pageTitle = $("h1.movie-h1").text().replace(/\s/g, "").trim();
-
         actor = $("p.col-xs-6").html().trim();
 
-
         allText = $("p.col-lg-12").text().trim();
-
         shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
 
-
         var tmpDownloadSort = {};
-
         $("ul.nav.nav-tabs").find("li.active").each(function (position) {
-
           tmpDownloadSort[position] = $(this).find("a").text();
-
         });
-
         $("div.tab-content").each(function (position) {
-
           var oneDownList = new Array();
-
           $(this).find("a").each(function () {
-
             var href = $(this).attr("href").trim();
-
             var title = $(this).text().trim();
-
             var downloadBean = {
-
               "name": title,
-
               "href": host + href
-
             };
-
             oneDownList.push(downloadBean);
-
           });
-
           var pageDetail = {
-
             "title": tmpDownloadSort[position],
-
             "downlistInfos": oneDownList
-
           };
-
           if (tmpDownloadSort[position].includes("MP4") || tmpDownloadSort[position].includes("西瓜")) { } else {
-
             allDownList.push(pageDetail);
-
           }
-
         });
-
         var pageInfo = {
-
           "posterUrl": posterUrl,
-
           "title": pageTitle,
-
           "allText": allText,
-
           "shortText": shortText,
-
           "summary": actor,
-
           "downlist": allDownList,
-
           "content": content
-
         };
-
         var response = {
-
           "code": "200",
-
           "msg": "suc",
-
           "content": pageInfo
-
         };
-
         console.log("result:" + JSON.stringify(response));
-
         return response;
-
       }
-
     </script>
- 
    </rule>
-
- 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.80s.la/search" searchpostdata="keyword=%keyword%" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
- 
     <script>
-
       function search() {
-
         var host = "";
-
         var datalist = $("div.list-group").find("a.list-group-item");
-
         if (datalist.length == 0) {
-
           var response = {
-
             "code": "200",
-
             "msg": "suc",
-
             "content": ""
-
           };
-
           return response;
-
         }
-
         var tmparray = new Array();
-
         $(datalist).each(function () {
-
           var href = $(this).attr("href");
-
           var tmp1 = $(this).find("h4.list-group-item-heading").find("span").text().trim();
-
           var tmp2 = $(this).find("h4.list-group-item-heading").find("small").text().trim();
-
           var title = $(this).find("h4.list-group-item-heading").text().replace(tmp1, "").replace(tmp2, "").replace("\t", "").trim();
-
           var imgurl = "";
-
           var content = $(this).find("p.list-group-item-text").text().trim();
-
           var obj = {
-
             "title": title,
-
             "detailUrl": href,
-
             "posterUrl": imgurl,
-
             "content": content
-
           };
-
           tmparray.push(obj);
-
         });
-
         var response = {
-
           "code": "200",
-
           "msg": "suc",
-
           "content": JSON.stringify(tmparray)
-
         };
-
         return response;
-
       }
-
     </script>
- 
    </rule>
 </site>
 
@@ -5093,7 +4738,6 @@ com.jukan</packgetname>
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.k8jd.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
@@ -5130,9 +4774,10 @@ com.jukan</packgetname>
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="去看TV" description="资源还不错啊"
-     iconUrl="http://www.logo123.net/logos/2014/04/23/2014042315245710100.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560789830136&di=838a8ce989cfbb6cafc02b311a5a36b9&imgtype=0&src=http%3A%2F%2Fimg95.699pic.com%2Felement%2F40002%2F3853.png_300.png"
      subscribeUrl="" /> 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.qukantv.net/dianying1/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.qukantv.net/dianying1/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -5157,7 +4802,8 @@ com.jukan</packgetname>
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="http://m.qukantv.net/dianshiju/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.qukantv.net/dianshiju/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -5182,7 +4828,8 @@ com.jukan</packgetname>
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="http://m.qukantv.net/dongman/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.qukantv.net/dongman/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -5207,7 +4854,8 @@ com.jukan</packgetname>
       }
     </script> 
    </rule> 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="http://m.qukantv.net/zongyi/index______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.qukantv.net/zongyi/index______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var host = "";
@@ -5291,7 +4939,8 @@ com.jukan</packgetname>
 
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://m.qukantv.net/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.qukantv.net/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.qukantv.net";
