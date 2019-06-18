@@ -4007,7 +4007,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="去看TV" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560789830136&di=838a8ce989cfbb6cafc02b311a5a36b9&imgtype=0&src=http%3A%2F%2Fimg95.699pic.com%2Felement%2F40002%2F3853.png_300.png"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560834004026&di=2c9f7488f81e7d55e6fcf0b4423331a5&imgtype=0&src=http%3A%2F%2Fimg1.cache.netease.com%2Fcatchpic%2F7%2F71%2F71EB48D716B3F9F70E1D7FB6EF6BD9A9.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
