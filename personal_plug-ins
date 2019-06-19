@@ -3822,7 +3822,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="003" versionName="v3.0" name="191影视屋" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1536516263810&amp;di=3536438ba38de3ae3b59e89ad6d73bc6&amp;imgtype=0&amp;src=http%3A%2F%2Fimage.yy.com%2Fyywebalbumbs2bucket%2Fd8be68cf098e472eb5e1295524f00359_1501812711042.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560936486204&di=aed8f17d2f418b036e30ace3201e1220&imgtype=0&src=http%3A%2F%2Fawb.img.xmtbang.com%2Fimg%2Fuploadnew%2F201510%2F23%2F3345aae482254aca8fe63eba74505ede.jpg"
      subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp191ysw.html" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4007,7 +4007,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="去看TV" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560834004026&di=2c9f7488f81e7d55e6fcf0b4423331a5&imgtype=0&src=http%3A%2F%2Fimg1.cache.netease.com%2Fcatchpic%2F7%2F71%2F71EB48D716B3F9F70E1D7FB6EF6BD9A9.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560935922363&di=595e3c873c7bb1c6eb9e82d6f5e250f3&imgtype=0&src=http%3A%2F%2F001.img.pu.sohu.com.cn%2Fgroup3%2FM04%2F74%2FA5%2FMTAuMTAuODguODM%3D%2FMTAwMTE0XzE1MDAzNDE4Mzc0NjU%3D%2Fcut%40m%3Dcrop%2Cx%3D0%2Cy%3D0%2Cw%3D642%2Ch%3D642.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
