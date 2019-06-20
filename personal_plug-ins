@@ -4404,7 +4404,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="优片库" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561050689282&di=c1cc91bcddd5807ff4912fbbf3ed8eef&imgtype=0&src=http%3A%2F%2Fimg319.ph.126.net%2FDWqX-pHPCDFHySXJ3BOduA%3D%3D%2F3839037207357022250.jpg"
+     iconUrl="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1689699583,2588495388&fm=26&gp=0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
