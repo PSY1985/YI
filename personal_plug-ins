@@ -3428,7 +3428,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560935922363&di=595e3c873c7bb1c6eb9e82d6f5e250f3&imgtype=0&src=http%3A%2F%2F001.img.pu.sohu.com.cn%2Fgroup3%2FM04%2F74%2FA5%2FMTAuMTAuODguODM%3D%2FMTAwMTE0XzE1MDAzNDE4Mzc0NjU%3D%2Fcut%40m%3Dcrop%2Cx%3D0%2Cy%3D0%2Cw%3D642%2Ch%3D642.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561050714974&di=2a9df9379955f23f6c51b79a4650ee6e&imgtype=0&src=http%3A%2F%2Fblog.sina.com.cn%2Fpic%2F4888b68e5978e202edcdf"
      subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp56kandy.html" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
