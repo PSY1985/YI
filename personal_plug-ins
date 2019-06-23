@@ -4437,7 +4437,7 @@
      subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppa4yy.html" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://http://m.aaxxr.com/vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.aaxxr.com/vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
         var host = "http://m.aaxxr.com";
@@ -4467,7 +4467,7 @@
      url="http://m.aaxxr.com/vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
-        var host = "http://m.aaqqr.com";
+        var host = "http://m.aaxxr.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -4491,10 +4491,10 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.aaqqr.com/vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.aaxxr.com/vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
-        var host = "http://m.aaqqr.com";
+        var host = "http://m.aaxxr.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -4518,10 +4518,10 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.aaqqr.com/vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.aaxxr.com/vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
-        var host = "http://m.aaqqr.com";
+        var host = "http://m.aaxxr.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -4547,7 +4547,7 @@
    <rule type="102" jsmethod="detail();">
      <script>
       function detail() {
-        var host = "http://m.aaqqr.com";
+        var host = "http://m.aaxxr.com";
         var posterUrl = "http:" + $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -4600,10 +4600,10 @@
    </rule>
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.aaqqr.com/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
+     url="http://m.aaxxr.com/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
      <script>
       function search() {
-        var host = "http://m.aaqqr.com";
+        var host = "http://m.aaxxr.com";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
         if (datalist.length == 0) {
