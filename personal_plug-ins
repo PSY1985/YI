@@ -226,7 +226,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="影兔网" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560145352593&di=ba0445cae9b8d9417aae8cef3c4aabe0&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20161005%2Fe8310eb337bc4a849e528efb92aef783_th.jpg"
+     iconUrl="https://uploadfile.huiyi8.com/up/f6/52/c6/f652c6bafa2fd051db6c85a59054f906.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
