@@ -449,7 +449,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="资源还不错啊"
-     iconUrl="http://img.zcool.cn/community/01f2f05823d976a84a0d304f6c07b7.jpg"
+     iconUrl="http://ku.90sjimg.com/element_origin_min_pic/18/01/02/5bc3f0b5765b85ea7ca20a2735a13edc.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
