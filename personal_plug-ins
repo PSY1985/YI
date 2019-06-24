@@ -679,7 +679,7 @@
    <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="001" versionName="v1.0" name="奇影酷" description="资源还不错啊"
-     iconUrl="http://ku.90sjimg.com/element_pic/01/02/30/7256f413839e7ea.jpg"
+     iconUrl="http://thumbs.dreamstime.com/x/%E7%8B%BC%E6%A0%87%E5%BF%97-34425077.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
