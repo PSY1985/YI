@@ -3,7 +3,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="资源还不错啊"
-     iconUrl="https://st2.depositphotos.com/5943796/11341/v/950/depositphotos_113410094-stock-illustration-number-56-swoosh-design-template.jpg"
+     iconUrl="https://img01.sogoucdn.com/net/a/04/link?appid=100520145&url=http%3A%2F%2Fimg03.sogoucdn.com%2Fapp%2Fa%2F100520146%2F58e6c83488863930b919be46a3a2ff56"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
