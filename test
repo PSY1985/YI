@@ -9,7 +9,6 @@
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
-        var host = "https://m.baishixi.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -35,7 +34,6 @@
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();" url="https://m.baishixi.com/tv/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
-        var host = "https://m.baishixi.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -47,7 +45,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -61,7 +59,6 @@
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();" url="https://m.baishixi.com/anime/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
-        var host = "https://m.baishixi.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -73,7 +70,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -87,7 +84,6 @@
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();" url="https://m.baishixi.com/variety/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
-        var host = "https://m.baishixi.com";
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -99,33 +95,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();" url="https://m.langtv.cc/ethics/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
-      function list() {
-        var host = "https://m.baishixi.com";
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-        if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -195,7 +165,7 @@
     </script> 
    </rule> 
 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.baishixi.com/vod-search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.baishixi.com/vod-search.html?wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.baishixi.com";
@@ -210,7 +180,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
