@@ -1583,7 +1583,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="可喜影院" description="资源还不错啊"
-     iconUrl="http://picd24.huitu.com/pic/20161030/20161030220339615800_0.jpg"
+     iconUrl="https://tse2.mm.bing.net/th?id=OIP.t5ekAlsEDm7FewO_73mYTQHaHa&amp"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3506,7 +3506,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
-     iconUrl="http://www.bl.gov.cn/upload/bmjd/xgjd/zwzx/dtxx/2018/7/4/small-519cdd57-f882-4d30-974e-c1114a052fa6.jpg"
+     iconUrl="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=260814365,749332738&fm=27&gp=0.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
