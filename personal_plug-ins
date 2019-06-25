@@ -2029,7 +2029,7 @@
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊"
      iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165964720&di=bb0b8509b304378024b31291605c5ac9&imgtype=0&src=http%3A%2F%2Fis3.mzstatic.com%2Fimage%2Fthumb%2FPurple3%2Fv4%2Fcd%2Faa%2Fb0%2Fcdaab085-610b-256f-918c-8ae988f0d4e1%2Fsource%2F512x512bb.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" />
+     subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.kuaikan66.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -2226,7 +2226,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl=""/>
    <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="资源还不错啊"
      iconUrl="http://pic21.nipic.com/20120527/2367496_223318025363_2.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppmicaitu.html"/>
+     subscribeUrl=""/>
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
      url="https://m.micaitu.net/dy/index_%count%_____hits__1.html" currentPageCountHolder="%count%" searchKeywordHolder="">
@@ -2427,7 +2427,7 @@
    <author name="xiaoliang" avatarUrl="" description="群友提供" donateUrl="" />
    <info type="801" versionCode="005" versionName="v5.0" name="皮皮虾" description="资源还不错啊"
      iconUrl="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3563646043,1894795836&fm=26&gp=0.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApppipigui.html" />
+     subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.zhudaye.com/kehuan/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder="">
@@ -2822,7 +2822,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="003" versionName="v2.0" name="看看屋" description="资源还不错啊"
      iconUrl="http://pic65.nipic.com/file/20150423/18010600_134444583000_2.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppkankanwu.html" />
+     subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
      url="https://m.kankanwu.com/dy/index_%count%_____hits__1.html" currentPageCountHolder="%count%" searchKeywordHolder="">
@@ -3110,7 +3110,7 @@
    <author name="noName" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v2.0" name="笨笨鸡" description="资源还不错啊"
      iconUrl="https://tse1.mm.bing.net/th?id=OIP.MLDfDxtTueTlNXI1skFONwHaJR&amp;w=166&amp;h=208&amp;c=7&amp;o=5&amp;dpr=3&amp;pid=1.7"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" />
+     subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.benbenji.com/dzp/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -3306,7 +3306,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="聚看tv，资源还不错啊"
       iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561034866511&di=860b14938e5f0beb6bb9d66ba8d44d80&imgtype=0&src=http%3A%2F%2Fimage13.m1905.cn%2Fuploadfile%2F2017%2F0330%2F20170330104319425551.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" />
+     subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
       url="https://m.jukantv.com/dy/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
@@ -3505,8 +3505,8 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
-     iconUrl="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3369051107,3842440514&fm=26&gp=0.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp56kandy.html" />
+     iconUrl="http://www.bl.gov.cn/upload/bmjd/xgjd/zwzx/dtxx/2018/7/4/small-519cdd57-f882-4d30-974e-c1114a052fa6.jpg"
+     subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
      url="http://m.56kandy.com/dianying/index_%count%_____hits__1.html" currentPageCountHolder="%count%" searchKeywordHolder="">
@@ -3703,7 +3703,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="4k屋，资源还不错啊"
      iconUrl="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2935717895,3991327109&fm=26&gp=0.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp4kwu.html" />
+     subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
      url="http://m.kkkkmao.com/movie/index_%count%_____hits__1.html" currentPageCountHolder="%count%" searchKeywordHolder="">
@@ -3900,7 +3900,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="003" versionName="v3.0" name="191影视屋" description="资源还不错啊"
      iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560936486204&di=aed8f17d2f418b036e30ace3201e1220&imgtype=0&src=http%3A%2F%2Fawb.img.xmtbang.com%2Fimg%2Fuploadnew%2F201510%2F23%2F3345aae482254aca8fe63eba74505ede.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp191ysw.html" /> 
+     subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.191ysw.com/index.php?s=/vod-type-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -4679,7 +4679,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="012" versionName="v1.2" name="80s" description=""
       iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560172994092&di=53a27494fa38959ec995d8ced9d424ea&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F01921a459b7f3f07a35297ebf6e5d1d90531e860b369-fVrgpn_fw658"
-      subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteApp80sla.html" />
+      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.80s.la/movie/1-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -5102,7 +5102,7 @@
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="001" versionName="v1.0" name="动漫世界" description="资源还不错啊"
      iconUrl="http://pic.90sjimg.com/design/00/07/85/23/5933c89eecfff.png"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppDefault.html" /> 
+     subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
      url="https://m.x4jdm.tv/2/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -5494,7 +5494,7 @@
    <author name="群友提供" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="008" versionName="v8.0" name="爱水果" description="资源还不错啊"
      iconUrl="http://img.zcool.cn/community/0189965785b2130000018c1baeb944.jpg@1280w_1l_2o_100sh.jpg"
-     subscribeUrl="https://raw.githubusercontent.com/xm2017/xmfast/master/demo/siteAppa4yy.html" />
+     subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.aaxxr.com/vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
@@ -5693,7 +5693,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="百事影院" description="资源还不错啊"
-     iconUrl="http://5b0988e595225.cdn.sohucs.com/images/20190514/97332f08461f4dafbf869d07dbe2fa12.jpeg"
+     iconUrl="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3369051107,3842440514&fm=26&gp=0.jpg"
     subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
