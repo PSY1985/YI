@@ -4481,7 +4481,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="影视吧" description="资源还不错啊"
-     iconUrl="https://bpic.588ku.com/element_pic/19/03/11/ec0a9f146b54d8446654a2e8bc2bbb66.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561455719912&di=eabb4480ea408e222a1117ff48e1a5ca&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F14%2F62%2F06%2F04Z58PICw4j_1024.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -5693,7 +5693,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="百事影院" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561454837591&di=bcb02ad373889fd3bc7c982e24d403b3&imgtype=0&src=http%3A%2F%2Fpic29.nipic.com%2F20130507%2F10991311_085558305139_2.jpg"
+     iconUrl="http://5b0988e595225.cdn.sohucs.com/images/20190514/97332f08461f4dafbf869d07dbe2fa12.jpeg"
     subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
