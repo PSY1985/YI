@@ -1583,7 +1583,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="可喜影院" description="资源还不错啊"
-     iconUrl="http://picd81.huitu.com/res/20161027/20161027190049377800_1.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561464138138&di=e7aa876608f46876ceaf3db15d498942&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F39%2F38%2F5812e472c2a4f_610.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
