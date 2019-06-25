@@ -2029,7 +2029,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165964720&di=bb0b8509b304378024b31291605c5ac9&imgtype=0&src=http%3A%2F%2Fis3.mzstatic.com%2Fimage%2Fthumb%2FPurple3%2Fv4%2Fcd%2Faa%2Fb0%2Fcdaab085-610b-256f-918c-8ae988f0d4e1%2Fsource%2F512x512bb.jpg"
+     iconUrl="http://picd24.huitu.com/pic/20161030/20161030220339615800_0.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
