@@ -128,7 +128,7 @@
         }
         var allDownList = new Array();
         var allDownTitleTmp = $("ul.list-unstyled.row.text-center.ff-playurl-line.ff-playurl a").toArray();
-        var allDownListTmp = $("div.page-header ff-playurl-line ul").toArray();
+        var allDownListTmp = $("div.page-header.ff-playurl-line ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
