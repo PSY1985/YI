@@ -1,13 +1,85 @@
 <site> 
-   <packgetname>com.hmytv</packgetname> 
+   <packgetname>com.hdjoy</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="黑蚂蚁" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="众视影城" description="资源还不错啊"
      iconUrl="http://picd24.huitu.com/pic/20161030/20161030220339615800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.hmytv.com/vod-type-id-1-type-area-year-star-state-order-addtime-p%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.hdjoy.cn/list-select-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.hdjoy.cn/list-select-id-2-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.hdjoy.cn/list-select-id-3-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.hdjoy.cn/list-select-id-4-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
@@ -33,7 +105,7 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "http://m.hmytv.com";
+        var host = "http://m.hdjoy.cn";
         var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
         var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
         var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
@@ -55,7 +127,7 @@
           actor = actor + "<br>" + stTmp;
         }
         var allDownList = new Array();
-        var allDownTitleTmp = $("ul.nav.nav-tabs.nav-tabs-play a").toArray();
+        var allDownTitleTmp = $("ul.dropdown-menu a").toArray();
         var allDownListTmp = $("div.page-header.ff-playurl-line ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
