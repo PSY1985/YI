@@ -127,7 +127,7 @@
           actor = actor + "<br>" + stTmp;
         }
         var allDownList = new Array();
-        var allDownTitleTmp = $("ul.list-unstyled.row.text-center.ff-playurl-line.ff-playurl a").toArray();
+        var allDownTitleTmp = $("ul.nav.nav-tabs.nav-tabs-play a").toArray();
         var allDownListTmp = $("div.tab-pane.fade.in.active.vod-nav-play ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
