@@ -130,7 +130,7 @@
         var allDownTitleTmp = $("div.page-header.ff-playurl-line h2.text-green").toArray();
         var allDownListTmp = $("div.tab-pane.fade.in.active.vod-nav-play ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML.replace("<span class="glyphicon glyphicon-facetime-video"></span>", "");
+          var titleSort = allDownTitleTmp[i].innerHTML.replace("(不能播放点击切换来源)", "");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
@@ -157,7 +157,7 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.supdy.com/video/search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://m.supdy.com/video/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
         var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
