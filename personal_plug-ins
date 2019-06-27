@@ -2659,7 +2659,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="美剧鸟" description="资源还不错啊"
-     iconUrl="http://pic212.nipic.com/file/20190329/26697516_230309787088_2.jpg"
+     iconUrl="http://www.xp510.com/uploadfile/2018/1207/20181207020648634.png"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4922,7 +4922,7 @@
    <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="自用" donateUrl="" />
    <info type="801" versionCode="004" versionName="v4.0" name="逗别看" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559819517377&di=fcf0ccc08ab478ffdb6b1f75f9c623bd&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01613e5bf536cda80121ab5daaa8eb.png%402o.png"
+     iconUrl="http://bpic.588ku.com/element_origin_min_pic/00/91/95/8356f18b6818a47.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
