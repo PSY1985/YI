@@ -2274,7 +2274,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
-     iconUrl="https://img01.sogoucdn.com/net/a/04/link?appid=100520145&url=http%3A%2F%2Fimg03.sogoucdn.com%2Fapp%2Fa%2F100520146%2Fdde262f3a618314e7da51bb6c18f2c3b"
+     iconUrl="https://logoeps.com/wp-content/uploads/2014/01/49089-56-social-logo-icon-vector-icon-vector-eps.png"
      subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
