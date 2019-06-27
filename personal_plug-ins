@@ -449,7 +449,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="资源还不错啊"
-     iconUrl="http://www.jxltjx.cn/uploadfile/2015/1121/20151121104053431.jpg"
+     iconUrl="http://picd75.huitu.com/pic/20161029/20161029043031600800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3338,7 +3338,7 @@
    <packgetname>com.jukan</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="聚看影院，资源还不错啊"
+   <info type="801" versionCode="004" versionName="v3.0" name="聚看影院" description="资源还不错啊"
       iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561034866511&di=860b14938e5f0beb6bb9d66ba8d44d80&imgtype=0&src=http%3A%2F%2Fimage13.m1905.cn%2Fuploadfile%2F2017%2F0330%2F20170330104319425551.jpg"
      subscribeUrl="" />
  
@@ -4118,7 +4118,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊"
-     iconUrl="http://picd80.huitu.com/pic/20161027/20161027185358786800_0.jpg"
+     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561050714974&di=2a9df9379955f23f6c51b79a4650ee6e&imgtype=0&src=http%3A%2F%2Fblog.sina.com.cn%2Fpic%2F4888b68e5978e202edcdf"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6372,7 +6372,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="去看TV" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561050714974&di=2a9df9379955f23f6c51b79a4650ee6e&imgtype=0&src=http%3A%2F%2Fblog.sina.com.cn%2Fpic%2F4888b68e5978e202edcdf"
+     iconUrl="http://picd80.huitu.com/pic/20161027/20161027185358786800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
