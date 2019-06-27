@@ -1128,7 +1128,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560165882407&di=9183cdc0c3adc5c11f1855c8c196182f&imgtype=0&src=http%3A%2F%2Fimglf1.ph.126.net%2FWG30_bBnazywnvm8-6kepg%3D%3D%2F3302827376822897920.jpg"
+     iconUrl="http://picd32.huitu.com/pic/20161031/20161031124040939800_0.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1583,7 +1583,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="可喜影院" description="资源还不错啊"
-     iconUrl="https://tse2.mm.bing.net/th?id=OIP.t5ekAlsEDm7FewO_73mYTQHaHa&amp"
+     iconUrl="http://picd79.huitu.com/pic/20161027/20161027202659910800_0.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2029,7 +2029,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="资源还不错啊"
-    iconUrl="http://picd79.huitu.com/pic/20161027/20161027202659910800_0.jpg" subscribeUrl="" />
+    iconUrl="http://picd32.huitu.com/pic/20161031/20161031123633009800_0.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="https://m.youbaysw.com/dianying/p%count%.html"
@@ -3338,7 +3338,7 @@
    <packgetname>com.jukan</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="聚看tv，资源还不错啊"
+   <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="聚看影院，资源还不错啊"
       iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561034866511&di=860b14938e5f0beb6bb9d66ba8d44d80&imgtype=0&src=http%3A%2F%2Fimage13.m1905.cn%2Fuploadfile%2F2017%2F0330%2F20170330104319425551.jpg"
      subscribeUrl="" />
  
@@ -3539,7 +3539,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
-     iconUrl="https://img01.sogoucdn.com/net/a/04/link?appid=100520145&url=http%3A%2F%2Fimg03.sogoucdn.com%2Fapp%2Fa%2F100520146%2Fdde262f3a618314e7da51bb6c18f2c3b"
+     iconUrl="https://logoeps.com/wp-content/uploads/2014/01/49089-56-social-logo-icon-vector-icon-vector-eps.png"
      subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
@@ -4118,7 +4118,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊"
-     iconUrl="http://picd32.huitu.com/pic/20161031/20161031123633009800_0.jpg"
+     iconUrl="http://pic.qiantucdn.com/58pic/14/87/51/97E58PICnRg_1024.jpg!/fw/780/watermark/url/L3dhdGVybWFyay12MS4zLnBuZw==/align/center"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
