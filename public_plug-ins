@@ -4527,7 +4527,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="资源还不错啊"
-     iconUrl="http://picd80.huitu.com/res/20161027/20161027190303273800_1.jpg"
+     iconUrl="http://picd79.huitu.com/pic/20161027/20161027202659910800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
