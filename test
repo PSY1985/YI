@@ -105,7 +105,7 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "http://m.hdjoy.cn";
+        var host = "http://m.supdy.com";
         var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
         var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
         var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
