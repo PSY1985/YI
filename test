@@ -3,7 +3,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="神马影院" description="资源还不错啊"
-     iconUrl="http://pic.orsoon.com/uploads/allimg/1511/13-1511251A1260-L.jpg" subscribeUrl="" /> 
+     iconUrl="http://www.th7.cn/d/file/p/2015/08/04/b6c9460bde3609db1de3311e8dc780fc.gif" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.kan6080.com/dianying/index%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
