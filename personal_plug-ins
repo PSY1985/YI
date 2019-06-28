@@ -4991,7 +4991,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="资源还不错啊"
-     iconUrl="http://picd32.huitu.com/pic/20161031/20161031124040939800_0.jpg"
+     iconUrl="http://picd85.huitu.com/pic/20161029/20161029084602313800_0.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6343,7 +6343,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="资源还不错啊"
-    iconUrl="http://picd62.huitu.com/pic/20161030/20161030224959571800_0.jpg" subscribeUrl="" />
+    iconUrl="http://picd32.huitu.com/pic/20161031/20161031124040939800_0.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="https://m.youbaysw.com/dianying/p%count%.html"
