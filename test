@@ -3,7 +3,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="新视觉" description="资源还不错啊"
-     iconUrl="https://tse2.mm.bing.net/th?id=OIP.t5ekAlsEDm7FewO_73mYTQHaHa&amp;w=166&amp;h=166&amp;c=7&amp;o=5&amp;dpr=3&amp;pid=1.7" subscribeUrl="" /> 
+     iconUrl="http://picd67.huitu.com/pic/20161028/20161028160845405800_0.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://www.yy6080.top/index.php/vod/show/by/hits/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -167,7 +167,7 @@
     </script> 
    </rule> 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://www.yy6080.top/index.php/vod/search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://www.yy6080.top/index.php/vod/search/page/%count%/wd/%keyword%99.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://www.yy6080.top";
