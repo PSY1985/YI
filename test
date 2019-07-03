@@ -166,7 +166,7 @@
 
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://www.yy6080.top/index.php/vod/search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://www.yy6080.top/index.php/vod/search/%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://www.yy6080.top";
