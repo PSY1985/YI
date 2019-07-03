@@ -1,12 +1,12 @@
 <site> 
-   <packgetname>com.kan6080</packgetname> 
+   <packgetname>com.yy6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="神马影院" description="资源还不错啊"
-     iconUrl="http://www.th7.cn/d/file/p/2015/08/04/b6c9460bde3609db1de3311e8dc780fc.gif" subscribeUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="新视觉" description="资源还不错啊"
+     iconUrl="https://tse2.mm.bing.net/th?id=OIP.t5ekAlsEDm7FewO_73mYTQHaHa&amp;w=166&amp;h=166&amp;c=7&amp;o=5&amp;dpr=3&amp;pid=1.7" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://m.kan6080.com/dianying/index%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -32,7 +32,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://m.kan6080.com/dianshiju/index%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -58,7 +58,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="https://m.kan6080.com/dongman/index%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/4/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -84,33 +84,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://m.kan6080.com/zongyi_list_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-        if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-     url="https://m.kan6080.com/fuli/index%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -137,9 +111,8 @@
 
    <rule type="102" jsmethod="detail();"> 
     <script>
-
       function detail() {
-        var host = "https://m.kan6080.com";
+        var host = "http://www.yy6080.top";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -193,10 +166,10 @@
 
     </script> 
    </rule> 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="https://m.kan6080.com/index.php?s=vod-search-wd-%keyword%-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();" url="http://www.yy6080.top/index.php/vod/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
-        var host = "https://m.kan6080.com";
+        var host = "http://www.yy6080.top";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
