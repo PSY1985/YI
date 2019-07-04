@@ -6549,7 +6549,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="免费影视" description="线路标题不显示"
-     iconUrl="http://img9.3lian.com/c1/vector/10/06/028.jpg"
+     iconUrl="http://5b0988e595225.cdn.sohucs.com/images/20190124/00bc1a8fca5d47d196cf663893cf1f4f.png"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6964,7 +6964,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="线路标题不显示"
-    iconUrl="http://picd79.huitu.com/pic/20161027/20161027202659910800_0.jpg" subscribeUrl="" />
+    iconUrl="http://up.ekoooo.com/uploads2/allimg/090000/090911/1F2516361-0.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="https://m.youbaysw.com/dianying/p%count%.html"
@@ -7194,7 +7194,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快播电影" description="线路标题不显示"
-     iconUrl="http://picd54.huitu.com/res/20161031/20161031150500114800_1.jpg"
+     iconUrl="https://www.xiaohei.com/d/file/ruanjian/2019-01-14/hgh55m44pyb_18414.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
