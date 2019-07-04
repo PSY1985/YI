@@ -1,4 +1,4 @@
-	<site> 
+<site> 
    <packgetname>com.wandou</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
@@ -128,7 +128,7 @@
         }
         var allDownList = new Array();
         var allDownTitleTmp = $("ul.dropdown-menu a").toArray();
-        var allDownListTmp = $("div.tab-content.ff-playurl-tab").toArray();
+        var allDownListTmp = $("div.tab-content.ff-playurl-tab li").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
