@@ -4774,7 +4774,7 @@
 
 
 
-</site>
+<site>
    <packgetname>com.kan6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
@@ -4966,7 +4966,6 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
 
