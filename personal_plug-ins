@@ -2,7 +2,7 @@
    <packgetname>com.jukan</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="资源还不错啊"
+   <info type="801" versionCode="004" versionName="v3.0" name="聚看TV" description="默认插件"
       iconUrl="http://image11.m1905.cn/uploadfile/2012/0412/20120412082624571.jpg"
      subscribeUrl="" />
  
@@ -203,7 +203,7 @@
    <packgetName>com.56kandy</packgetName>
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="资源还不错啊"
+   <info type="801" versionCode="002" versionName="v2.0" name="56看电影" description="默认插件"
      iconUrl="https://logoeps.com/wp-content/uploads/2014/01/49089-56-social-logo-icon-vector-icon-vector-eps.png"
      subscribeUrl="" />
 
@@ -400,7 +400,7 @@
    <packgetName>com.4kwu</packgetName>
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="资源还不错啊"
+   <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="默认插件"
      iconUrl="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2935717895,3991327109&fm=26&gp=0.jpg"
      subscribeUrl="" />
 
@@ -812,7 +812,7 @@
    <packgetname>com.191ysw</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="003" versionName="v3.0" name="191影视屋" description="资源还不错啊"
+   <info type="801" versionCode="003" versionName="v3.0" name="191影视屋" description="默认插件"
      iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560936486204&di=aed8f17d2f418b036e30ace3201e1220&imgtype=0&src=http%3A%2F%2Fawb.img.xmtbang.com%2Fimg%2Fuploadnew%2F201510%2F23%2F3345aae482254aca8fe63eba74505ede.jpg"
      subscribeUrl="" /> 
 
@@ -1198,7 +1198,7 @@
    <packgetName>com.micaitu</packgetName>
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl=""/>
-   <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="资源还不错啊"
+   <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="默认插件"
      iconUrl="http://pic21.nipic.com/20120527/2367496_223318025363_2.jpg"
      subscribeUrl=""/>
 
@@ -1597,7 +1597,7 @@
 <site> 
    <packgetname>com.608y</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="好片网" description="资源还不错啊"
      iconUrl="http://a3.att.hudong.com/07/67/21300542501650139694674115731_s.jpg"
     subscribeUrl="" /> 
@@ -1708,7 +1708,6 @@
 
    <rule type="102" jsmethod="detail();"> 
     <script>
-
       function detail() {
         var host = "http://m.608y.com";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
@@ -1761,7 +1760,6 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
 
@@ -2873,7 +2871,7 @@
    <packgetname>com.xindongmanshijie</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="001" versionName="v1.0" name="动漫世界" description="资源还不错啊"
+   <info type="801" versionCode="002" versionName="v2.0" name="动漫世界" description="资源还不错啊"
      iconUrl="http://pic.90sjimg.com/design/00/07/85/23/5933c89eecfff.png"
      subscribeUrl="" /> 
 
@@ -6089,7 +6087,6 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-
     </script> 
    </rule> 
 
@@ -6350,7 +6347,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="众视影城" description="线路标题不显示"
-    iconUrl="http://bpic.588ku.com/element_origin_min_pic/18/06/10/546188151719bd063892957a6cec78f4.jpg" subscribeUrl="" />
+    iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://m.hdjoy.cn/list-select-id-1-type--area--year--star--state--order-hits-p-%count%.html"
@@ -6549,7 +6546,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="免费影视" description="线路标题不显示"
-     iconUrl="http://5b0988e595225.cdn.sohucs.com/images/20190124/00bc1a8fca5d47d196cf663893cf1f4f.png"
+     iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6734,7 +6731,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="资源还不错啊"
-     iconUrl="http://picd75.huitu.com/pic/20161029/20161029043031600800_0.jpg"
+     iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6959,12 +6956,197 @@
 
 
 
+<site> 
+   <packgetname>com.supdy</packgetname> 
+   <minapi>1</minapi> 
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="线路标题不显示"
+     iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg"
+     subscribeUrl="" /> 
+
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.supdy.com/video/type1/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.supdy.com/video/type2/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.supdy.com/video/type3/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.supdy.com/video/type4/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="102" jsmethod="detail();"> 
+     <script>
+      function detail() {
+        var host = "http://m.supdy.com";
+        var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
+        var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
+        var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
+        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+        var actor;
+        var actorTitle = $("div.media-body dt").toArray();
+        var actorText = $("div.media-body dd").toArray();
+        for (var i = 0; i < actorTitle.length; i++) {
+          var stTmp;
+          stTmp = actorTitle[i].innerHTML;
+          if (stTmp.indexOf("主演") != -1) {
+            continue;
+          }
+          var stDetail = actorText[i].getElementsByTagName("a");
+          for (var j = 0; j < stDetail.length; j++) {
+            var stDetailTmp = stDetail[j].innerHTML;
+            stTmp = stTmp + " " + stDetailTmp;
+          }
+          actor = actor + "<br>" + stTmp;
+        }
+        var allDownList = new Array();
+        var allDownTitleTmp = $("div.page-header.ff-playurl-line h2.text-green").toArray();
+        var allDownListTmp = $("div.tab-pane.fade.in.active.vod-nav-play ul").toArray();
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          var titleSort = allDownTitleTmp[i].innerText.replace("(不能播放点击切换来源)", "");
+          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+          var oneDownList = new Array();
+          for (var j = 0; j < downloadTmp.length; j++) {
+            var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
+            var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
+            var downloadBean = {"name": title, "href": href};
+            oneDownList.push(downloadBean);
+          }
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
+          allDownList.push(pageDetail);
+        }
+        var pageInfo = {
+          "posterUrl": posterUrl,
+          "title": pageTitle.replace("免费观看", ""),
+          "allText": allText,
+          "shortText": shortText,
+          "summary": actor.replace("undefined", ""),
+          "downlist": allDownList
+        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.supdy.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     <script>
+      function search() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+     </script> 
+   </rule> 
+</site>
+
+
+
 <site>
   <packgetname>com.youbaysw</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="线路标题不显示"
-    iconUrl="http://up.ekoooo.com/uploads2/allimg/090000/090911/1F2516361-0.jpg" subscribeUrl="" />
+    iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="https://m.youbaysw.com/dianying/p%count%.html"
@@ -7194,7 +7376,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快播电影" description="线路标题不显示"
-     iconUrl="https://www.xiaohei.com/d/file/ruanjian/2019-01-14/hgh55m44pyb_18414.jpg"
+     iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -7328,191 +7510,6 @@
      <script>
       function search() {
         var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-     </script> 
-   </rule> 
-</site>
-
-
-
-<site> 
-   <packgetname>com.supdy</packgetname> 
-   <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="线路标题不显示"
-     iconUrl="http://bpic.588ku.com/element_origin_min_pic/00/93/48/7656f2a005dcda4.jpg"
-     subscribeUrl="" /> 
-
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.supdy.com/video/type1/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.supdy.com/video/type2/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.supdy.com/video/type3/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.supdy.com/video/type4/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="102" jsmethod="detail();"> 
-     <script>
-      function detail() {
-        var host = "http://m.supdy.com";
-        var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
-        var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
-        var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
-        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-        var actor;
-        var actorTitle = $("div.media-body dt").toArray();
-        var actorText = $("div.media-body dd").toArray();
-        for (var i = 0; i < actorTitle.length; i++) {
-          var stTmp;
-          stTmp = actorTitle[i].innerHTML;
-          if (stTmp.indexOf("主演") != -1) {
-            continue;
-          }
-          var stDetail = actorText[i].getElementsByTagName("a");
-          for (var j = 0; j < stDetail.length; j++) {
-            var stDetailTmp = stDetail[j].innerHTML;
-            stTmp = stTmp + " " + stDetailTmp;
-          }
-          actor = actor + "<br>" + stTmp;
-        }
-        var allDownList = new Array();
-        var allDownTitleTmp = $("div.page-header.ff-playurl-line h2.text-green").toArray();
-        var allDownListTmp = $("div.tab-pane.fade.in.active.vod-nav-play ul").toArray();
-        for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerText.replace("(不能播放点击切换来源)", "");
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-          var oneDownList = new Array();
-          for (var j = 0; j < downloadTmp.length; j++) {
-            var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-            var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
-            var downloadBean = {"name": title, "href": href};
-            oneDownList.push(downloadBean);
-          }
-          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
-          allDownList.push(pageDetail);
-        }
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle.replace("免费观看", ""),
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor.replace("undefined", ""),
-          "downlist": allDownList
-        };
-        var response = {"code": "200", "msg": "suc", "content": pageInfo};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.supdy.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
-     <script>
-      function search() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
