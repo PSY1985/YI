@@ -618,7 +618,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="线路标题不正常"
-     iconUrl="http://img.zcool.cn/community/01417b5544f6910000019ae997f13d.jpg@1280w_1l_2o_100sh.jpg"
+     iconUrl="http://picd23.huitu.com/pic/20161030/20161030234756155800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
