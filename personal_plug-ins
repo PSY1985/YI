@@ -5151,7 +5151,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="004" versionName="v3.0" name="聚看影院" description="默认插件"
-      iconUrl="http://image11.m1905.cn/uploadfile/2012/0412/20120412082624571.jpg"
+      iconUrl="http://picd85.huitu.com/pic/20161029/20161029081606854800_0.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -5352,7 +5352,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="众视影城" description="线路标题不显示"
-    iconUrl="http://picd2.huitu.com/pic/20161029/20161029161959334800_0.jpg" subscribeUrl="" />
+    iconUrl="http://picd31.huitu.com/pic/20161029/20161029161643519800_0.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://m.hdjoy.cn/list-select-id-1-type--area--year--star--state--order-hits-p-%count%.html"
@@ -5551,7 +5551,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="免费影视" description="线路标题不显示"
-     iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg"
+     iconUrl="http://picd85.huitu.com/pic/20161029/20161029083512238800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6350,7 +6350,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="资源还不错啊"
-     iconUrl="http://picd85.huitu.com/pic/20161029/20161029091603689800_0.jpg"
+     iconUrl="http://image11.m1905.cn/uploadfile/2012/0412/20120412082624571.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
