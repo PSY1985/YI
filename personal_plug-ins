@@ -618,7 +618,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="线路标题不正常"
-     iconUrl="http://picd23.huitu.com/pic/20161030/20161030234756155800_0.jpg"
+     iconUrl="http://picd40.huitu.com/pic/20161031/20161031124339629800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4320,7 +4320,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="影视吧" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561455719912&di=eabb4480ea408e222a1117ff48e1a5ca&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F14%2F62%2F06%2F04Z58PICw4j_1024.jpg"
+     iconUrl="http://pic165.nipic.com/file/20180521/8536011_224907705000_2.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
