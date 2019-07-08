@@ -1894,7 +1894,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="美剧鸟" description="资源还不错啊"
-     iconUrl="https://tm-image.tianyancha.com/tm/ce094568fabb6fe72f5c246d30d2412b.jpg"
+     iconUrl="http://pic69.nipic.com/file/20150609/20987899_162914702797_2.png"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
