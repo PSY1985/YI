@@ -78,7 +78,7 @@
      </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
+<rule type="101" typeonclickaction="" subtypename="限制" jsmethod="list();"
      url="http://m.80dym.com/video/type4/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
