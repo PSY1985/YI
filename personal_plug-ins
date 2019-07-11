@@ -1295,7 +1295,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl=""/>
    <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="默认插件"
-     iconUrl="http://dpic.tiankong.com/j1/c9/QJ6393830877.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14034375.jpg"
      subscribeUrl=""/>
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
@@ -1496,7 +1496,7 @@
    <minapi>1</minapi>
    <author name="xiaoliang" avatarUrl="" description="群友提供" donateUrl="" />
    <info type="801" versionCode="005" versionName="v5.0" name="皮皮虾" description="资源还不错啊"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306245.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14102298.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1695,7 +1695,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="好片网" description="资源还不错啊"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14631510.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP474/k58001289.jpg"
     subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2091,7 +2091,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="003" versionName="v2.0" name="看看屋" description="资源还不错啊"
-     iconUrl="http://pic65.nipic.com/file/20150423/18010600_134444583000_2.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14102260.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
@@ -4516,7 +4516,7 @@
    <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="自用" donateUrl="" />
    <info type="801" versionCode="004" versionName="v4.0" name="逗别看" description="资源还不错啊"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP474/k58001289.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14631510.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4725,7 +4725,7 @@
    <minapi>1</minapi>
    <author name="群友提供" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="008" versionName="v8.0" name="爱水果" description="资源还不错啊"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14102298.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306245.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4925,7 +4925,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="神马影院" description="资源还不错啊"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14034375.jpg" subscribeUrl="" /> 
+     iconUrl="http://dpic.tiankong.com/j1/c9/QJ6393830877.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.kan6080.com/dianying/index%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
