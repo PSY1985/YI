@@ -3,7 +3,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快看影视" description="资源还不错啊"
-     iconUrl="http://picd32.huitu.com/pic/20161031/20161031123633009800_0.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP769/k24643931.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -198,9 +198,9 @@
 <site> 
    <packgetname>com.skmov</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="时空电影" description="资源还不错啊"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561454933246&di=cee447e59ac28ed7df368e2b6b835f87&imgtype=0&src=http%3A%2F%2Fimg009.hc360.cn%2Fg2%2FM05%2F4E%2F30%2FwKhQuFHeHWyEDxKQAAAAAAUTb20748.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP401/k24901555.jpg"
     subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();" url="http://m.skmov.com/?s=vod-type-id-1-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -396,7 +396,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="002" versionName="v2.0" name="动漫世界" description="资源还不错啊"
-     iconUrl="http://pic.90sjimg.com/design/00/07/85/23/5933c89eecfff.png"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP448/k25895252.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="影视" jsmethod="list();"
@@ -618,7 +618,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="线路标题不正常"
-     iconUrl="http://picd40.huitu.com/pic/20161031/20161031124339629800_0.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP410/k25483234.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -801,9 +801,9 @@
 <site>
   <packgetname>com.baishixi</packgetname>
   <minapi>1</minapi>
-  <author name="YI" avatarUrl="" description="搬砖搬来的" donateUrl="" />
+  <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="003" versionName="v3.0" name="百事影院" description="资源还不错啊"
-    iconUrl="http://pic144.nipic.com/file/20170918/25937744_232439403805_2.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP707/k20139669.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%"
@@ -1068,7 +1068,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="福利"
-     iconUrl="http://picd32.huitu.com/pic/20161031/20161031124040939800_0.jpg"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP143/k20229215.jpg"
      subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3022,7 +3022,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="七马网" description="福利资源"
-     iconUrl="http://www.juimg.com/tuku/yulantu/131118/328765-13111P0344880.jpg"
+     iconUrl="http://picd32.huitu.com/pic/20161031/20161031123633009800_0.jpg"
      subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3245,7 +3245,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="影兔网" description="福利资源"
-     iconUrl="https://uploadfile.huiyi8.com/up/f6/52/c6/f652c6bafa2fd051db6c85a59054f906.jpg"
+     iconUrl="http://picd32.huitu.com/pic/20161031/20161031124040939800_0.jpg"
      subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
