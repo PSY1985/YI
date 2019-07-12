@@ -6946,7 +6946,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="012" versionName="v1.2" name="80s" description="搜索结果无图"
-      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP519/k33101216.jpg" subscribeUrl="" />
+      iconUrl="http://www.rjzxw.com/dats/twjc/10/14425/14425-1.png" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.80s.la/movie/1-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder=""> 
