@@ -1493,10 +1493,10 @@
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306245.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://m.zhudaye.com/kehuan/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="https://m.faquanya.com/kehuan/index_%count%_____hits__1.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
-      var host = "https://m.zhudaye.com";
+      var host = "https://m.faquanya.com";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
 
@@ -1520,10 +1520,10 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://m.zhudaye.com/tv/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="https://m.faquanya.com/tv/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
-      var host = "https://m.zhudaye.com";
+      var host = "https://m.faquanya.com";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
 
@@ -1546,10 +1546,10 @@
     </script>
     </rule>
     <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-      url="https://m.zhudaye.com/dongman/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
+      url="https://m.faquanya.com/dongman/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
-      var host = "https://m.zhudaye.com";
+      var host = "https://m.faquanya.com";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
 
@@ -1573,10 +1573,10 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://m.zhudaye.com/zongyi/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="https://m.faquanya.com/zongyi/index_%count%_____addtime__1.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
     function list() {
-      var host = "https://m.zhudaye.com";
+      var host = "https://m.faquanya.com";
       var root = document.getElementById("vod_list");
       var datalist = root.getElementsByTagName("li");
 
@@ -1602,7 +1602,7 @@
    <rule type="102" jsmethod="detail();">
       <script>
     function detail() {
-      var host = "https://m.zhudaye.com";
+      var host = "https://m.faquanya.com";
       var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
       var pageTitle = $("img.loading").get(0).getAttribute("alt");
       var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -1655,10 +1655,10 @@
    </rule>
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://m.zhudaye.com/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
+     url="https://m.faquanya.com/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
       <script>
     function search() {
-      var host = "https://m.zhudaye.com";
+      var host = "https://m.faquanya.com";
       var root = document.getElementById("resize_list");
       var datalist = root.getElementsByTagName("li");
       if (datalist.length == 0) {
