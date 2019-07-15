@@ -168,7 +168,7 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url=https://m.bofangla99.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url=https://m.bofangla99.com/search/%keyword%99-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "https://m.bofangla99.com";
