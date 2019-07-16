@@ -1,10 +1,9 @@
 <site> 
-   <packgetname>com.191ysw</packgetname> 
+   <packgetname>com.abminbuy</packgetname> 
    <minapi>1</minapi> 
-   <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="003" versionName="v3.0" name="191影视屋" description="默认插件"
-     iconUrl="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560936486204&di=aed8f17d2f418b036e30ace3201e1220&imgtype=0&src=http%3A%2F%2Fawb.img.xmtbang.com%2Fimg%2Fuploadnew%2F201510%2F23%2F3345aae482254aca8fe63eba74505ede.jpg"
-     subscribeUrl="" /> 
+   <author name="noName" avatarUrl="" description="自用此" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="买神马" description=""
+     iconUrl="" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.abminbuy.com/vod-type-id-1-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -127,10 +126,10 @@
           actor = actor + "<br>" + stTmp;
         }
         var allDownList = new Array();
-        var allDownTitleTmp = $("ul.dropdown-menu a").toArray();
+        var allDownTitleTmp = $("ul.list-unstyled.row.text-center.tab-pane.ff-playurl.ff-playurl-dropdown-1.fade.in.active a").toArray();
         var allDownListTmp = $("div.tab-content.ff-playurl-dropdown ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML;
+          var titleSort = allDownTitleTmp[i].innerText;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
