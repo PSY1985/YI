@@ -1,15 +1,15 @@
 <site> 
-   <packgetname>com.abcys</packgetname> 
+   <packgetname>com.xiangyue</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="ABC影视" description=""
-     iconUrl="" subscribeUrl="" /> 
-
+   <info type="801" versionCode="001" versionName="v1.0" name="相约影院" description="资源还不错啊"
+     iconUrl="" subscribeUrl="" />
+ 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://v.abcys.org/fenlei/1-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="http://m.xiangyue.tv/search.php?page=%count%&searchtype=5&order=id&tid=1" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
-        var root = document.getElementById("datalist");
+        var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
         if (datalist.length == 0) {
@@ -20,7 +20,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -28,14 +28,14 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://v.abcys.org/fenlei/2-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.xiangyue.tv/search.php?page=%count%&searchtype=5&order=id&tid=2" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
-        var root = document.getElementById("datalist");
+        var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
        if (datalist.length == 0) {
@@ -46,7 +46,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -54,14 +54,14 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="https://v.abcys.org/fenlei/4-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="http://m.xiangyue.tv/search.php?page=%count%&searchtype=5&order=id&tid=29" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
-        var root = document.getElementById("datalist");
+        var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
           if (datalist.length == 0) {
@@ -72,7 +72,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -80,14 +80,14 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://v.abcys.org/fenlei/3-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+   <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
+     url="http://m.xiangyue.tv/search.php?page=1%count%&searchtype=5&order=id&tid=3" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
-        var root = document.getElementById("datalist");
+        var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
         if (datalist.length == 0) {
@@ -98,7 +98,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -106,14 +106,14 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="102" jsmethod="detail();"> 
-    <script>
+     <script>
       function detail() {
-        var host = "https://v.abcys.org";
-        var posterUrl = $("img.loading:first").get(0).getAttribute("src");
+        var host = "http://m.xiangyue.tv";
+        var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
@@ -134,10 +134,9 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
-        var allDownTitleTmp = $("div.row.tabList a").toArray();
-        var allDownListTmp = $("div.numList.clearfix").toArray();
+        var allDownTitleTmp = $("div.play-title a").toArray();
+        var allDownListTmp = $(".play-box").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
@@ -151,7 +150,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -163,14 +161,14 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://v.abcys.org/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
-    <script>
+     url="http://m.xiangyue.tv/search.php?page=%count%&searchword=%keyword%&searchtype=" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     <script>
       function search() {
-        var host = "https://v.abcys.org";
+        var host = "http://m.xiangyue.tv";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
