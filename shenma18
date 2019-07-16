@@ -167,7 +167,7 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.smdy18.com/index.php?m=vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://m.smdy18.com/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var host = "http://m.smdy18.com";
