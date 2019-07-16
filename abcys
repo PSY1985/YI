@@ -136,8 +136,8 @@
         }
 
         var allDownList = new Array();
-        var allDownTitleTmp = $("div.mod_hd a").toArray();
-        var allDownListTmp = $("section.mod_box.mod_sideslip_episodes.U_box_bg_a").toArray();
+        var allDownTitleTmp = $("div.row.tabList a").toArray();
+        var allDownListTmp = $("div.numList.clearfix").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
