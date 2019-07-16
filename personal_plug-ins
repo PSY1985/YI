@@ -6346,7 +6346,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="快播电影" description="线路标题不显示"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP038/k26600818.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16748509.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://www.kuaibo345.com/vod-type-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -6506,7 +6506,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="福利资源"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP418/k38165841.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP425/k26484129.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.k8jd.com/index.php?s=vod-type-id-1-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -6735,7 +6735,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="920电影" description="线路标题不显示"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP816/k27624227.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17032710.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://www.920dy.cc/vod-type-id-1-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -6895,7 +6895,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="003" versionName="v3.0" name="191影视" description="默认插件"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP227/k27741666.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP477/k27741652.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.191ysw.com/index.php?s=/vod-type-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -7079,7 +7079,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="去看TV" description="图片显示不全"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16911601.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16911621.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.qukantv.net/dianying1/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -7279,7 +7279,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="神马影院" description="搜索不能用"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP528/k38242112.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k16367809.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.smdy18.com/vod-list-id-1-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -7477,7 +7477,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="VIP影视" description="资源还不错啊"
-     iconUrl="" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP380/k22610214.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.vipys.net/list/dianying______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -7675,7 +7675,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="6080T" description="资源还不错啊"
-     iconUrl="http://picd85.huitu.com/pic/20161029/20161029082014678800_0.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP391/k22690070.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.6080t.com/dianying/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -7873,7 +7873,7 @@
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
    <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="默认插件"
-     iconUrl="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2935717895,3991327109&fm=26&gp=0.jpg" subscribeUrl="" />
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316698.jpg" subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
      url="http://m.kkkkmao.com/movie/index_%count%_____hits__1.html" currentPageCountHolder="%count%" searchKeywordHolder="">
@@ -8069,7 +8069,7 @@
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
    <info type="801" versionCode="012" versionName="v1.2" name="80s" description="搜索结果无图"
-      iconUrl="http://www.rjzxw.com/dats/twjc/10/14425/14425-1.png" subscribeUrl="" />
+      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP332/k22637225.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.80s.la/movie/1-%count%-0-0-0-0" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -8283,7 +8283,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="线路标题不显示"
-     iconUrl="http://bpic.588ku.com/element_origin_min_pic/00/93/48/7656f2a005dcda4.jpg" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP592/k22040576.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.supdy.com/video/type1/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -8467,7 +8467,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="看吧影院" description=""
-     iconUrl="" subscribeUrl="" /> 
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP050/k19187108.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="http://m.4g33.com/list/1-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
@@ -8665,7 +8665,7 @@
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="播放啦" description="搜索不能用"
-     iconUrl="" subscribeUrl="" /> 
+     iconUrl="http://bpic.588ku.com/element_origin_min_pic/00/93/48/7656f2a005dcda4.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
      url="https://m.bofangla99.com/dianying/index_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
