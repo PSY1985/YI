@@ -9,7 +9,7 @@
      url="https://www.ckso.cn/list-select-id-1-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -33,7 +33,7 @@
      url="https://www.ckso.cn/list-select-id-2-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -57,7 +57,7 @@
      url="https://www.ckso.cn/list-select-id-3-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -81,7 +81,7 @@
      url="https://www.ckso.cn/list-select-id-4-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -159,7 +159,7 @@
      url="https://www.ckso.cn/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
