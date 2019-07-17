@@ -8866,7 +8866,7 @@
 
 
 <site> 
-   <packgetname>com.m.tp6080</packgetname> 
+   <packgetname>com.tp6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="特片网" description="福利资源"
@@ -9090,7 +9090,7 @@
 
 
 <site> 
-   <packgetname>com.m.tp6080</packgetname> 
+   <packgetname>com.itepianw</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
    <info type="801" versionCode="001" versionName="v1.0" name="爱特片" description=""
