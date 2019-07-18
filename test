@@ -126,8 +126,8 @@
           actor = actor + "<br>" + stTmp;
         }
         var allDownList = new Array();
-        var allDownTitleTmp = $("ul.nav.nav-tabs.ff-playurl-tab a").toArray();
-        var allDownListTmp = $("div.tab-content.ff-playurl-tab ul").toArray();
+        var allDownTitleTmp = $("div.page-header.ff-playurl-line").toArray();
+        var allDownListTmp = $("div.page-header.ff-playurl-line ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerText;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
