@@ -131,7 +131,7 @@
         }
         var allDownList = new Array();
         var allDownTitleTmp = $("ul.nav.nav-tabs a").toArray();
-        var allDownListTmp = $("div.tab-pane.fade.in.active ul").toArray();
+        var allDownListTmp = $("div.tab-content ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerText;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
