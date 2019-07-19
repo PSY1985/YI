@@ -6372,17 +6372,17 @@
 
 
 <site> 
-   <packgetname>com.kuaibo</packgetname> 
+   <packgetname>com.baitianys</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="快播电影" description="线路标题不显示"
+   <info type="801" versionCode="001" versionName="v1.0" name="白天影视" description="线路标题不显示"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16748509.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://www.kuaibo345.com/vod-type-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.baitianys.cc/index.php?s=/vod-type-id-1-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -6403,10 +6403,10 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://www.kuaibo345.com/vod-type-id-2-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.baitianys.cc/index.php?s=/vod-type-id-2-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -6426,11 +6426,35 @@
      </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
-     url="https://www.kuaibo345.com/vod-type-id-3-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://www.baitianys.cc/index.php?s=/vod-type-id-3-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://www.baitianys.cc/index.php?s=/vod-type-id-4-type--area--year--star--state--order-addtime-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -6453,7 +6477,7 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "https://www.kuaibo345.com";
+        var host = "http://www.baitianys.cc";
         var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
         var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
         var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
@@ -6475,8 +6499,8 @@
           actor = actor + "<br>" + stTmp;
         }
         var allDownList = new Array();
-        var allDownTitleTmp = $("ul.list-unstyled.text-center.vod-item-play.ff-item-playurl").toArray();
-        var allDownListTmp = $("div.col-xs-12.ff-col ul").toArray();
+        var allDownTitleTmp = $("div.page-header.ff-playurl-line").toArray();
+        var allDownListTmp = $("ul.list-unstyled.row.text-center.ff-playurl-line.ff-playurl").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerText;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
@@ -6492,7 +6516,7 @@
         }
         var pageInfo = {
           "posterUrl": posterUrl,
-          "title": pageTitle.replace("免费观看", ""),
+          "title": pageTitle.replace("在线观看", ""),
           "allText": allText,
           "shortText": shortText,
           "summary": actor.replace("undefined", ""),
@@ -6505,10 +6529,10 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://www.kuaibo345.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://www.baitianys.cc/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
-        var datalist = $("ul.list-unstyled.vod-item-img-vertical li").toArray();
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
