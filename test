@@ -1,113 +1,105 @@
 <site> 
-   <packgetname>com.lasite</packgetname> 
+   <packgetname>com.duodada</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="拉斯特" description="资源还不错啊"
-     iconUrl="" subscribeUrl="" />
- 
+   <info type="801" versionCode="001" versionName="v1.0" name="多大大" description="线路标题不显示"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP649/k22637150.jpg" subscribeUrl="" /> 
+
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.lasite.cc/vod-list-id-1-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.duodada.com/dianying/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var host = "http://m.lasite.cc";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
+        var host = "http://www.duodada.com";
+        var datalist = $("ul.list-unstyled li").toArray();
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
      </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.lasite.cc/vod-list-id-2-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="http://www.duodada.com/dianshiju/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
-        var host = "http://m.lasite.cc";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
-       if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+        var host = "http://www.duodada.com";
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
      </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.lasite.cc/vod-list-id-4-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.duodada.com/dongman/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var host = "http://m.lasite.cc";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
-          if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+        var host = "http://www.duodada.com";
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
      </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.lasite.cc/vod-list-id-3-pg-%count%-order--by-time-class-0-year-0-letter--area--lang-.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://www.duodada.com/zongyi/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var host = "http://m.lasite.cc";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
+        var host = "http://www.duodada.com";
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
      </script> 
@@ -116,22 +108,21 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "http://m.lasite.cc";
-        var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
-        var pageTitle = $("img.loading").get(0).getAttribute("alt");
-        var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
+        var host = "http://www.duodada.com";
+        var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
+        var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
+        var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
-        var actorTmp = $("div.vod-n-l:first p").toArray();
-        for (var i = 0; i < actorTmp.length; i++) {
+        var actorTitle = $("div.media-body dt").toArray();
+        var actorText = $("div.media-body dd").toArray();
+        for (var i = 0; i < actorTitle.length; i++) {
           var stTmp;
-          stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
-          if (stTmp.indexOf("主演") != -1) continue;
-          if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
-            stTmp = actorTmp[i].innerHTML;
+          stTmp = actorTitle[i].innerHTML;
+          if (stTmp.indexOf("主演") != -1) {
+            continue;
           }
-          var stDetail = actorTmp[i].getElementsByTagName("a");
+          var stDetail = actorText[i].getElementsByTagName("a");
           for (var j = 0; j < stDetail.length; j++) {
             var stDetailTmp = stDetail[j].innerHTML;
             stTmp = stTmp + " " + stDetailTmp;
@@ -139,15 +130,15 @@
           actor = actor + "<br>" + stTmp;
         }
         var allDownList = new Array();
-        var allDownTitleTmp = $("div.play-title a").toArray();
-        var allDownListTmp = $(".play-box").toArray();
+        var allDownTitleTmp = $("ul.nav.nav-tabs a").toArray();
+        var allDownListTmp = $("div.tab-content ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML;
+          var titleSort = allDownTitleTmp[i].innerText;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-            var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
+            var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
             var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
@@ -156,7 +147,7 @@
         }
         var pageInfo = {
           "posterUrl": posterUrl,
-          "title": pageTitle,
+          "title": pageTitle.replace("免费观看", ""),
           "allText": allText,
           "shortText": shortText,
           "summary": actor.replace("undefined", ""),
@@ -169,22 +160,19 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.lasite.cc/vod-search-pg-%count%-wd-%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://www.duodada.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
-        var host = "http://m.lasite.cc";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
-          if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = host + datalist[i].getElementsByTagName("img")[0].getAttribute("src");
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -192,6 +180,6 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 </site>
