@@ -7496,32 +7496,46 @@
     </script> 
    </rule> 
 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.smdy18.com/index.php?m=vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+    url="http://m.smdy18.com/index.php?m=vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="%keyword%">
     <script>
       function search() {
         var host = "http://m.smdy18.com";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
-          if (datalist.length == 0) {
-          var response = { "code": "200", "msg": "suc", "content": "" };
+        if (datalist.length == 0) {
+          var response = {
+            "code": "200",
+            "msg": "suc",
+            "content": ""
+          };
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          var href = host + $(datalist[i]).find("a").attr("href");
+          var title = $(datalist[i]).find("a").attr("title");
+          var imgurl = $(datalist[i]).find("img").attr("src");
+          ; var content = $(datalist[i]).find("img").attr("alt");
+          ; var obj = {
+            "title": title,
+            "detailUrl": href,
+            "posterUrl": imgurl,
+            "content": content
+          };
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {
+          "code": "200",
+          "msg": "suc",
+          "content": JSON.stringify(tmparray)
+        };
         return response;
       }
-    </script> 
-   </rule> 
+    </script>
+  </rule>
 </site>
 
 
