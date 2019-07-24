@@ -11967,7 +11967,7 @@
     iconUrl="" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://zuidazy1.net//?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
+    url="http://www.zuidazy1.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
     searchkeywordholder="">
     <script>
       function list() {
@@ -11982,7 +11982,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zuidazy1.net/";
+          var host = "http://www.zuidazy1.net";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
@@ -12010,7 +12010,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://zuidazy1.net//?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
+    url="http://www.zuidazy1.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
     searchkeywordholder="">
     <script>
       function list() {
@@ -12025,7 +12025,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zuidazy1.net/";
+          var host = "http://www.zuidazy1.net";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
@@ -12053,7 +12053,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://zuidazy1.net//?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
+    url="http://www.zuidazy1.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
     searchkeywordholder="">
     <script>
       function list() {
@@ -12068,7 +12068,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zuidazy1.net/";
+          var host = "http://www.zuidazy1.net";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
@@ -12096,7 +12096,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://zuidazy1.net//?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
+    url="http://www.zuidazy1.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
     searchkeywordholder="">
     <script>
       function list() {
@@ -12111,7 +12111,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zuidazy1.net/";
+          var host = "http://www.zuidazy1.net";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
@@ -12139,7 +12139,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://zuidazy1.net//?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
+    url="http://www.zuidazy1.net/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
     searchkeywordholder="">
     <script>
       function list() {
@@ -12154,7 +12154,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zuidazy1.net/";
+          var host = "http://www.zuidazy1.net";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
@@ -12241,7 +12241,7 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://zuidazy1.net//index.php?m=vod-search" currentpagecountholder="%count%"
+    url="http://www.zuidazy1.net/index.php?m=vod-search" currentpagecountholder="%count%"
     searchPostData="wd=%keyword%&submit=search" searchkeywordholder="%keyword%">
     <script>
       function search() {
@@ -12256,7 +12256,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zuidazy1.net/";
+          var host = "http://www.zuidazy1.net";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
