@@ -9787,12 +9787,7 @@
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content
-            "itemType": 1
+          var obj = { "title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
             if (title.length > 0) {
@@ -9835,7 +9830,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -9879,7 +9874,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -9923,7 +9918,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -9967,7 +9962,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10070,7 +10065,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10124,7 +10119,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10168,7 +10163,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10212,7 +10207,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10256,7 +10251,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10300,7 +10295,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10413,7 +10408,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10467,7 +10462,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -10511,7 +10506,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -10555,7 +10550,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -10599,7 +10594,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -10643,7 +10638,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -10756,7 +10751,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -10810,7 +10805,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10854,7 +10849,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10898,7 +10893,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10942,7 +10937,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -10986,7 +10981,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -11089,7 +11084,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -11143,7 +11138,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -11187,7 +11182,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -11231,7 +11226,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -11275,7 +11270,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -11378,8 +11373,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
-            "itemType": 1
+            "content": content,
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
             if (title.length > 0) {
@@ -11476,7 +11470,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11520,7 +11514,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11564,7 +11558,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11677,7 +11671,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11731,7 +11725,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11775,7 +11769,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11819,7 +11813,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11863,7 +11857,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -11976,7 +11970,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12029,7 +12023,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12073,7 +12067,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12117,7 +12111,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12161,7 +12155,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12205,7 +12199,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12308,7 +12302,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12362,7 +12356,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -12406,7 +12400,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -12450,7 +12444,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -12494,7 +12488,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -12538,7 +12532,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -12641,7 +12635,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("飛鳥") == -1 && content.indexOf("飛鳥") == -1) {
@@ -12695,7 +12689,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12739,7 +12733,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12783,7 +12777,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12827,7 +12821,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12871,7 +12865,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -12915,7 +12909,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13018,7 +13012,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13071,7 +13065,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13115,7 +13109,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13159,7 +13153,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13203,7 +13197,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13306,7 +13300,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13359,7 +13353,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13403,7 +13397,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13447,7 +13441,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13491,7 +13485,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
@@ -13594,7 +13588,7 @@
             "title": title,
             "detailUrl": host + href,
             "posterUrl": imgurl,
-            "content": content
+            "content": content,
             "itemType": 1
           };
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
