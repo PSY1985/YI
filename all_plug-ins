@@ -617,7 +617,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text();
+          var title = $(this).find("td.l").find("a").text().replace("[BD高清]","");
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -647,7 +647,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text();
+          var title = $(this).find("td.l").find("a").text().replace("[BD高清]","");
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
