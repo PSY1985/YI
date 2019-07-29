@@ -1499,7 +1499,7 @@
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP769/k24643931.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://m.kuaikan66.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="https://m.kuaikan1.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1525,7 +1525,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://m.kuaikan66.com/list/dsj______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="https://m.kuaikan1.com/list/dsj______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1551,7 +1551,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="https://m.kuaikan66.com/list/Animation______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="https://m.kuaikan1.com/list/Animation______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1577,7 +1577,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://m.kuaikan66.com/list/Arts______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="https://m.kuaikan1.com/list/Arts______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -1605,7 +1605,7 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "https://m.kuaikan66.com";
+        var host = "https://m.kuaikan1.com";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -1658,10 +1658,10 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://m.kuaikan66.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="https://m.kuaikan1.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
-        var host = "https://m.kuaikan66.com";
+        var host = "https://m.kuaikan1.com";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -12292,13 +12292,12 @@
     <packgetname>com.800zy</packgetname>
     <minapi>1</minapi>
     <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-        <info type="801" versionCode="001" versionName="v1.0" name="800资源"
-            description="800资源站" iconUrl="" subscribeUrl="" />
+    <info type="801" versionCode="001" versionName="v1.0" name="800资源" description="800资源站"
+      iconUrl="" subscribeUrl="" />
 
-            <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
-                url="http://www.jimogan.com/list-13-%count%.html"
-                currentpagecountholder="%count%" searchkeywordholder="">
-                <script>
+     <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
+       url="http://www.jimogan.com/list-13-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
                 if (datalist.length == 0) {
@@ -12322,13 +12321,12 @@
                 var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
                 return response;
             }
-        </script>
-            </rule>
+      </script>
+      </rule>
 
-            <rule type="101" typeonclickaction="" subtypename="自拍" jsmethod="list();"
-                url="http://www.jimogan.com/list-2-%count%.html"
-                currentpagecountholder="%count%" searchkeywordholder="">
-                <script>
+      <rule type="101" typeonclickaction="" subtypename="自拍" jsmethod="list();"
+        url="http://www.jimogan.com/list-2-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
                 if (datalist.length == 0) {
@@ -12352,22 +12350,16 @@
                 var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
                 return response;
             }
-        </script>
-            </rule>
+      </script>
+      </rule>
 
-            <rule type="101" typeonclickaction="" subtypename="高清"
-                jsmethod="list();"
-                url="http://www.jimogan.com/list-1-%count%.html"
-                currentpagecountholder="%count%" searchkeywordholder="">
-                <script>
+      <rule type="101" typeonclickaction="" subtypename="高清" jsmethod="list();"
+        url="http://www.jimogan.com/list-1-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
                 if (datalist.length == 0) {
-                    var response = {
-                        "code": "200",
-                        "msg": "suc",
-                        "content": ""
-                    };
+                    var response = {"code": "200", "msg": "suc", "content": ""};
                     return response;
                 }
                 var tmparray = new Array();
@@ -12377,58 +12369,7 @@
                     var title = $(this).find("a.videoName").text();
                     var imgurl;
                     var content = $(this).find("span.category").text();
-                    var obj = {
-                        "title": title,
-                        "detailUrl": host + href,
-                        "posterUrl": imgurl,
-                        "content": content,
-                        "itemType":1
-                    };
-                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
-                        if (title.length > 0) {
-                            tmparray.push(obj);
-                        }
-                    }
-                });
-                var response = {
-                    "code": "200",
-                    "msg": "suc",
-                    "content": JSON.stringify(tmparray)
-                };
-                return response;
-            }
-        </script>
-            </rule>
-
-            <rule type="101" typeonclickaction="" subtypename="无码"
-                jsmethod="list();"
-                url="http://www.jimogan.com/list-4-%count%.html"
-                currentpagecountholder="%count%" searchkeywordholder="">
-                <script>
-            function list() {
-                var datalist = $("ul.videoContent").find("li");
-                if (datalist.length == 0) {
-                    var response = {
-                        "code": "200",
-                        "msg": "suc",
-                        "content": ""
-                    };
-                    return response;
-                }
-                var tmparray = new Array();
-                $(datalist).each(function() {
-                    var host = "http://www.jimogan.com";
-                    var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text();
-                    var imgurl;
-                    var content = $(this).find("span.category").text();
-                    var obj = {
-                        "title": title,
-                        "detailUrl": host + href,
-                        "posterUrl": imgurl,
-                        "content": content,
-                        "itemType":1
-                    };
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
                     if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
                         if (title.length > 0) {
                             tmparray.push(obj);
@@ -12438,12 +12379,41 @@
                 var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
                 return response;
             }
-        </script>
-            </rule>
+      </script>
+      </rule>
+
+      <rule type="101" typeonclickaction="" subtypename="无码" jsmethod="list();"
+        url="http://www.jimogan.com/list-4-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": ""};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.jimogan.com";
+                    var href = $(this).find("a.address").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+      </script>
+      </rule>
 
 
-            <rule type="102" jsmethod="detail();">
-                <script>
+      <rule type="102" jsmethod="detail();">
+      <script>
             function detail() {
                 var posterUrl;
                 var pageTitle = $("p.whitetitle").text().replace("影片名称：", "").replace(/\s+/g, "");
@@ -12494,23 +12464,17 @@
                 };
                 return response;
             }
-        </script>
-            </rule>
+      </script>
+      </rule>
 
-            <rule type="103" typeonclickaction="" subtypename=""
-                jsmethod="search();"
-                url="http://www.jimogan.com/index.php?m=vod-search"
-                currentpagecountholder="%count%" searchPostData="wd=%keyword%"
-                searchkeywordholder="%keyword%">
-                <script>
+      <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+        url="http://www.jimogan.com/index.php?m=vod-search"
+        currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
+      <script>
             function search() {
                 var datalist = $("ul.videoContent").find("li");
                 if (datalist.length == 0) {
-                    var response = {
-                        "code": "200",
-                        "msg": "suc",
-                        "content": ""
-                    };
+                    var response = {"code": "200", "msg": "suc", "content": ""};
                     return response;
                 }
                 var tmparray = new Array();
@@ -12520,28 +12484,18 @@
                     var title = $(this).find("a.videoName").text();
                     var imgurl;
                     var content = $(this).find("span.category").text();
-                    var obj = {
-                        "title": title,
-                        "detailUrl": host + href,
-                        "posterUrl": imgurl,
-                        "content": content,
-                        "itemType":1
-                    };
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
                     if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
                         if (title.length > 0) {
                             tmparray.push(obj);
                         }
                     }
                 });
-                var response = {
-                    "code": "200",
-                    "msg": "suc",
-                    "content": JSON.stringify(tmparray)
-                };
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
                 return response;
             }
-        </script>
-        </rule>
+      </script>
+      </rule>
 </site>
 
 
