@@ -10054,7 +10054,7 @@
   <packgetname>com.jisuzy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="极速资源" description="资源站测试"
+  <info type="801" versionCode="009" versionName="v9.0" name="极速资源" description="资源站测试"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP188/k22610173.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
