@@ -12523,7 +12523,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12553,7 +12553,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12583,7 +12583,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12613,7 +12613,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12643,7 +12643,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12728,7 +12728,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12768,7 +12768,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12798,7 +12798,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12828,7 +12828,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12858,7 +12858,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12888,7 +12888,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12973,7 +12973,7 @@
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
