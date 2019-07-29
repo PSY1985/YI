@@ -11807,11 +11807,7 @@
       function list() {
         var datalist = $("div.xing_vb").find("li");
         if (datalist.length == 0) {
-          var response = {
-            "code": "200",
-            "msg": "suc",
-            "content": ""
-          };
+          var response = {"code": "200","msg": "suc","content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -11821,12 +11817,7 @@
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content
-          };
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
@@ -11850,11 +11841,7 @@
       function list() {
         var datalist = $("div.xing_vb").find("li");
         if (datalist.length == 0) {
-          var response = {
-            "code": "200",
-            "msg": "suc",
-            "content": ""
-          };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -11864,23 +11851,14 @@
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content
-          };
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
           }
         });
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": JSON.stringify(tmparray)
-        };
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
     </script>
@@ -11893,11 +11871,7 @@
       function list() {
         var datalist = $("div.xing_vb").find("li");
         if (datalist.length == 0) {
-          var response = {
-            "code": "200",
-            "msg": "suc",
-            "content": ""
-          };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -11907,23 +11881,14 @@
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content
-          };
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
           }
         });
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": JSON.stringify(tmparray)
-        };
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
     </script>
@@ -11936,11 +11901,7 @@
       function list() {
         var datalist = $("div.xing_vb").find("li");
         if (datalist.length == 0) {
-          var response = {
-            "code": "200",
-            "msg": "suc",
-            "content": ""
-          };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -11950,23 +11911,14 @@
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content
-          };
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
           }
         });
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": JSON.stringify(tmparray)
-        };
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
     </script>
@@ -12038,11 +11990,7 @@
       function search() {
         var datalist = $("div.xing_vb").find("li");
         if (datalist.length == 0) {
-          var response = {
-            "code": "200",
-            "msg": "suc",
-            "content": ""
-          };
+          var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
@@ -12052,23 +12000,14 @@
           var title = $(this).find("span.xing_vb4").find("a").text();
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content
-          };
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
           }
         });
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": JSON.stringify(tmparray)
-        };
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
     </script>
@@ -12123,11 +12062,7 @@
             function list() {
                 var datalist = $("ul.videoContent").find("li");
                 if (datalist.length == 0) {
-                    var response = {
-                        "code": "200",
-                        "msg": "suc",
-                        "content": ""
-                    };
+                    var response = {"code": "200", "msg": "suc", "content": ""};
                     return response;
                 }
                 var tmparray = new Array();
