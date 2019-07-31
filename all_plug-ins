@@ -13424,7 +13424,7 @@
    <packgetname>com.smdy18</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="神马影院" description="不错哟"
+   <info type="801" versionCode="003" versionName="v3.0" name="神马影院" description="不错哟"
      iconUrl="" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
