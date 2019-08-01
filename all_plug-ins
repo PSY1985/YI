@@ -13364,7 +13364,7 @@
                 $(datalist).each(function() {
                     var host = "http://lajiaozy.com";
                     var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text();
+                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
                     var imgurl;
                     var content = $(this).find("span.category").text();
                     var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
