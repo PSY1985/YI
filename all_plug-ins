@@ -1,8 +1,8 @@
 <site> 
    <packgetname>com.kuaikan66</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="002" versionName="v2.0" name="快看影视" description="资源还不错啊"
+   <author name="YI" avatarUrl="" description="" donateUrl="" /> 
+   <info type="801" versionCode="002" versionName="v2.0" name="快看影视" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP769/k24643931.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -197,8 +197,8 @@
 <site> 
    <packgetname>com.skmov</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="时空电影" description="资源还不错啊"
+   <author name="YI" avatarUrl="" description="" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="时空电影" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP401/k24901555.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -397,7 +397,7 @@
    <packgetname>com.xindongmanshijie</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="002" versionName="v2.1" name="动漫世界" description="资源还不错啊"
+   <info type="801" versionCode="002" versionName="v2.1" name="动漫世界" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP448/k25895252.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="影视" jsmethod="list();"
@@ -618,7 +618,7 @@
    <packgetname>com.wandou</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="线路标题不正常"
+   <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP410/k25483234.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -802,7 +802,7 @@
   <packgetname>com.baishixi</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v3.0" name="百事影院" description="资源还不错啊"
+  <info type="801" versionCode="003" versionName="v3.0" name="百事影院" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP707/k20139669.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1011,7 +1011,7 @@
    <packgetname>com.m.chinachenxi</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="晨曦电影" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP143/k20229215.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1237,7 +1237,7 @@
    <packgetname>com.kan6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="神马电影" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="神马电影" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP463/k31787307.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1461,7 +1461,7 @@
   <packgetname>com.youbaysw</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-  <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="线路标题不显示"
+  <info type="801" versionCode="001" versionName="v1.0" name="友吧影视" description="不公开"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP513/k24901466.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1687,7 +1687,7 @@
    <packgetname>com.tv128</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="首播影院" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="首播影院" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP790/k25895866.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -1889,7 +1889,7 @@
    <packgetname>com.boboys</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="播播影视" description="线路标题不显示"
+   <info type="801" versionCode="001" versionName="v1.0" name="播播影视" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP660/k25483466.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2073,7 +2073,7 @@
    <packgetname>com.tongbuyy</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="同步影院" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="同步影院" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP853/k20139707.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2297,7 +2297,7 @@
    <packgetname>com.zxdyw</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="最新电影" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="最新电影" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP407/k20229132.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2495,7 +2495,7 @@
    <packgetname>com.tp6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="特片网" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="特片网" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14119416.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2719,7 +2719,7 @@
    <packgetname>com.yy6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="新视觉" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="新视觉" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306260.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2917,7 +2917,7 @@
    <packgetname>com.yshiba</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="影视吧" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="影视吧" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14631528.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3113,7 +3113,7 @@
    <packgetname>com.nek8</packgetname>
    <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-   <info type="801" versionCode="004" versionName="v4.0" name="逗别看" description="资源还不错啊"
+   <info type="801" versionCode="004" versionName="v4.0" name="逗别看" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP474/k58001289.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3308,7 +3308,7 @@
    <packgetname>com.A4YY</packgetname>
    <minapi>1</minapi>
    <author name="群友提供" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="008" versionName="v8.0" name="爱水果" description="资源还不错啊"
+   <info type="801" versionCode="008" versionName="v8.0" name="爱水果" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14102298.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3507,7 +3507,7 @@
    <packgetname>com.itepianw</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="爱特片" description=""
+   <info type="801" versionCode="001" versionName="v1.0" name="爱特片" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14034375.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -3705,7 +3705,7 @@
    <packgetName>com.micaitu</packgetName>
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl=""/>
-   <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="默认插件"
+   <info type="801" versionCode="004" versionName="v4.0" name="迷彩兔" description="群共享"
      iconUrl="http://dpic.tiankong.com/j1/c9/QJ6393830877.jpg" subscribeUrl=""/>
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
@@ -3905,7 +3905,7 @@
    <packgetname>com.pipigui</packgetname>
    <minapi>1</minapi>
    <author name="xiaoliang" avatarUrl="" description="群友提供" donateUrl="" />
-   <info type="801" versionCode="005" versionName="v5.0" name="皮皮虾" description="资源还不错啊"
+   <info type="801" versionCode="005" versionName="v5.0" name="皮皮虾" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306245.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4103,7 +4103,7 @@
    <packgetname>com.608y</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="好片网" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="好片网" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14631510.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4301,7 +4301,7 @@
    <packgetname>com.meijuniao</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="美剧鸟" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="美剧鸟" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP293/k42896343.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4497,7 +4497,7 @@
    <packgetName>com.kankanwu</packgetName>
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="003" versionName="v2.0" name="看看屋" description="资源还不错啊"
+   <info type="801" versionCode="003" versionName="v2.0" name="看看屋" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14102260.jpg" subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
@@ -4715,7 +4715,7 @@
    <packgetname>com.benbenj</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="搬砖搬来的" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v2.0" name="笨笨鸡" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v2.0" name="笨笨鸡" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14034342.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -4910,7 +4910,7 @@
    <packgetname>com.langtv</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="灰狼网" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="灰狼网" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16748482.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -5139,7 +5139,7 @@
    <packgetname>com.qydy</packgetname>
    <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-   <info type="801" versionCode="001" versionName="v1.0" name="奇影酷" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="奇影酷" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP483/k25176868.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -5361,7 +5361,7 @@
    <packgetname>com.7704</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="七马网" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="七马网" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17032697.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -5583,7 +5583,7 @@
    <packgetname>com.4ktv8</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="影兔网" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="影兔网" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP227/k27741666.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -5805,7 +5805,7 @@
    <packgetname>com.iupian</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="优片库" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="优片库" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16911601.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6032,7 +6032,7 @@
    <packgetname>com.tufutv</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="屠夫网" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="屠夫网" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k16367785.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6254,7 +6254,7 @@
    <packgetname>com.baitianys</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="白天影视" description="线路标题不显示"
+   <info type="801" versionCode="001" versionName="v1.0" name="白天影视" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16748509.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6438,7 +6438,7 @@
    <packgetname>com.k8jd</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="福利资源"
+   <info type="801" versionCode="001" versionName="v1.0" name="K8经典" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP425/k26484129.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6667,7 +6667,7 @@
    <packgetname>com.920dy</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="920电影" description="线路标题不显示"
+   <info type="801" versionCode="001" versionName="v1.0" name="920电影" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17032710.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -6827,7 +6827,7 @@
    <packgetname>com.191ysw</packgetname> 
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="003" versionName="v3.0" name="191影视" description="默认插件"
+   <info type="801" versionCode="003" versionName="v3.0" name="191影视" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP477/k27741652.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -7011,7 +7011,7 @@
    <packgetname>com.vipys</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="VIP影视" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="VIP影视" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k16911621.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -7209,7 +7209,7 @@
    <packgetname>com.xiangyue</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="相约影院" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="相约影院" description="不公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k16367809.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -7404,7 +7404,7 @@
    <packgetname>com.ckso</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="CK电影" description="线路标题不显示"
+   <info type="801" versionCode="001" versionName="v1.0" name="CK电影" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP380/k22610214.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -7588,7 +7588,7 @@
    <packgetname>com.6080t</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="6080T" description="资源还不错啊"
+   <info type="801" versionCode="001" versionName="v1.0" name="6080T" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP391/k22690070.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -7786,7 +7786,7 @@
    <packgetName>com.4kwu</packgetName>
    <minApi>1</minApi>
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" />
-   <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="默认插件"
+   <info type="801" versionCode="004" versionName="v4.0" name="4k屋" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316698.jpg" subscribeUrl="" />
 
    <rule type="101" typeOnclickAction="" subTypeName="电影" jsMethod="list();"
@@ -7982,7 +7982,7 @@
    <packgetname>com.80sla</packgetname>
    <minapi>1</minapi> 
    <author name="noName" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="012" versionName="v1.2" name="80s" description="搜索结果无图"
+   <info type="801" versionCode="012" versionName="v1.2" name="80s" description="群共享"
       iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP332/k22637225.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -8179,7 +8179,7 @@
    <packgetname>com.supdy</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="线路标题不显示"
+   <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP592/k22040576.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -8363,7 +8363,7 @@
    <packgetname>com.4g33</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="看吧影院" description=""
+   <info type="801" versionCode="001" versionName="v1.0" name="看吧影院" description="未公开"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP050/k19187108.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -9078,7 +9078,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text();
+          var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -9108,7 +9108,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text();
+          var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -9138,7 +9138,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text();
+          var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -9168,7 +9168,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text().replace(" [BD高清]","");
+          var title = $(this).find("td.l").find("a").text().replace(" [BD高清]","").replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -9198,7 +9198,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text().replace(" [BD高清]","");
+          var title = $(this).find("td.l").find("a").text().replace(" [BD高清]","").replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -9293,7 +9293,7 @@
         $(datalist).each(function () {
           var host = "http://www.zuikzy.cc/";
           var href = $(this).find("td.l").find("a").attr("href");
-          var title = $(this).find("td.l").find("a").text();
+          var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -9806,7 +9806,7 @@
   <packgetname>com.131zy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v3.0" name="131资源" description="资源站测试"
+  <info type="801" versionCode="003" versionName="v3.0" name="131资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17172801.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -10022,7 +10022,7 @@
   <packgetname>com.jisuzy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="009" versionName="v9.0" name="极速资源" description="资源站测试"
+  <info type="801" versionCode="009" versionName="v9.0" name="极速资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP188/k22610173.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -10250,11 +10250,7 @@
           "summary": actor,
           "downlist": allDownList
         };
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": pageInfo
-        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
     </script>
@@ -10281,24 +10277,14 @@
           var title = $(this).find("td.l").find("a").text();
           var imgurl;
           var content = $(this).find("td").next().text();
-          var obj = {
-            "title": title,
-            "detailUrl": host + href,
-            "posterUrl": imgurl,
-            "content": content,
-            "itemType": 1
-          };
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("飛鳥") == -1 && content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
           }
         });
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": JSON.stringify(tmparray)
-        };
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
     </script>
@@ -10311,7 +10297,7 @@
   <packgetname>com.yongjiuzy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="永久资源" description="资源站测试"
+  <info type="801" versionCode="002" versionName="v2.0" name="永久资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14904500.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -10549,11 +10535,7 @@
           "summary": actor,
           "downlist": allDownList
         };
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": pageInfo
-        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
     </script>
@@ -10610,7 +10592,7 @@
   <packgetname>com.zuidazy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v3.0" name="最大资源" description="资源站测试"
+  <info type="801" versionCode="003" versionName="v3.0" name="最大资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316677.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -10943,7 +10925,7 @@
   <packgetname>com.ziyuanpian</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="值资源站" description="资源站测试"
+  <info type="801" versionCode="002" versionName="v2.0" name="值资源站" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP649/k22637150.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -11232,7 +11214,7 @@
   <packgetname>com.zuixinzy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="最新资源" description="资源站测试"
+  <info type="801" versionCode="002" versionName="v2.0" name="最新资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP446/k22040607.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -11766,7 +11748,7 @@
   <packgetname>com.okzy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="OK资源" description="资源站测试"
+  <info type="801" versionCode="002" versionName="v2.0" name="OK资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15262956.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -12011,7 +11993,7 @@
   <packgetname>com.135zy</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="001" versionName="v1.0" name="135资源" description="资源站测试"
+  <info type="801" versionCode="001" versionName="v1.0" name="135资源" description="不公开"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15660012.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -12233,11 +12215,7 @@
           "summary": actor,
           "downlist": allDownList
         };
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": pageInfo
-        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
     </script>
@@ -12284,7 +12262,7 @@
   <packgetname>com.605zy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="001" versionName="v1.0" name="605资源" description="资源站测试"
+  <info type="801" versionCode="001" versionName="v1.0" name="605资源" description="未公开"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15481398.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -12460,11 +12438,7 @@
           "summary": actor,
           "downlist": allDownList
         };
-        var response = {
-          "code": "200",
-          "msg": "suc",
-          "content": pageInfo
-        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
     </script>
@@ -12507,7 +12481,7 @@
     <packgetname>com.800zy</packgetname>
     <minapi>1</minapi>
     <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-    <info type="801" versionCode="001" versionName="v1.0" name="800资源" description="800资源站"
+    <info type="801" versionCode="001" versionName="v1.0" name="800资源" description="上车了"
       iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15713538.jpg" subscribeUrl="" />
 
      <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
@@ -13413,7 +13387,7 @@
   <packgetname>com.398zy</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-  <info type="801" versionCode="001" versionName="v1.0" name="398资源" description=""
+  <info type="801" versionCode="001" versionName="v1.0" name="398资源" description="群共享"
     iconUrl="" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -13628,7 +13602,7 @@
    <packgetname>com.smdy18</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="003" versionName="v3.0" name="神马影院" description="不错哟"
+   <info type="801" versionCode="003" versionName="v3.0" name="神马影院" description="群共享"
      iconUrl="" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
