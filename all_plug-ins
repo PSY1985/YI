@@ -13183,7 +13183,7 @@
       iconUrl="" subscribeUrl="" />
 
      <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
-       url="http://lajiaozy.com/index.php/vod/type/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+       url="http://lajiaozy1.com/index.php/vod/type/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
@@ -13193,7 +13193,7 @@
                 }
                 var tmparray = new Array();
                 $(datalist).each(function() {
-                    var host = "http://lajiaozy.com";
+                    var host = "http://lajiaozy1.com";
                     var href = $(this).find("a.address").attr("href");
                     var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
                     var imgurl;
@@ -13212,7 +13212,7 @@
       </rule>
 
       <rule type="101" typeonclickaction="" subtypename="欧美" jsmethod="list();"
-        url="http://lajiaozy.com/index.php/vod/type/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+        url="http://lajiaozy1.com/index.php/vod/type/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
@@ -13222,7 +13222,7 @@
                 }
                 var tmparray = new Array();
                 $(datalist).each(function() {
-                    var host = "http://lajiaozy.com";
+                    var host = "http://lajiaozy1.com";
                     var href = $(this).find("a.address").attr("href");
                     var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
                     var imgurl;
@@ -13241,7 +13241,7 @@
       </rule>
 
       <rule type="101" typeonclickaction="" subtypename="日韩" jsmethod="list();"
-        url="http://lajiaozy.com/index.php/vod/type/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+        url="http://lajiaozy1.com/index.php/vod/type/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
@@ -13251,7 +13251,7 @@
                 }
                 var tmparray = new Array();
                 $(datalist).each(function() {
-                    var host = "http://lajiaozy.com";
+                    var host = "http://lajiaozy1.com";
                     var href = $(this).find("a.address").attr("href");
                     var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
                     var imgurl;
@@ -13270,7 +13270,7 @@
       </rule>
 
       <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-        url="http://lajiaozy.com/index.php/vod/type/id/21/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+        url="http://lajiaozy1.com/index.php/vod/type/id/21/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
       <script>
             function list() {
                 var datalist = $("ul.videoContent").find("li");
@@ -13280,7 +13280,7 @@
                 }
                 var tmparray = new Array();
                 $(datalist).each(function() {
-                    var host = "http://lajiaozy.com";
+                    var host = "http://lajiaozy1.com";
                     var href = $(this).find("a.address").attr("href");
                     var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
                     var imgurl;
@@ -13351,7 +13351,7 @@
       </rule>
 
       <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-        url="http://lajiaozy.com/index.php/vod/search.html"
+        url="http://lajiaozy1.com/index.php/vod/search.html"
         currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
       <script>
             function search() {
@@ -13362,7 +13362,7 @@
                 }
                 var tmparray = new Array();
                 $(datalist).each(function() {
-                    var host = "http://lajiaozy.com";
+                    var host = "http://lajiaozy1.com";
                     var href = $(this).find("a.address").attr("href");
                     var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
                     var imgurl;
