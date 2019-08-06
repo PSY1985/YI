@@ -8573,256 +8573,11 @@
 
 
 <site>
-  <packgetname>com.123ku</packgetname>
-  <minapi>1</minapi>
-  <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="123资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP717/k23982396.jpg" subscribeUrl="" />
-
-  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.123ku.com";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.123ku.com";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.123ku.com";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.123ku.com";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.123ku.com";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="102" jsmethod="detail();">
-    <script>
-      function detail() {
-        var posterUrl;
-        var pageTitle = $("div.vodInfo").find("h2").text();
-        var allText = $("div.ibox.playBox").next().find("div.vodplayinfo").first().text().trim();
-        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
-        var actor = "";
-        var actorTmp = $("div.vodinfobox li").toArray();
-        for (var i = 0; i < actorTmp.length; i++) {
-          var stTmp = $(actorTmp[i]).text();
-          if (stTmp.indexOf("类型") != -1 || stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1 || stTmp.indexOf("地区") != -1) {
-            actor = stTmp + "<br>" + actor;
-          }
-        }
-
-        var allDownList = new Array();
-        var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
-        var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).find("span").text();
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-          var oneDownList = new Array();
-          for (var j = 0; j < downloadTmp.length; j++) {
-            var tmp = $(downloadTmp[j]).text();
-            var title = tmp.substring(0, tmp.indexOf("$"));
-            var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
-            oneDownList.push(downloadBean);
-          }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
-          allDownList.push(pageDetail);
-        }
-
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle,
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor,
-          "downlist": allDownList
-        };
-        var response = {"code": "200", "msg": "suc", "content": pageInfo};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://www.123ku.com/index.php?m=vod-search" currentpagecountholder="%count%"
-    searchPostData="wd=%keyword%&submit=search" searchkeywordholder="%keyword%">
-    <script>
-      function search() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.123ku.com";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-</site>
-
-
-
-<site>
   <packgetname>com.bajiezy</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="八戒资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k17104701.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP717/k23982396.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://zy.bajieziyuan.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -9077,7 +8832,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="最快资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17257025.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k17104701.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.zuikzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -9332,7 +9087,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="速播资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17271574.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17257025.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="https://www.subo8988.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -9577,7 +9332,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="百万资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17219532.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17271574.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://baiwanzy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -9818,11 +9573,709 @@
 
 
 <site>
+  <packgetname>com.zuidazy</packgetname>
+  <minapi>1</minapi>
+  <author name="noName" avatarUrl="" description="demo" donateUrl="" />
+  <info type="801" versionCode="003" versionName="v3.0" name="最大资源" description="群共享"
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17219532.jpg" subscribeUrl="" />
+
+  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+    url="http://www.zuidazy1.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.zuidazy1.net";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+    url="http://www.zuidazy1.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.zuidazy1.net";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+    url="http://www.zuidazy1.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.zuidazy1.net";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+    url="http://www.zuidazy1.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.zuidazy1.net";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
+    url="http://www.zuidazy1.net/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.zuidazy1.net";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="102" jsmethod="detail();">
+    <script>
+      function detail() {
+        var posterUrl;
+        var pageTitle = $("div.vodInfo").find("h2").text();
+        var allText = $("div.ibox.playBox").next().find("div.vodplayinfo").first().text().trim();
+        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+
+        var actor = "";
+        var actorTmp = $("div.vodinfobox li").toArray();
+        for (var i = 0; i < actorTmp.length; i++) {
+          var stTmp = $(actorTmp[i]).text();
+          if (stTmp.indexOf("类型") != -1 || stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1 || stTmp.indexOf("地区") != -1) {
+            actor = stTmp + "<br>" + actor;
+          }
+        }
+
+        var allDownList = new Array();
+        var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
+        var allDownListTmp = $("div.vodplayinfo ul").toArray();
+        for (var i = 1; i < allDownListTmp.length; i++) {
+          var titleSort = $(allDownTitleTmp[i - 1]).find("span").text();
+          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+          var oneDownList = new Array();
+          for (var j = 0; j < downloadTmp.length; j++) {
+            var tmp = $(downloadTmp[j]).text();
+            var title = tmp.substring(0, tmp.indexOf("$"));
+            var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
+            var downloadBean = {
+              "name": title,
+              "href": href
+            };
+            oneDownList.push(downloadBean);
+          }
+          var pageDetail = {
+            "title": titleSort,
+            "downlistInfos": oneDownList
+          };
+          allDownList.push(pageDetail);
+        }
+
+        var pageInfo = {
+          "posterUrl": posterUrl,
+          "title": pageTitle,
+          "allText": allText,
+          "shortText": shortText,
+          "summary": actor,
+          "downlist": allDownList
+        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+    url="http://www.zuidazy1.net/index.php?m=vod-search" currentpagecountholder="%count%"
+    searchPostData="wd=%keyword%&submit=search" searchkeywordholder="%keyword%">
+    <script>
+      function search() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.zuidazy1.net";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+</site>
+
+
+
+<site>
+    <packgetname>com.lajiaozy</packgetname>
+    <minapi>1</minapi>
+    <author name="noName" avatarUrl="" description="demo" donateUrl="" />
+    <info type="801" versionCode="001" versionName="v1.0" name="辣椒资源" description="上车了"
+      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17172801.jpg" subscribeUrl="" />
+
+     <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
+       url="http://lajiaozy1.com/index.php/vod/type/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://lajiaozy1.com";
+                    var href = $(this).find("a.address").attr("href");
+                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+      </script>
+      </rule>
+
+      <rule type="101" typeonclickaction="" subtypename="欧美" jsmethod="list();"
+        url="http://lajiaozy1.com/index.php/vod/type/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": ""};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://lajiaozy1.com";
+                    var href = $(this).find("a.address").attr("href");
+                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+      </script>
+      </rule>
+
+      <rule type="101" typeonclickaction="" subtypename="日韩" jsmethod="list();"
+        url="http://lajiaozy1.com/index.php/vod/type/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": ""};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://lajiaozy1.com";
+                    var href = $(this).find("a.address").attr("href");
+                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+      </script>
+      </rule>
+
+      <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+        url="http://lajiaozy1.com/index.php/vod/type/id/21/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": ""};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://lajiaozy1.com";
+                    var href = $(this).find("a.address").attr("href");
+                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+      </script>
+      </rule>
+
+
+      <rule type="102" jsmethod="detail();">
+      <script>
+            function detail() {
+                var posterUrl;
+                var pageTitle = $("h4.list-title").text().replace("影片名称：", "");
+                var allText = "";
+                var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+
+                var actor = "";
+                var actorTmp = $("div.right ").toArray();
+                for (var i = 0; i < actorTmp.length; i++) {
+                    var stTmp = $(actorTmp[i]).text().trim();
+                    actor = stTmp + "<br>" + actor;
+                }
+
+                var allDownList = new Array();
+                var allDownTitleTmp = $("div.new_right a").toArray();
+                var allDownListTmp = $("div.yyxf").toArray();
+                for (var i = 0; i < allDownListTmp.length; i++) {
+                    var titleSort = $(allDownTitleTmp[i]).text();
+                    var downloadTmp = $(allDownListTmp[i]).find("a");
+                    var oneDownList = new Array();
+                    for (var j = 0; j < downloadTmp.length; j++) {
+                        var tmp = $(downloadTmp[j]).text();
+                        var downloadBean = {
+                            "name": tmp,
+                            "href": tmp
+                        };
+                        oneDownList.push(downloadBean);
+                    }
+                    var pageDetail = {
+                        "title": titleSort,
+                        "downlistInfos": oneDownList
+                    };
+                    allDownList.push(pageDetail);
+                }
+
+                var pageInfo = {
+                    "posterUrl": posterUrl,
+                    "title": pageTitle,
+                    "allText": allText,
+                    "shortText": shortText,
+                    "summary": actor,
+                    "downlist": allDownList
+                };
+                var response = {"code": "200", "msg": "suc", "content": pageInfo};
+                return response;
+            }
+      </script>
+      </rule>
+
+      <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+        url="http://lajiaozy1.com/index.php/vod/search.html"
+        currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
+      <script>
+            function search() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": ""};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://lajiaozy1.com";
+                    var href = $(this).find("a.address").attr("href");
+                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+      </script>
+      </rule>
+</site>
+
+
+
+<site>
+  <packgetname>com.123ku</packgetname>
+  <minapi>1</minapi>
+  <author name="YI" avatarUrl="" description="自用" donateUrl="" />
+  <info type="801" versionCode="002" versionName="v2.0" name="123资源" description="不公开"
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316677.jpg" subscribeUrl="" />
+
+  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+    url="http://www.123ku.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.123ku.com";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+    url="http://www.123ku.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.123ku.com";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+    url="http://www.123ku.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.123ku.com";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+    url="http://www.123ku.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.123ku.com";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
+    url="http://www.123ku.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
+    searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.123ku.com";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="102" jsmethod="detail();">
+    <script>
+      function detail() {
+        var posterUrl;
+        var pageTitle = $("div.vodInfo").find("h2").text();
+        var allText = $("div.ibox.playBox").next().find("div.vodplayinfo").first().text().trim();
+        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+
+        var actor = "";
+        var actorTmp = $("div.vodinfobox li").toArray();
+        for (var i = 0; i < actorTmp.length; i++) {
+          var stTmp = $(actorTmp[i]).text();
+          if (stTmp.indexOf("类型") != -1 || stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1 || stTmp.indexOf("地区") != -1) {
+            actor = stTmp + "<br>" + actor;
+          }
+        }
+
+        var allDownList = new Array();
+        var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
+        var allDownListTmp = $("div.vodplayinfo ul").toArray();
+        for (var i = 1; i < allDownListTmp.length; i++) {
+          var titleSort = $(allDownTitleTmp[i - 1]).find("span").text();
+          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+          var oneDownList = new Array();
+          for (var j = 0; j < downloadTmp.length; j++) {
+            var tmp = $(downloadTmp[j]).text();
+            var title = tmp.substring(0, tmp.indexOf("$"));
+            var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
+            var downloadBean = {
+              "name": title,
+              "href": href
+            };
+            oneDownList.push(downloadBean);
+          }
+          var pageDetail = {
+            "title": titleSort,
+            "downlistInfos": oneDownList
+          };
+          allDownList.push(pageDetail);
+        }
+
+        var pageInfo = {
+          "posterUrl": posterUrl,
+          "title": pageTitle,
+          "allText": allText,
+          "shortText": shortText,
+          "summary": actor,
+          "downlist": allDownList
+        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+    url="http://www.123ku.com/index.php?m=vod-search" currentpagecountholder="%count%"
+    searchPostData="wd=%keyword%&submit=search" searchkeywordholder="%keyword%">
+    <script>
+      function search() {
+        var datalist = $("div.xing_vb").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.123ku.com";
+          var href = $(this).find("span.xing_vb4").find("a").attr("href");
+          var title = $(this).find("span.xing_vb4").find("a").text();
+          var imgurl;
+          var content = $(this).find("span.xing_vb5").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+</site>
+
+
+
+<site>
   <packgetname>com.131zy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="003" versionName="v3.0" name="131资源" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17172801.jpg" subscribeUrl="" />
+    iconUrl="" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://131zy.vip/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -10517,251 +10970,6 @@
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("td").next().text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-</site>
-
-
-
-<site>
-  <packgetname>com.zuidazy</packgetname>
-  <minapi>1</minapi>
-  <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v3.0" name="最大资源" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316677.jpg" subscribeUrl="" />
-
-  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.zuidazy1.net";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.zuidazy1.net";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.zuidazy1.net";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.zuidazy1.net";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.zuidazy1.net";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
-          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("伦理") == -1) {
-            if (title.length > 0) {
-              tmparray.push(obj);
-            }
-          }
-        });
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="102" jsmethod="detail();">
-    <script>
-      function detail() {
-        var posterUrl;
-        var pageTitle = $("div.vodInfo").find("h2").text();
-        var allText = $("div.ibox.playBox").next().find("div.vodplayinfo").first().text().trim();
-        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
-        var actor = "";
-        var actorTmp = $("div.vodinfobox li").toArray();
-        for (var i = 0; i < actorTmp.length; i++) {
-          var stTmp = $(actorTmp[i]).text();
-          if (stTmp.indexOf("类型") != -1 || stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1 || stTmp.indexOf("地区") != -1) {
-            actor = stTmp + "<br>" + actor;
-          }
-        }
-
-        var allDownList = new Array();
-        var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
-        var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).find("span").text();
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-          var oneDownList = new Array();
-          for (var j = 0; j < downloadTmp.length; j++) {
-            var tmp = $(downloadTmp[j]).text();
-            var title = tmp.substring(0, tmp.indexOf("$"));
-            var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
-            oneDownList.push(downloadBean);
-          }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
-          allDownList.push(pageDetail);
-        }
-
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle,
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor,
-          "downlist": allDownList
-        };
-        var response = {"code": "200", "msg": "suc", "content": pageInfo};
-        return response;
-      }
-    </script>
-  </rule>
-
-  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://www.zuidazy1.net/index.php?m=vod-search" currentpagecountholder="%count%"
-    searchPostData="wd=%keyword%&submit=search" searchkeywordholder="%keyword%">
-    <script>
-      function search() {
-        var datalist = $("div.xing_vb").find("li");
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        $(datalist).each(function () {
-          var host = "http://www.zuidazy1.net";
-          var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
-          var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
           if (content.indexOf("伦理") == -1) {
             if (title.length > 0) {
@@ -12852,214 +13060,6 @@
       }
     </script>
   </rule>
-</site>
-
-
-
-<site>
-    <packgetname>com.lajiaozy</packgetname>
-    <minapi>1</minapi>
-    <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-    <info type="801" versionCode="001" versionName="v1.0" name="辣椒资源" description="上车了"
-      iconUrl="" subscribeUrl="" />
-
-     <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
-       url="http://lajiaozy1.com/index.php/vod/type/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
-      <script>
-            function list() {
-                var datalist = $("ul.videoContent").find("li");
-                if (datalist.length == 0) {
-                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
-                    return response;
-                }
-                var tmparray = new Array();
-                $(datalist).each(function() {
-                    var host = "http://lajiaozy1.com";
-                    var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
-                    var imgurl;
-                    var content = $(this).find("span.category").text();
-                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
-                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
-                        if (title.length > 0) {
-                            tmparray.push(obj);
-                        }
-                    }
-                });
-                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-                return response;
-            }
-      </script>
-      </rule>
-
-      <rule type="101" typeonclickaction="" subtypename="欧美" jsmethod="list();"
-        url="http://lajiaozy1.com/index.php/vod/type/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
-      <script>
-            function list() {
-                var datalist = $("ul.videoContent").find("li");
-                if (datalist.length == 0) {
-                    var response = {"code": "200", "msg": "suc", "content": ""};
-                    return response;
-                }
-                var tmparray = new Array();
-                $(datalist).each(function() {
-                    var host = "http://lajiaozy1.com";
-                    var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
-                    var imgurl;
-                    var content = $(this).find("span.category").text();
-                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
-                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
-                        if (title.length > 0) {
-                            tmparray.push(obj);
-                        }
-                    }
-                });
-                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-                return response;
-            }
-      </script>
-      </rule>
-
-      <rule type="101" typeonclickaction="" subtypename="日韩" jsmethod="list();"
-        url="http://lajiaozy1.com/index.php/vod/type/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
-      <script>
-            function list() {
-                var datalist = $("ul.videoContent").find("li");
-                if (datalist.length == 0) {
-                    var response = {"code": "200", "msg": "suc", "content": ""};
-                    return response;
-                }
-                var tmparray = new Array();
-                $(datalist).each(function() {
-                    var host = "http://lajiaozy1.com";
-                    var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
-                    var imgurl;
-                    var content = $(this).find("span.category").text();
-                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
-                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
-                        if (title.length > 0) {
-                            tmparray.push(obj);
-                        }
-                    }
-                });
-                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-                return response;
-            }
-      </script>
-      </rule>
-
-      <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-        url="http://lajiaozy1.com/index.php/vod/type/id/21/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
-      <script>
-            function list() {
-                var datalist = $("ul.videoContent").find("li");
-                if (datalist.length == 0) {
-                    var response = {"code": "200", "msg": "suc", "content": ""};
-                    return response;
-                }
-                var tmparray = new Array();
-                $(datalist).each(function() {
-                    var host = "http://lajiaozy1.com";
-                    var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
-                    var imgurl;
-                    var content = $(this).find("span.category").text();
-                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
-                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
-                        if (title.length > 0) {
-                            tmparray.push(obj);
-                        }
-                    }
-                });
-                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-                return response;
-            }
-      </script>
-      </rule>
-
-
-      <rule type="102" jsmethod="detail();">
-      <script>
-            function detail() {
-                var posterUrl;
-                var pageTitle = $("h4.list-title").text().replace("影片名称：", "");
-                var allText = "";
-                var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
-                var actor = "";
-                var actorTmp = $("div.right ").toArray();
-                for (var i = 0; i < actorTmp.length; i++) {
-                    var stTmp = $(actorTmp[i]).text().trim();
-                    actor = stTmp + "<br>" + actor;
-                }
-
-                var allDownList = new Array();
-                var allDownTitleTmp = $("div.new_right a").toArray();
-                var allDownListTmp = $("div.yyxf").toArray();
-                for (var i = 0; i < allDownListTmp.length; i++) {
-                    var titleSort = $(allDownTitleTmp[i]).text();
-                    var downloadTmp = $(allDownListTmp[i]).find("a");
-                    var oneDownList = new Array();
-                    for (var j = 0; j < downloadTmp.length; j++) {
-                        var tmp = $(downloadTmp[j]).text();
-                        var downloadBean = {
-                            "name": tmp,
-                            "href": tmp
-                        };
-                        oneDownList.push(downloadBean);
-                    }
-                    var pageDetail = {
-                        "title": titleSort,
-                        "downlistInfos": oneDownList
-                    };
-                    allDownList.push(pageDetail);
-                }
-
-                var pageInfo = {
-                    "posterUrl": posterUrl,
-                    "title": pageTitle,
-                    "allText": allText,
-                    "shortText": shortText,
-                    "summary": actor,
-                    "downlist": allDownList
-                };
-                var response = {"code": "200", "msg": "suc", "content": pageInfo};
-                return response;
-            }
-      </script>
-      </rule>
-
-      <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-        url="http://lajiaozy1.com/index.php/vod/search.html"
-        currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
-      <script>
-            function search() {
-                var datalist = $("ul.videoContent").find("li");
-                if (datalist.length == 0) {
-                    var response = {"code": "200", "msg": "suc", "content": ""};
-                    return response;
-                }
-                var tmparray = new Array();
-                $(datalist).each(function() {
-                    var host = "http://lajiaozy1.com";
-                    var href = $(this).find("a.address").attr("href");
-                    var title = $(this).find("a.videoName").text().replace(/\s/g, "").trim();
-                    var imgurl;
-                    var content = $(this).find("span.category").text();
-                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
-                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
-                        if (title.length > 0) {
-                            tmparray.push(obj);
-                        }
-                    }
-                });
-                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-                return response;
-            }
-      </script>
-      </rule>
 </site>
 
 
