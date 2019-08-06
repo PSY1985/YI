@@ -11389,7 +11389,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="超级资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15262956.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15636592.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://chaojizy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -11634,7 +11634,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="值资源站" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15660012.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15660035.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.ziyuanpian.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -11849,7 +11849,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="OK资源" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15481398.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15792140.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.jisudhw.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -12094,7 +12094,7 @@
      <minapi>1</minapi>
      <author name="YI" avatarUrl="" description="自用" donateUrl="" />
      <info type="801" versionCode="001" versionName="v1.0" name="35资源" description="上车了"
-        iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15713538.jpg" subscribeUrl="" />
+        iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15713550.jpg" subscribeUrl="" />
 
      <rule type="101" typeonclickaction="" subtypename="国产" jsmethod="list();"
        url="http://www.35zy22.com/list-1-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
@@ -12334,7 +12334,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="最新资源" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15746781.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15746818.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.zuixinzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -12549,7 +12549,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="永久资源" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15616217.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15616241.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.yongjiuzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
