@@ -10238,7 +10238,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="002" versionName="v2.0" name="123资源" description="不公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14904500.jpg" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP129/k22689968.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.123ku.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
