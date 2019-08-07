@@ -12774,7 +12774,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="003" versionName="v3.0" name="最大资源" description="群共享"
-    iconUrl="" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15636538.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.zuidazy1.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -13019,7 +13019,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="哈酷资源" description="未公开"
-    iconUrl="" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15660012.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://haku77.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -13264,7 +13264,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="605资源" description="未公开"
-    iconUrl="" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15792121.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.605zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -13479,7 +13479,7 @@
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
   <info type="801" versionCode="001" versionName="v1.0" name="197资源" description="不公开"
-    iconUrl="" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15713538.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.1977zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
@@ -13724,7 +13724,7 @@
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
   <info type="801" versionCode="009" versionName="v9.0" name="极速资源" description="群共享"
-    iconUrl="" subscribeUrl="" />
+    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15746781.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
     url="http://www.caijizy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
