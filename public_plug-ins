@@ -4529,189 +4529,6 @@
 
 
 
-<site> 
-   <packgetname>com.supdy</packgetname> 
-   <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="supdy" description="群共享"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP592/k22040576.jpg" subscribeUrl="" /> 
-
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.supdy.com/video/type1/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.supdy.com/video/type2/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.supdy.com/video/type3/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.supdy.com/video/type4/-----hits-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": tmparray};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="102" jsmethod="detail();"> 
-     <script>
-      function detail() {
-        var host = "http://m.supdy.com";
-        var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
-        var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
-        var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
-        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-        var actor;
-        var actorTitle = $("div.media-body dt").toArray();
-        var actorText = $("div.media-body dd").toArray();
-        for (var i = 0; i < actorTitle.length; i++) {
-          var stTmp;
-          stTmp = actorTitle[i].innerHTML;
-          if (stTmp.indexOf("主演") != -1) {
-            continue;
-          }
-          var stDetail = actorText[i].getElementsByTagName("a");
-          for (var j = 0; j < stDetail.length; j++) {
-            var stDetailTmp = stDetail[j].innerHTML;
-            stTmp = stTmp + " " + stDetailTmp;
-          }
-          actor = actor + "<br>" + stTmp;
-        }
-        var allDownList = new Array();
-        var allDownTitleTmp = $("div.page-header.ff-playurl-line h2.text-green").toArray();
-        var allDownListTmp = $("div.tab-pane.fade.in.active.vod-nav-play ul").toArray();
-        for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerText.replace("(不能播放点击切换来源)", "");
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-          var oneDownList = new Array();
-          for (var j = 0; j < downloadTmp.length; j++) {
-            var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-            var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
-            var downloadBean = {"name": title, "href": href};
-            oneDownList.push(downloadBean);
-          }
-          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
-          allDownList.push(pageDetail);
-        }
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle.replace("免费观看", ""),
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor.replace("undefined", ""),
-          "downlist": allDownList
-        };
-        var response = {"code": "200", "msg": "suc", "content": pageInfo};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.supdy.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
-     <script>
-      function search() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-140 li").toArray();
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-     </script> 
-   </rule> 
-</site>
-
-
 <site>
   <packgetname>com.131zy</packgetname>
   <minapi>1</minapi>
@@ -4737,7 +4554,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -4767,7 +4584,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -4797,7 +4614,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -4828,7 +4645,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -4913,7 +4730,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -4953,7 +4770,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -4983,7 +4800,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5013,7 +4830,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5043,7 +4860,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5128,7 +4945,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5168,7 +4985,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5198,7 +5015,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5228,7 +5045,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5258,7 +5075,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5343,7 +5160,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5383,7 +5200,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5413,7 +5230,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5443,7 +5260,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5473,7 +5290,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5558,7 +5375,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5598,7 +5415,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5628,7 +5445,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5658,7 +5475,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5688,7 +5505,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5773,7 +5590,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5813,7 +5630,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5843,7 +5660,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5873,7 +5690,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5903,7 +5720,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -5998,7 +5815,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6038,7 +5855,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6068,7 +5885,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6098,7 +5915,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6128,7 +5945,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6213,7 +6030,7 @@
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6253,7 +6070,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6297,7 +6114,7 @@
             "content": content,
             "itemType": 1
           };
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6341,7 +6158,7 @@
             "content": content,
             "itemType": 1
           };
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6385,7 +6202,7 @@
             "content": content,
             "itemType": 1
           };
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -6488,7 +6305,7 @@
           var imgurl;
           var content = $(this).find("td").next().text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1 {
+          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1 && content.indexOf("视频秀") == -1 && content.indexOf("美女写真") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
