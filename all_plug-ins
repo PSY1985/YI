@@ -1455,8 +1455,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP513/k24901466.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="https://m.youbaysw.com/dianying/p%count%.html"
-    currentpagecountholder="%count%" searchkeywordholder="">
+    url="https://m.youbaysw.com/dianying/p%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var host = "https://m.youbaysw.com";
@@ -1481,8 +1480,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="https://m.youbaysw.com/dianshiju/p%count%.html"
-    currentpagecountholder="%count%" searchkeywordholder="">
+    url="https://m.youbaysw.com/dianshiju/p%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var host = "https://m.youbaysw.com";
@@ -1507,8 +1505,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="https://m.youbaysw.com/dongman/p%count%.html"
-    currentpagecountholder="%count%" searchkeywordholder="">
+    url="https://m.youbaysw.com/dongman/p%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var host = "https://m.youbaysw.com";
@@ -1533,8 +1530,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="https://m.youbaysw.com/zongyi/p%count%.html"
-    currentpagecountholder="%count%" searchkeywordholder="">
+    url="https://m.youbaysw.com/zongyi/p%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var host = "https://m.youbaysw.com";
@@ -1559,8 +1555,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="https://m.youbaysw.com/fulipian/p%count%.html"
-    currentpagecountholder="%count%" searchkeywordholder="">
+    url="https://m.youbaysw.com/fulipian/p%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var host = "https://m.youbaysw.com";
@@ -1639,8 +1634,7 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="https://m.youbaysw.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="%keyword%">
+    url="https://m.youbaysw.com/index.php?s=vod-search-name-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var host = "https://m.youbaysw.com";
@@ -6581,8 +6575,7 @@
    </rule> 
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://m.smdy18.com/index.php?m=vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="%keyword%">
+    url="http://m.smdy18.com/index.php?m=vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var host = "http://m.smdy18.com";
@@ -8552,8 +8545,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP717/k23982396.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://zy.bajieziyuan.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8582,8 +8574,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://zy.bajieziyuan.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8612,8 +8603,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://zy.bajieziyuan.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8642,8 +8632,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://zy.bajieziyuan.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8672,8 +8661,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-46-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://zy.bajieziyuan.com/?m=vod-type-id-46-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8761,8 +8749,7 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://zy.bajieziyuan.com/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%"
-    searchkeywordholder="%keyword%">
+    url="http://zy.bajieziyuan.com/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8801,8 +8788,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP995/k17104701.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.zuikzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuikzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8831,8 +8817,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.zuikzy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuikzy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8861,8 +8846,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.zuikzy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuikzy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8891,8 +8875,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://www.zuikzy.cc/?m=vod-type-id-19-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuikzy.cc/?m=vod-type-id-19-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -8921,8 +8904,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="街拍" jsmethod="list();"
-    url="http://www.zuikzy.cc/?m=vod-type-id-22-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuikzy.cc/?m=vod-type-id-22-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -9010,8 +8992,7 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://www.zuikzy.cc/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%"
-    searchkeywordholder="%keyword%">
+    url="http://www.zuikzy.cc/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -9050,8 +9031,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17257025.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="https://www.subo8988.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.subo8988.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9080,8 +9060,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="https://www.subo8988.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.subo8988.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9110,8 +9089,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="https://www.subo8988.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.subo8988.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9140,8 +9118,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="https://www.subo8988.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.subo8988.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9170,8 +9147,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
-    url="https://www.subo8988.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.subo8988.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9289,8 +9265,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17271574.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://baiwanzy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://baiwanzy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9319,8 +9294,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://baiwanzy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://baiwanzy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9349,8 +9323,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://baiwanzy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://baiwanzy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9379,8 +9352,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="写真" jsmethod="list();"
-    url="http://baiwanzy.com/?m=vod-type-id-21-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://baiwanzy.com/?m=vod-type-id-21-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9409,8 +9381,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://baiwanzy.com/?m=vod-type-id-26-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://baiwanzy.com/?m=vod-type-id-26-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9528,8 +9499,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17219532.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://kubozy.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://kubozy.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9558,8 +9528,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://kubozy.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://kubozy.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9588,8 +9557,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://kubozy.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://kubozy.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9618,8 +9586,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://kubozy.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://kubozy.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -9648,8 +9615,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://kubozy.net/?m=vod-type-id-14-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://kubozy.net/?m=vod-type-id-14-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10171,8 +10137,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP129/k22689968.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.123ku.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10201,8 +10166,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.123ku.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10231,8 +10195,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.123ku.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10261,8 +10224,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.123ku.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10291,8 +10253,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
-    url="http://www.123ku.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.123ku.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10410,8 +10371,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316677.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://131zy.vip/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://131zy.vip/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10440,8 +10400,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://131zy.vip/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://131zy.vip/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10470,8 +10429,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://131zy.vip/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://131zy.vip/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10501,8 +10459,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://131zy.vip/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://131zy.vip/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10531,8 +10488,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://131zy.vip/?m=vod-type-id-23-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://131zy.vip/?m=vod-type-id-23-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10650,8 +10606,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP649/k22637150.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://135zy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://135zy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10680,8 +10635,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://135zy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://135zy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10710,8 +10664,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://135zy.cc/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://135zy.cc/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10740,8 +10693,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://135zy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://135zy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10770,8 +10722,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://135zy.cc/?m=vod-type-id-19-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://135zy.cc/?m=vod-type-id-19-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10889,8 +10840,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP446/k22040607.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://api.172zy.xyz/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://api.172zy.xyz/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10919,8 +10869,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://api.172zy.xyz/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://api.172zy.xyz/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10949,8 +10898,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://api.172zy.xyz/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://api.172zy.xyz/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -10979,8 +10927,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://api.172zy.xyz/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://api.172zy.xyz/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11009,8 +10956,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://api.172zy.xyz/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://api.172zy.xyz/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11128,8 +11074,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP586/k22506220.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="https://www.398zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.398zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11158,8 +11103,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="https://www.398zy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.398zy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11188,8 +11132,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="https://www.398zy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.398zy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11218,8 +11161,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="https://www.398zy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="https://www.398zy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11337,8 +11279,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15636592.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://chaojizy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://chaojizy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11367,8 +11308,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://chaojizy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://chaojizy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11397,8 +11337,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://chaojizy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://chaojizy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11427,8 +11366,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://chaojizy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://chaojizy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11457,8 +11395,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://chaojizy.com/?m=vod-type-id-18-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://chaojizy.com/?m=vod-type-id-18-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11576,8 +11513,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15660035.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.ziyuanpian.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.ziyuanpian.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11606,8 +11542,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.ziyuanpian.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.ziyuanpian.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11636,8 +11571,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.ziyuanpian.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.ziyuanpian.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11666,8 +11600,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.ziyuanpian.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.ziyuanpian.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11785,8 +11718,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15792140.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.jisudhw.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.jisudhw.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11815,8 +11747,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.jisudhw.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.jisudhw.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11845,8 +11776,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.jisudhw.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.jisudhw.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11875,8 +11805,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.jisudhw.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.jisudhw.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -11905,8 +11834,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://www.jisudhw.com/?m=vod-type-id-22-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.jisudhw.com/?m=vod-type-id-22-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12258,8 +12186,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15746818.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.zuixinzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuixinzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12288,8 +12215,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.zuixinzy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuixinzy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12318,8 +12244,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.zuixinzy.cc/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuixinzy.cc/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12348,8 +12273,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.zuixinzy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuixinzy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12467,8 +12391,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15616241.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.yongjiuzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.yongjiuzy.cc/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -12497,8 +12420,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.yongjiuzy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.yongjiuzy.cc/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -12527,8 +12449,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.yongjiuzy.cc/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.yongjiuzy.cc/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -12557,8 +12478,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.yongjiuzy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.yongjiuzy.cc/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -12646,8 +12566,8 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://www.yongjiuzy.cc/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%"
-    searchkeywordholder="%keyword%">
+    url="http://www.yongjiuzy.cc/index.php?m=vod-search" currentpagecountholder="%count%"
+    searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -12686,8 +12606,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15636538.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuidazy1.net/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12716,8 +12635,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuidazy1.net/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12746,8 +12664,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuidazy1.net/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12776,8 +12693,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuidazy1.net/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12806,8 +12722,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://www.zuidazy1.net/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.zuidazy1.net/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12925,8 +12840,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15660012.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://haku77.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://haku77.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12955,8 +12869,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://haku77.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://haku77.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -12985,8 +12898,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://haku77.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://haku77.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13015,8 +12927,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://haku77.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://haku77.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13045,8 +12956,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://haku77.com/?m=vod-type-id-26-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://haku77.com/?m=vod-type-id-26-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13164,8 +13074,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15792121.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.605zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.605zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13194,8 +13103,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.605zy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.605zy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13224,8 +13132,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.605zy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.605zy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13254,8 +13161,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.605zy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.605zy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13373,8 +13279,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15713538.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.1977zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.1977zy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13403,8 +13308,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.1977zy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.1977zy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13433,8 +13337,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.1977zy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.1977zy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13463,8 +13366,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.1977zy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.1977zy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13493,8 +13395,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://www.1977zy.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.1977zy.com/?m=vod-type-id-16-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13612,8 +13513,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP994/k15746781.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://mahuazy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13642,8 +13542,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://mahuazy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13672,8 +13571,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://mahuazy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13702,8 +13600,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://mahuazy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -13821,8 +13718,7 @@
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15616217.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://www.caijizy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.caijizy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -13855,8 +13751,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://www.caijizy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.caijizy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -13899,8 +13794,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://www.caijizy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.caijizy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -13943,8 +13837,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://www.caijizy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
+    url="http://www.caijizy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -14046,8 +13939,8 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://www.caijizy.com/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%"
-    searchkeywordholder="%keyword%">
+    url="http://www.caijizy.com/index.php?m=vod-search" currentpagecountholder="%count%"
+    searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
