@@ -1,4 +1,4 @@
-<site> 
+<site>
    <packgetname>com.kuaikan66</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="" donateUrl="" /> 
@@ -799,210 +799,200 @@
 
 
 <site>
-  <packgetname>com.baishixi</packgetname>
-  <minapi>1</minapi>
-  <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v3.0" name="百事影院" description="群共享"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP707/k20139669.jpg" subscribeUrl="" />
+   <packgetname>com.baishixi</packgetname>
+   <minapi>1</minapi>
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
+   <info type="801" versionCode="003" versionName="v3.0" name="百事影院" description="群共享"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP707/k20139669.jpg" subscribeUrl="" />
 
-  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     <script>
+       function list() {
+         var root = document.getElementById("vod_list");
+         var datalist = root.getElementsByTagName("li");
 
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("a")[0].innerText;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
+         if (datalist.length == 0) {
+           var response = {"code": "200", "msg": "suc", "content": ""};
+           return response;
+         }
+         var tmparray = new Array();
+         for (var i = 0; i < datalist.length; i++) {
+           var href = datalist[i].getElementsByTagName("a")[0].href;
+           var title = datalist[i].getElementsByTagName("img")[0].alt;
+           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+           var content = datalist[i].getElementsByTagName("a")[0].innerText;
+           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+           tmparray.push(obj);
+         }
+         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+         return response;
+       }
+     </script>
+   </rule>
 
-  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="https://m.baishixi.com/tv/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="https://m.baishixi.com/tv/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     <script>
+       function list() {
+         var root = document.getElementById("vod_list");
+         var datalist = root.getElementsByTagName("li");
 
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("a")[0].innerText;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
+         if (datalist.length == 0) {
+           var response = {"code": "200", "msg": "suc", "content": ""};
+           return response;
+         }
+         var tmparray = new Array();
+         for (var i = 0; i < datalist.length; i++) {
+           var href = datalist[i].getElementsByTagName("a")[0].href;
+           var title = datalist[i].getElementsByTagName("img")[0].alt;
+           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+           var content = datalist[i].getElementsByTagName("a")[0].innerText;
+           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+           tmparray.push(obj);
+         }
+         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+         return response;
+       }
+     </script>
+   </rule>
 
-  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="https://m.baishixi.com/anime/index_%count%_______1.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://m.baishixi.com/anime/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     <script>
+       function list() {
+         var root = document.getElementById("vod_list");
+         var datalist = root.getElementsByTagName("li");
 
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("a")[0].innerText;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
+         if (datalist.length == 0) {
+           var response = {"code": "200", "msg": "suc", "content": ""};
+           return response;
+         }
+         var tmparray = new Array();
+         for (var i = 0; i < datalist.length; i++) {
+           var href = datalist[i].getElementsByTagName("a")[0].href;
+           var title = datalist[i].getElementsByTagName("img")[0].alt;
+           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+           var content = datalist[i].getElementsByTagName("a")[0].innerText;
+           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+           tmparray.push(obj);
+         }
+         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+         return response;
+       }
+     </script>
+   </rule>
 
-  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="https://m.baishixi.com/variety/index_%count%_______1.html" currentpagecountholder="%count%"
-    searchkeywordholder="">
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://m.baishixi.com/variety/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
+     <script>
+       function list() {
+         var root = document.getElementById("vod_list");
+         var datalist = root.getElementsByTagName("li");
 
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("a")[0].innerText;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
+         if (datalist.length == 0) {
+           var response = {"code": "200", "msg": "suc", "content": ""};
+           return response;
+         }
+         var tmparray = new Array();
+         for (var i = 0; i < datalist.length; i++) {
+           var href = datalist[i].getElementsByTagName("a")[0].href;
+           var title = datalist[i].getElementsByTagName("img")[0].alt;
+           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+           var content = datalist[i].getElementsByTagName("a")[0].innerText;
+           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+           tmparray.push(obj);
+         }
+         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+         return response;
+       }
+     </script>
+   </rule>
 
-  <rule type="102" jsmethod="detail();">
-    <script>
-      function detail() {
-        var host = "https://m.baishixi.com";
-        var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
-        var pageTitle = $("img.loading").get(0).getAttribute("alt");
-        var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
-        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+   <rule type="102" jsmethod="detail();">
+     <script>
+       function detail() {
+         var host = "https://m.baishixi.com";
+         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
+         var pageTitle = $("img.loading").get(0).getAttribute("alt");
+         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
+         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
 
-        var actor;
-        var actorTmp = $("div.vod-n-l:first p").toArray();
-        for (var i = 0; i < actorTmp.length; i++) {
-          var stTmp;
-          stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
-          if (stTmp.indexOf("主演") != -1)
-            continue;
-          if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
-            stTmp = actorTmp[i].innerHTML;
-          }
-          var stDetail = actorTmp[i].getElementsByTagName("a");
-          for (var j = 0; j < stDetail.length; j++) {
-            var stDetailTmp = stDetail[j].innerHTML;
-            stTmp = stTmp + " " + stDetailTmp;
-          }
-          actor = actor + "<br>" + stTmp;
-        }
+         var actor;
+         var actorTmp = $("div.vod-n-l:first p").toArray();
+         for (var i = 0; i < actorTmp.length; i++) {
+           var stTmp;
+           stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
+           if (stTmp.indexOf("主演") != -1)
+             continue;
+           if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
+             stTmp = actorTmp[i].innerHTML;
+           }
+           var stDetail = actorTmp[i].getElementsByTagName("a");
+           for (var j = 0; j < stDetail.length; j++) {
+             var stDetailTmp = stDetail[j].innerHTML;
+             stTmp = stTmp + " " + stDetailTmp;
+           }
+           actor = actor + "<br>" + stTmp;
+         }
 
-        var allDownList = new Array();
-        var allDownTitleTmp = $("div.play-title a").toArray();
-        var allDownListTmp = $(".play-box").toArray();
-        for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML;
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-          var oneDownList = new Array();
-          for (var j = 0; j < downloadTmp.length; j++) {
-            var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-            var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("alt");
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
-            oneDownList.push(downloadBean);
-          }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
-          allDownList.push(pageDetail);
-        }
+         var allDownList = new Array();
+         var allDownTitleTmp = $("div.play-title a").toArray();
+         var allDownListTmp = $(".play-box").toArray();
+         for (var i = 0; i < allDownListTmp.length; i++) {
+           var titleSort = allDownTitleTmp[i].innerHTML;
+           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+           var oneDownList = new Array();
+           for (var j = 0; j < downloadTmp.length; j++) {
+             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
+             var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("alt");
+             var downloadBean = {"name": title, "href": href};
+             oneDownList.push(downloadBean);
+           }
+           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
+           allDownList.push(pageDetail);
+         }
 
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle,
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor.replace("undefined", ""),
-          "downlist": allDownList
-        };
-        var response = {"code": "200", "msg": "suc", "content": pageInfo};
-        return response;
-      }
-    </script>
-  </rule>
+         var pageInfo = {
+           "posterUrl": posterUrl,
+           "title": pageTitle,
+           "allText": allText,
+           "shortText": shortText,
+           "summary": actor.replace("undefined", ""),
+           "downlist": allDownList
+         };
+         var response = {"code": "200", "msg": "suc", "content": pageInfo};
+         return response;
+       }
+     </script>
+   </rule>
 
-  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="https://m.baishixi.com/vod-search-wd-%keyword%-%count%.html" currentpagecountholder="%count%"
-    searchkeywordholder="%keyword%">
-    <script>
-      function search() {
-        var host = "https://m.baishixi.com";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="https://m.baishixi.com/vod-search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
+     <script>
+       function search() {
+         var host = "https://m.baishixi.com";
+         var root = document.getElementById("resize_list");
+         var datalist = root.getElementsByTagName("li");
 
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script>
-  </rule>
+         if (datalist.length == 0) {
+           var response = {"code": "200", "msg": "suc", "content": ""};
+           return response;
+         }
+         var tmparray = new Array();
+         for (var i = 0; i < datalist.length; i++) {
+           var href = datalist[i].getElementsByTagName("a")[0].href;
+           var title = datalist[i].getElementsByTagName("a")[0].title;
+           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+           var content = datalist[i].getElementsByTagName("img")[0].alt;
+           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+           tmparray.push(obj);
+         }
+         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+         return response;
+       }
+     </script>
+   </rule>
 </site>
 
 
@@ -1628,16 +1618,10 @@
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
             var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
         var pageInfo = {
@@ -4053,7 +4037,7 @@
           var downloadBean = { "name": title, "href": href };
           oneDownList.push(downloadBean);
         }
-        var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
+        var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
         allDownList.push(pageDetail);
       }
       var pageInfo = {
@@ -4656,16 +4640,10 @@
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
             var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
         var pageInfo = {
@@ -5307,10 +5285,10 @@
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
             var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
-            var downloadBean = { "name": title, "href": href };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
         var pageInfo = {
@@ -7898,10 +7876,10 @@
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
             var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
-            var downloadBean = { "name": title, "href": href };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
         var pageInfo = {
@@ -8085,16 +8063,10 @@
           $(this).find("a").each(function () {
             var href = $(this).attr("href").trim();
             var title = $(this).text().trim();
-            var downloadBean = {
-              "name": title,
-              "href": host + href
-            };
+            var downloadBean = {"name": title, "href": host + href};
             oneDownList.push(downloadBean);
           });
-          var pageDetail = {
-            "title": tmpDownloadSort[position],
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": tmpDownloadSort[position], "downlistInfos": oneDownList};
           if (tmpDownloadSort[position].includes("MP4") || tmpDownloadSort[position].includes("西瓜")) { } else {
             allDownList.push(pageDetail);
           }
@@ -8766,16 +8738,10 @@
           }
           var title = itemTmp.substring(0, itemTmp.indexOf("$"));
           var href = itemTmp.substring(itemTmp.indexOf("$") + 1, itemTmp.length);
-          var downloadBean = {
-            "name": title,
-            "href": href
-          };
+          var downloadBean = {"name": title, "href": href};
           oneDownList.push(downloadBean);
           if (i == allDownListTmp.length - 1) {
-            var pageDetail = {
-              "title": oneTitle,
-              "downlistInfos": oneDownList
-            };
+            var pageDetail = {"title": oneTitle, "downlistInfos": oneDownList};
             allDownList.push(pageDetail);
           }
         }
@@ -9021,16 +8987,10 @@
           }
           var title = itemTmp.substring(0, itemTmp.indexOf("$"));
           var href = itemTmp.substring(itemTmp.indexOf("$") + 1, itemTmp.length);
-          var downloadBean = {
-            "name": title,
-            "href": href
-          };
+          var downloadBean = {"name": title, "href": href};
           oneDownList.push(downloadBean);
           if (i == allDownListTmp.length - 1) {
-            var pageDetail = {
-              "title": oneTitle,
-              "downlistInfos": oneDownList
-            };
+            var pageDetail = {"title": oneTitle, "downlistInfos": oneDownList};
             allDownList.push(pageDetail);
           }
         }
@@ -9267,16 +9227,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -9512,16 +9466,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -9757,16 +9705,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -9965,16 +9907,10 @@
                     var oneDownList = new Array();
                     for (var j = 0; j < downloadTmp.length; j++) {
                         var tmp = $(downloadTmp[j]).text();
-                        var downloadBean = {
-                            "name": tmp,
-                            "href": tmp
-                        };
+                        var downloadBean = {"name": tmp, "href": tmp};
                         oneDownList.push(downloadBean);
                     }
-                    var pageDetail = {
-                        "title": titleSort,
-                        "downlistInfos": oneDownList
-                    };
+                    var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
                     allDownList.push(pageDetail);
                 }
 
@@ -10173,16 +10109,10 @@
                     var oneDownList = new Array();
                     for (var j = 0; j < downloadTmp.length; j++) {
                         var tmp = $(downloadTmp[j]).text();
-                        var downloadBean = {
-                            "name": tmp,
-                            "href": tmp
-                        };
+                        var downloadBean = {"name": tmp, "href": tmp};
                         oneDownList.push(downloadBean);
                     }
-                    var pageDetail = {
-                        "title": titleSort,
-                        "downlistInfos": oneDownList
-                    };
+                    var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
                     allDownList.push(pageDetail);
                 }
 
@@ -10418,16 +10348,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -10664,16 +10588,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -10909,16 +10827,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -11154,16 +11066,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -11369,16 +11275,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -11614,16 +11514,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -11829,16 +11723,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -12074,16 +11962,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -12314,16 +12196,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-                "name": title,
-                "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
         }
-        var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-        };
+        var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
         allDownList.push(pageDetail);
     }
 
@@ -12529,16 +12405,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -12753,16 +12623,10 @@
           }
           var title = itemTmp.substring(0, itemTmp.indexOf("$"));
           var href = itemTmp.substring(itemTmp.indexOf("$") + 1, itemTmp.length);
-          var downloadBean = {
-            "name": title,
-            "href": href
-          };
+          var downloadBean = {"name": title, "href": href};
           oneDownList.push(downloadBean);
           if (i == allDownListTmp.length - 1) {
-            var pageDetail = {
-              "title": oneTitle,
-              "downlistInfos": oneDownList
-            };
+            var pageDetail = {"title": oneTitle, "downlistInfos": oneDownList};
             allDownList.push(pageDetail);
           }
         }
@@ -12999,16 +12863,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -13244,16 +13102,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -13459,16 +13311,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -13704,16 +13550,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -13919,16 +13759,10 @@
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {
-              "name": title,
-              "href": href
-            };
+            var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {
-            "title": titleSort,
-            "downlistInfos": oneDownList
-          };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
 
@@ -14189,16 +14023,10 @@
           }
           var title = itemTmp.substring(0, itemTmp.indexOf("$"));
           var href = itemTmp.substring(itemTmp.indexOf("$") + 1, itemTmp.length);
-          var downloadBean = {
-            "name": title,
-            "href": href
-          };
+          var downloadBean = {"name": title, "href": href};
           oneDownList.push(downloadBean);
           if (i == allDownListTmp.length - 1) {
-            var pageDetail = {
-              "title": oneTitle,
-              "downlistInfos": oneDownList
-            };
+            var pageDetail = {"title": oneTitle, "downlistInfos": oneDownList};
             allDownList.push(pageDetail);
           }
         }
