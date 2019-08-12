@@ -618,7 +618,7 @@
    <packgetname>com.wandou</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="未公开"
+   <info type="801" versionCode="001" versionName="v1.0" name="豌豆影视" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP410/k25483234.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
