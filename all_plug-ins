@@ -10990,7 +10990,7 @@
         $(datalist).each(function () {
           var host = "https://www.398zy.com";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -11019,7 +11019,7 @@
         $(datalist).each(function () {
           var host = "https://www.398zy.com";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -11048,7 +11048,7 @@
         $(datalist).each(function () {
           var host = "https://www.398zy.com";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -11077,7 +11077,7 @@
         $(datalist).each(function () {
           var host = "https://www.398zy.com";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
@@ -11156,7 +11156,7 @@
         $(datalist).each(function () {
           var host = "https://www.398zy.com";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.xing_vb51").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
