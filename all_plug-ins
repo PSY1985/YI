@@ -2629,7 +2629,7 @@
    <packgetname>com.yy6080</packgetname> 
    <minapi>1</minapi> 
    <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="新视觉" description="群共享"
+   <info type="801" versionCode="002" versionName="v2.0" name="新视觉" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306260.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -2995,11 +2995,11 @@
    <packgetname>com.nek8</packgetname>
    <minapi>1</minapi>
    <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-   <info type="801" versionCode="004" versionName="v4.0" name="逗别看" description="群共享"
+   <info type="801" versionCode="005" versionName="v5.0" name="逗别看" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP474/k58001289.jpg" subscribeUrl="" />
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.nek8.com/?s=vod-type-id-1-order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.sos5.cn/?s=vod-type-id-1-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3025,7 +3025,7 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.nek8.com/?s=vod-type-id-2-order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.sos5.cn/?s=vod-type-id-2-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3051,7 +3051,7 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.nek8.com/?s=vod-type-id-3-order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.sos5.cn/dongman/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3077,7 +3077,7 @@
    </rule>
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.nek8.com/?s=vod-type-id-4-order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+     url="http://m.sos5.cn/zongyi/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -3105,7 +3105,7 @@
    <rule type="102" jsmethod="detail();">
      <script>
       function detail() {
-        var host = "http://m.nek8.com";
+        var host = "http://m.sos5.cn";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -3140,7 +3140,7 @@
             var downloadBean = { "name": title, "href": href };
             oneDownList.push(downloadBean);
           }
-          var pageDetail = { "title": titleSort, "downlistInfos": oneDownList };
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
         var pageInfo = {
@@ -3158,10 +3158,10 @@
    </rule>
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.nek8.com/mso/" searchPostData="wd=%keyword%" currentPageCountHolder="%count%" searchKeywordHolder="%keyword%">
+     url="http://m.sos5.cn/mso/" searchPostData="wd=%keyword%" currentPageCountHolder="%count%" searchKeywordHolder="%keyword%">
      <script>
       function search() {
-        var host = "http://m.nek8.com";
+        var host = "http://m.sos5.cn";
         var datalist = $("div.all_tab.top").find("li");
 
         if (datalist.length == 0) {
