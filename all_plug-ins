@@ -1,194 +1,133 @@
-<site>
-   <packgetname>com.kuaikan66</packgetname> 
+<site> 
+   <packgetname>com.doubanhot</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="" donateUrl="" /> 
-   <info type="801" versionCode="002" versionName="v2.0" name="快看影视" description="群共享"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP769/k24643931.jpg" subscribeUrl="" />
- 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://m.kuaikan1.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
+   <author name="demo" avatarUrl="" description="demo" donateUrl="" /> 
+   <info type="801" versionCode="002" versionName="v2.0" name="豆瓣热门" description="豆瓣热门点击跳转"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP769/k24643931.jpg" subscribeUrl="" /> 
 
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-     </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://m.kuaikan1.com/list/dsj______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" subtypename="电影" jsmethod="list();"
+     url="https://movie.douban.com/j/new_search_subjects?sort=U&amp;range=0,10&amp;tags=电影&amp;start=%count%0" currentpagecountholder="%count%"> 
     <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-       if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-     </script> 
+            function list() {
+                var datalist = document.getElementsByTagName('pre')[0].innerHTML;
+                if (!isNaN(datalist)) {
+                    var response = {'code': '200', 'msg': 'suc', 'content': ''}
+                    return response
+                }
+                var tmparray = []
+                datalist = eval(datalist.substring(8, datalist.length - 1));
+                for (var i in datalist) {
+                    var href = ''
+                    var title = datalist[i].title.replace(/\s/g, "")
+                    var imgurl = datalist[i].cover
+                    var content = ''
+                    var obj = {'title': title, 'detailUrl': href, 'posterUrl': imgurl, 'content': content, 'itemType': 0, 'clickType': 1}
+                    tmparray.push(obj)
+                }
+                var response = {'code': '200', 'msg': 'suc', 'content': JSON.stringify(tmparray)}
+                return response
+            }
+        </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="https://m.kuaikan1.com/list/Animation______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-          if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-     </script> 
+   <rule type="101" subtypename="追剧" jsmethod="list();"
+     url="https://movie.douban.com/j/new_search_subjects?sort=U&amp;range=0,10&amp;tags=电视剧&amp;start=%count%0" currentpagecountholder="%count%"> 
+    <script>
+            function list() {
+                var datalist = document.getElementsByTagName('pre')[0].innerHTML;
+                if (!isNaN(datalist)) {
+                    var response = {'code': '200', 'msg': 'suc', 'content': ''}
+                    return response
+                }
+                var tmparray = []
+                datalist = eval(datalist.substring(8, datalist.length - 1));
+                for (var i in datalist) {
+                    var href = ''
+                    var title = datalist[i].title.replace(/\s/g, "")
+                    var imgurl = datalist[i].cover
+                    var content = ''
+                    var obj = {'title': title, 'detailUrl': href, 'posterUrl': imgurl, 'content': content, 'itemType': 0, 'clickType': 1}
+                    tmparray.push(obj)
+                }
+                var response = {'code': '200', 'msg': 'suc', 'content': JSON.stringify(tmparray)}
+                return response
+            }
+        </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://m.kuaikan1.com/list/Arts______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-     <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-        if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-     </script> 
+   <rule type="101" subtypename="动漫" jsmethod="list();"
+     url="https://movie.douban.com/j/new_search_subjects?sort=U&amp;range=0,10&amp;tags=动漫&amp;start=%count%0" currentpagecountholder="%count%"> 
+    <script>
+            function list() {
+                var datalist = document.getElementsByTagName('pre')[0].innerHTML;
+                if (!isNaN(datalist)) {
+                    var response = {'code': '200', 'msg': 'suc', 'content': ''}
+                    return response
+                }
+                var tmparray = []
+                datalist = eval(datalist.substring(8, datalist.length - 1));
+                for (var i in datalist) {
+                    var href = ''
+                    var title = datalist[i].title.replace(/\s/g, "")
+                    var imgurl = datalist[i].cover
+                    var content = ''
+                    var obj = {'title': title, 'detailUrl': href, 'posterUrl': imgurl, 'content': content, 'itemType': 0, 'clickType': 1}
+                    tmparray.push(obj)
+                }
+                var response = {'code': '200', 'msg': 'suc', 'content': JSON.stringify(tmparray)}
+                return response
+            }
+        </script> 
    </rule> 
 
-   <rule type="102" jsmethod="detail();"> 
-     <script>
-      function detail() {
-        var host = "https://m.kuaikan1.com";
-        var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
-        var pageTitle = $("img.loading").get(0).getAttribute("alt");
-        var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
-        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
-        var actor;
-        var actorTmp = $("div.vod-n-l:first p").toArray();
-        for (var i = 0; i < actorTmp.length; i++) {
-          var stTmp;
-          stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
-          if (stTmp.indexOf("主演") != -1) continue;
-          if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
-            stTmp = actorTmp[i].innerHTML;
-          }
-          var stDetail = actorTmp[i].getElementsByTagName("a");
-          for (var j = 0; j < stDetail.length; j++) {
-            var stDetailTmp = stDetail[j].innerHTML;
-            stTmp = stTmp + " " + stDetailTmp;
-          }
-          actor = actor + "<br>" + stTmp;
-        }
-        var allDownList = new Array();
-        var allDownTitleTmp = $("div.adress h4").toArray();
-        var allDownListTmp = $("div.adress").toArray();
-        for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML;
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-          var oneDownList = new Array();
-          for (var j = 0; j < downloadTmp.length; j++) {
-            var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-            var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
-            var downloadBean = {"name": title, "href": href};
-            oneDownList.push(downloadBean);
-          }
-          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
-          allDownList.push(pageDetail);
-        }
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle,
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor.replace("undefined", ""),
-          "downlist": allDownList
-        };
-        var response = {"code": "200", "msg": "suc", "content": pageInfo};
-        return response;
-      }
-     </script> 
+   <rule type="101" subtypename="综艺" jsmethod="list();"
+     url="https://movie.douban.com/j/new_search_subjects?sort=U&amp;range=0,10&amp;tags=综艺&amp;start=%count%0" currentpagecountholder="%count%"> 
+    <script>
+            function list() {
+                var datalist = document.getElementsByTagName('pre')[0].innerHTML;
+                if (!isNaN(datalist)) {
+                    var response = {'code': '200', 'msg': 'suc', 'content': ''}
+                    return response
+                }
+                var tmparray = []
+                datalist = eval(datalist.substring(8, datalist.length - 1));
+                for (var i in datalist) {
+                    var href = ''
+                    var title = datalist[i].title.replace(/\s/g, "")
+                    var imgurl = datalist[i].cover
+                    var content = ''
+                    var obj = {'title': title, 'detailUrl': href, 'posterUrl': imgurl, 'content': content, 'itemType': 0, 'clickType': 1}
+                    tmparray.push(obj)
+                }
+                var response = {'code': '200', 'msg': 'suc', 'content': JSON.stringify(tmparray)
+                return response
+            }
+        </script> 
    </rule> 
 
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://m.kuaikan1.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
-     <script>
-      function search() {
-        var host = "https://m.kuaikan1.com";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
-          if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script> 
+   <rule type="101" subtypename="记录" jsmethod="list();"
+     url="https://movie.douban.com/j/new_search_subjects?sort=U&amp;range=0,10&amp;tags=纪录片&amp;start=%count%0" currentpagecountholder="%count%"> 
+    <script>
+            function list() {
+                var datalist = document.getElementsByTagName('pre')[0].innerHTML;
+                if (!isNaN(datalist)) {
+                    var response = {'code': '200', 'msg': 'suc', 'content': ''}
+                    return response
+                }
+                var tmparray = []
+                datalist = eval(datalist.substring(8, datalist.length - 1));
+                for (var i in datalist) {
+                    var href = ''
+                    var title = datalist[i].title.replace(/\s/g, "")
+                    var imgurl = datalist[i].cover
+                    var content = ''
+                    var obj = {'title': title, 'detailUrl': href, 'posterUrl': imgurl, 'content': content, 'itemType': 0, 'clickType': 1}
+                    tmparray.push(obj)
+                }
+                var response = {'code': '200', 'msg': 'suc', 'content': JSON.stringify(tmparray)}
+                return response
+            }
+        </script> 
    </rule> 
 </site>
 
@@ -2694,7 +2633,7 @@
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k14306260.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://yy6080.top/index.php/vod/show/by/hits/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2720,7 +2659,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://yy6080.top/index.php/vod/show/by/hits/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2746,7 +2685,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/4/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://yy6080.top/index.php/vod/show/by/hits/id/4/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2772,7 +2711,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://www.yy6080.top/index.php/vod/show/by/hits/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://yy6080.top/index.php/vod/show/by/hits/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -2800,7 +2739,7 @@
    <rule type="102" jsmethod="detail();"> 
     <script>
       function detail() {
-        var host = "http://www.yy6080.top";
+        var host = "http://yy6080.top";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -2855,10 +2794,10 @@
     </script> 
    </rule> 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://www.yy6080.top/index.php/vod/search/page/%count%/wd/%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://yy6080.top/index.php/vod/search/page/%count%/wd/%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
-        var host = "http://www.yy6080.top";
+        var host = "http://yy6080.top";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -4043,19 +3982,17 @@
 
 
 <site> 
-   <packgetname>com.608y</packgetname> 
+   <packgetname>com.jiukuaibo</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="好片网" description="群共享"
+   <author name="YI" avatarUrl="" description="大神在此" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="就快播" description="群共享"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP992/k14631510.jpg" subscribeUrl="" /> 
 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.608y.com/dianying/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="https://jiukuaibo.tv/list-select-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -4063,77 +4000,23 @@
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.608y.com/dianshiju/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="https://jiukuaibo.tv/list-select-id-2-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-       if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.608y.com/dongman/index-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
-          if (datalist.length == 0) {
-          var response = {"code": "200", "msg": "suc", "content": ""};
-          return response;
-        }
-        var tmparray = new Array();
-        for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-          var content = datalist[i].getElementsByTagName("img")[0].alt;
-          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-          tmparray.push(obj);
-        }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-        return response;
-      }
-    </script> 
-   </rule> 
-
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.608y.com/zongyi/index_2_10____%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
-      function list() {
-        var root = document.getElementById("vod_list");
-        var datalist = root.getElementsByTagName("li");
-
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
@@ -4141,64 +4024,109 @@
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
         }
-        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
         return response;
       }
-    </script> 
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="https://jiukuaibo.tv/list-select-id-3-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="https://jiukuaibo.tv/list-select-id-4-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
    </rule> 
 
    <rule type="102" jsmethod="detail();"> 
-    <script>
+     <script>
       function detail() {
-        var host = "http://m.608y.com";
-        var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
-        var pageTitle = $("img.loading").get(0).getAttribute("alt");
-        var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
+        var host = "https://jiukuaibo.tv";
+        var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
+        var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
+        var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
         var actor;
-        var actorTmp = $("div.vod-n-l:first p").toArray();
-        for (var i = 0; i < actorTmp.length; i++) {
+        var actorTitle = $("div.media-body dt").toArray();
+        var actorText = $("div.media-body dd").toArray();
+        for (var i = 0; i < actorTitle.length; i++) {
           var stTmp;
-          stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
-          if (stTmp.indexOf("主演") != -1) continue;
-          if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
-            stTmp = actorTmp[i].innerHTML;
+          stTmp = actorTitle[i].innerHTML;
+          if (stTmp.indexOf("主演") != -1) {
+            continue;
           }
-          var stDetail = actorTmp[i].getElementsByTagName("a");
+          var stDetail = actorText[i].getElementsByTagName("a");
           for (var j = 0; j < stDetail.length; j++) {
             var stDetailTmp = stDetail[j].innerHTML;
             stTmp = stTmp + " " + stDetailTmp;
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
-        var allDownTitleTmp = $("div.play-title a").toArray();
-        var allDownListTmp = $(".play-box").toArray();
+        var allDownTitleTmp = $("ul.nav.nav-tabs.ff-playurl-tab a").toArray();
+        var allDownListTmp = $("div.tab-content.ff-playurl-tab ul").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML;
+          var titleSort = allDownTitleTmp[i].innerHTML.replace(/<span.*?>|<\/span>/ig,"").replace(/\s/g, "").trim();
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-            var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
+            var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
             var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
           }
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
-          "title": pageTitle,
+          "title": pageTitle.replace("免费观看", ""),
           "allText": allText,
           "shortText": shortText,
           "summary": actor.replace("undefined", ""),
@@ -4207,25 +4135,22 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.608y.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
-    <script>
+     url="https://jiukuaibo.tv/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     <script>
       function search() {
-        var host = "http://m.608y.com";
-        var root = document.getElementById("resize_list");
-        var datalist = root.getElementsByTagName("li");
-
-          if (datalist.length == 0) {
+        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var title = datalist[i].getElementsByTagName("img")[0].alt;
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
@@ -4234,7 +4159,7 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 </site>
 
@@ -5302,7 +5227,7 @@
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17032697.jpg" subscribeUrl="" />
  
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.7704.cc/list/dianying_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.7704.tv/list/dianying_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -5328,7 +5253,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.7704.cc/list/dianshiju_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.7704.tv/list/dianshiju_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -5354,7 +5279,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.7704.cc/list/dongman_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.7704.tv/list/dongman_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -5380,7 +5305,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.7704.cc/list/zongyi_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.7704.tv/list/zongyi_____hits_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -5406,7 +5331,7 @@
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="伦理" jsmethod="list();"
-     url="http://m.7704.cc/list/gushipian______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="http://m.7704.tv/list/gushipian______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -5434,7 +5359,7 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "http://m.7704.cc";
+        var host = "http://m.7704.tv";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -5487,10 +5412,10 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.7704.cc/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://m.7704.tv/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
-        var host = "http://m.7704.cc";
+        var host = "http://m.7704.tv";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -8089,25 +8014,26 @@
 
 
 <site> 
-   <packgetname>com.jiukuaibo</packgetname> 
+   <packgetname>com.dantengge</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="大神在此" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="就快播" description="群共享"
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="蛋疼哥" description="上车了"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17219532.jpg" subscribeUrl="" /> 
 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://jiukuaibo.tv/list-select-id-1-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="唯美口活" jsmethod="list();"
+     url="http://m.dantengge.net/shipin4/weimeikouhuo/list_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        var host = "http://m.dantengge.net";
+        var datalist = $("ul.globalPicList.twoList.clearfix li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var href =  datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt.replace("点击播放《","").replace("》","");
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
@@ -8119,19 +8045,20 @@
      </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://jiukuaibo.tv/list-select-id-2-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="国产自拍" jsmethod="list();"
+     url="http://m.dantengge.net/shipin4/guochanzipai/list_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        var host = "http://m.dantengge.net";
+        var datalist = $("ul.globalPicList.twoList.clearfix li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var href =  datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt.replace("点击播放《","").replace("》","");
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
@@ -8143,19 +8070,20 @@
      </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="https://jiukuaibo.tv/list-select-id-3-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="日韩无码" jsmethod="list();"
+     url="http://m.dantengge.net/shipin3/rihanwuma/list_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        var host = "http://m.dantengge.net";
+        var datalist = $("ul.globalPicList.twoList.clearfix li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var href =  datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt.replace("点击播放《","").replace("》","");
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
@@ -8167,19 +8095,45 @@
      </script> 
    </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://jiukuaibo.tv/list-select-id-4-type--area--year--star--state--order-hits-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+   <rule type="101" typeonclickaction="" subtypename="童颜巨乳" jsmethod="list();"
+     url="http://m.dantengge.net/shipin3/tongyanjuru/list_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
      <script>
       function list() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        var host = "http://m.dantengge.net";
+        var datalist = $("ul.globalPicList.twoList.clearfix li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var href =  datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt.replace("点击播放《","").replace("》","");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": tmparray};
+        return response;
+      }
+     </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="欧美性爱" jsmethod="list();"
+     url="http://m.dantengge.net/shipin2/oumeixingai/list_%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
+      function list() {
+        var host = "http://m.dantengge.net";
+        var datalist = $("ul.globalPicList.twoList.clearfix li").toArray();
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href =  datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt.replace("点击播放《","").replace("》","");
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
@@ -8194,33 +8148,19 @@
    <rule type="102" jsmethod="detail();"> 
      <script>
       function detail() {
-        var host = "https://jiukuaibo.tv";
-        var posterUrl = $("img.media-object.img-thumbnail.ff-img:first").attr("data-original");
-        var pageTitle = $("img.media-object.img-thumbnail.ff-img:first").attr("alt");
+        var host = "http://m.dantengge.net";
+        var posterUrl = $("img.lazy:first").attr("data-original");
+        var pageTitle = $("img.lazy:first").attr("alt");
         var allText = $("[name='description']:first").attr("content").trim().replace(" ", "").replace("\n", "");
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-        var actor;
-        var actorTitle = $("div.media-body dt").toArray();
-        var actorText = $("div.media-body dd").toArray();
-        for (var i = 0; i < actorTitle.length; i++) {
-          var stTmp;
-          stTmp = actorTitle[i].innerHTML;
-          if (stTmp.indexOf("主演") != -1) {
-            continue;
-          }
-          var stDetail = actorText[i].getElementsByTagName("a");
-          for (var j = 0; j < stDetail.length; j++) {
-            var stDetailTmp = stDetail[j].innerHTML;
-            stTmp = stTmp + " " + stDetailTmp;
-          }
-          actor = actor + "<br>" + stTmp;
-        }
+        var actor = "";
+
         var allDownList = new Array();
-        var allDownTitleTmp = $("ul.nav.nav-tabs.ff-playurl-tab a").toArray();
-        var allDownListTmp = $("div.tab-content.ff-playurl-tab ul").toArray();
+        var allDownTitleTmp = $(".series_head.yun").toArray();
+        var allDownListTmp = $(".series_body dl").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
-          var titleSort = allDownTitleTmp[i].innerHTML.replace(/<span.*?>|<\/span>/ig,"").replace(/\s/g, "").trim();
-          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+          var titleSort = allDownTitleTmp[i].innerHTML.replace(/<[^>]+>/g,"").replace(/\s/g, "").replace("【无需安装任何插件，即可快速播放】", "").trim();
+          var downloadTmp = allDownListTmp[i].getElementsByTagName("dt");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
@@ -8246,18 +8186,18 @@
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://jiukuaibo.tv/vod-search-wd-%keyword%-p-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     url="http://m.dantengge.net/search.php?keyword=%keyword&page=%count%" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
      <script>
       function search() {
-        var datalist = $("ul.list-unstyled.vod-item-img.ff-img-215 li").toArray();
+        var datalist = $("ul.globalPicList.twoList.clearfix li").toArray();
         if (datalist.length == 0) {
           var response = {"code": "200", "msg": "suc", "content": ""};
           return response;
         }
         var tmparray = new Array();
         for (var i = 0; i < datalist.length; i++) {
-          var href = datalist[i].getElementsByTagName("a")[0].href;
-          var title = datalist[i].getElementsByTagName("img")[0].alt;
+          var href =  datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("img")[0].alt.replace("点击播放《","").replace("》","");
           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
@@ -8272,16 +8212,16 @@
 
 
 
-<site> 
-   <packgetname>com.vipys</packgetname> 
+<site>
+   <packgetname>com.kuaikan66</packgetname> 
    <minapi>1</minapi> 
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
-   <info type="801" versionCode="001" versionName="v1.0" name="VIP影视" description="未公开"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17172801.jpg" subscribeUrl="" /> 
-
+   <author name="YI" avatarUrl="" description="" donateUrl="" /> 
+   <info type="801" versionCode="002" versionName="v2.0" name="快看影视" description="群共享"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17172801.jpg" subscribeUrl="" />
+ 
    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="http://m.vipys.net/list/dianying______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="https://m.kuaikan1.com/list/dy______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
@@ -8302,11 +8242,11 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="http://m.vipys.net/list/dianshiju______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     url="https://m.kuaikan1.com/list/dsj______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var root = document.getElementById("vod_list");
@@ -8328,12 +8268,12 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="http://m.vipys.net/list/dongman______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="https://m.kuaikan1.com/list/Animation______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
@@ -8354,12 +8294,12 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="http://m.vipys.net/list/zongyi______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
-    <script>
+     url="https://m.kuaikan1.com/list/Arts______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+     <script>
       function list() {
         var root = document.getElementById("vod_list");
         var datalist = root.getElementsByTagName("li");
@@ -8380,13 +8320,13 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="102" jsmethod="detail();"> 
-    <script>
+     <script>
       function detail() {
-        var host = "http://m.vipys.net";
+        var host = "https://m.kuaikan1.com";
         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
         var pageTitle = $("img.loading").get(0).getAttribute("alt");
         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
@@ -8408,10 +8348,9 @@
           }
           actor = actor + "<br>" + stTmp;
         }
-
         var allDownList = new Array();
-        var allDownTitleTmp = $("div.play-title a").toArray();
-        var allDownListTmp = $(".play-box").toArray();
+        var allDownTitleTmp = $("div.adress h4").toArray();
+        var allDownListTmp = $("div.adress").toArray();
         for (var i = 0; i < allDownListTmp.length; i++) {
           var titleSort = allDownTitleTmp[i].innerHTML;
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
@@ -8425,7 +8364,6 @@
           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
           allDownList.push(pageDetail);
         }
-
         var pageInfo = {
           "posterUrl": posterUrl,
           "title": pageTitle,
@@ -8437,14 +8375,14 @@
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-    </script> 
+     </script> 
    </rule> 
 
    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="http://m.vipys.net/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
-    <script>
+     url="https://m.kuaikan1.com/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+     <script>
       function search() {
-        var host = "http://m.vipys.net";
+        var host = "https://m.kuaikan1.com";
         var root = document.getElementById("resize_list");
         var datalist = root.getElementsByTagName("li");
 
@@ -8456,7 +8394,7 @@
         for (var i = 0; i < datalist.length; i++) {
           var href = datalist[i].getElementsByTagName("a")[0].href;
           var title = datalist[i].getElementsByTagName("a")[0].title;
-          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("src");
           var content = datalist[i].getElementsByTagName("img")[0].alt;
           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
           tmparray.push(obj);
@@ -10300,7 +10238,7 @@
   <packgetname>com.131zy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="003" versionName="v3.0" name="131资源" description="群共享"
+  <info type="801" versionCode="004" versionName="v4.0" name="131资源" description="群共享"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP993/k15316677.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
@@ -13144,6 +13082,231 @@
 
 
 <site>
+    <packgetname>com.doubanzy</packgetname>
+    <minapi>1</minapi>
+    <author name="noName" avatarUrl="" description="demo" donateUrl="" />
+    <info type="801" versionCode="001" versionName="v1.0" name="豆瓣资源" description="群共享"
+      iconUrl="" subscribeUrl="" />
+
+    <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+      url="http://www.doubanzy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.doubanzy.com";
+                    var href = $(this).find("a.videoName").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+    </script>
+    </rule>
+
+    <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+      url="http://www.doubanzy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.doubanzy.com";
+                    var href = $(this).find("a.videoName").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+    </script>
+    </rule>
+
+    <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+      url="http://www.doubanzy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.doubanzy.com";
+                    var href = $(this).find("a.videoName").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+    </script>
+    </rule>
+
+    <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+      url="http://www.doubanzy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.doubanzy.com";
+                    var href = $(this).find("a.videoName").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+    </script>
+    </rule>
+
+     <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
+       url="http://www.doubanzy.com/?m=vod-type-id-20-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+      <script>
+            function list() {
+                var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": "", "itemType":1};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.doubanzy.com";
+                    var href = $(this).find("a.videoName").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+    </script>
+    </rule>
+
+    <rule type="102" jsmethod="detail();"> 
+     <script>
+        function detail(){   
+          var host="http://www.doubanzy.com";    
+          var posterUrl;     
+          var pageTitle =$("p.whitetitle").text().replace("影片名称：","");     
+          var Text =$("div.ardess").toArray();
+          var allText = Text[2].getElementsByTagName("div")[0].innerText;        
+          var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();   
+          var actor;
+          var actorTitle=$("div.right p").toArray();
+            for(var i=0;i<actorTitle.length;i++){
+              var actorText = actorTitle[i].innerText;
+              actor = actor+"<br>"+actorText;
+          }        
+
+          var allDownList = new Array();                 
+          var allDownTitleTmp = $("div.ardess h4").toArray();
+          var allDownListTmp = $("div.ardess div.playlist.wbox").toArray();            
+          for (var i = allDownListTmp.length-2; i>=0; i--) {        
+            var titleSort = $(allDownTitleTmp[i]).text().replace("来源：", "");         
+            var  downloadTmp =allDownListTmp[i].getElementsByTagName("li");          
+            var oneDownList = new Array();          
+              for (var j = 0; j < downloadTmp.length; j++) {           
+                var tmp = $(downloadTmp[j]).text();
+                var title = tmp.substring(0, tmp.indexOf("$"));
+                var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);         
+                var downloadBean = { "name": title, "href": href};
+          oneDownList.push(downloadBean);
+        }        
+          var pageDetail = {"title": titleSort,  "downlistInfos": oneDownList};
+          allDownList.push(pageDetail);
+        }      
+          var pageInfo = {"posterUrl": posterUrl, "title": pageTitle, "allText": allText,"shortText": shortText,  "summary": actor,  "downlist": allDownList};   
+          var response = {"code": "200","msg": "suc","content": pageInfo};
+     return response;
+      }  
+    </script> 
+    </rule> 
+
+    <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+      url="http://www.doubanzy.com/index.php?m=vod-search"
+        currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
+    <script>
+          function search() {
+              var datalist = $("ul.videoContent").find("li");
+                if (datalist.length == 0) {
+                    var response = {"code": "200", "msg": "suc", "content": ""};
+                    return response;
+                }
+                var tmparray = new Array();
+                $(datalist).each(function() {
+                    var host = "http://www.jimogan.com";
+                    var href = $(this).find("a.videoName").attr("href");
+                    var title = $(this).find("a.videoName").text();
+                    var imgurl;
+                    var content = $(this).find("span.category").text();
+                    var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType":1};
+                    if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+                        if (title.length > 0) {
+                            tmparray.push(obj);
+                        }
+                    }
+                });
+                var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+                return response;
+            }
+    </script>
+    </rule>
+</site>
+
+
+
+<site>
   <packgetname>com.okzy</packgetname>
   <minapi>1</minapi>
   <author name="noName" avatarUrl="" description="demo" donateUrl="" />
@@ -13610,4 +13773,202 @@
       }
     </script>
   </rule>
+</site>
+
+
+
+<site> 
+   <packgetname>com.vipys</packgetname> 
+   <minapi>1</minapi> 
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="VIP影视" description="未公开"
+     iconUrl="" subscribeUrl="" /> 
+
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://m.vipys.net/list/dianying______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+    <script>
+      function list() {
+        var root = document.getElementById("vod_list");
+        var datalist = root.getElementsByTagName("li");
+
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://m.vipys.net/list/dianshiju______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+    <script>
+      function list() {
+        var root = document.getElementById("vod_list");
+        var datalist = root.getElementsByTagName("li");
+
+       if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://m.vipys.net/list/dongman______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+    <script>
+      function list() {
+        var root = document.getElementById("vod_list");
+        var datalist = root.getElementsByTagName("li");
+
+          if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script> 
+   </rule> 
+
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://m.vipys.net/list/zongyi______%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
+    <script>
+      function list() {
+        var root = document.getElementById("vod_list");
+        var datalist = root.getElementsByTagName("li");
+
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script> 
+   </rule> 
+
+   <rule type="102" jsmethod="detail();"> 
+    <script>
+      function detail() {
+        var host = "http://m.vipys.net";
+        var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
+        var pageTitle = $("img.loading").get(0).getAttribute("alt");
+        var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
+        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+
+        var actor;
+        var actorTmp = $("div.vod-n-l:first p").toArray();
+        for (var i = 0; i < actorTmp.length; i++) {
+          var stTmp;
+          stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
+          if (stTmp.indexOf("主演") != -1) continue;
+          if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
+            stTmp = actorTmp[i].innerHTML;
+          }
+          var stDetail = actorTmp[i].getElementsByTagName("a");
+          for (var j = 0; j < stDetail.length; j++) {
+            var stDetailTmp = stDetail[j].innerHTML;
+            stTmp = stTmp + " " + stDetailTmp;
+          }
+          actor = actor + "<br>" + stTmp;
+        }
+
+        var allDownList = new Array();
+        var allDownTitleTmp = $("div.play-title a").toArray();
+        var allDownListTmp = $(".play-box").toArray();
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          var titleSort = allDownTitleTmp[i].innerHTML;
+          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+          var oneDownList = new Array();
+          for (var j = 0; j < downloadTmp.length; j++) {
+            var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
+            var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("title");
+            var downloadBean = {"name": title, "href": href};
+            oneDownList.push(downloadBean);
+          }
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
+          allDownList.push(pageDetail);
+        }
+
+        var pageInfo = {
+          "posterUrl": posterUrl,
+          "title": pageTitle,
+          "allText": allText,
+          "shortText": shortText,
+          "summary": actor.replace("undefined", ""),
+          "downlist": allDownList
+        };
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
+        return response;
+      }
+    </script> 
+   </rule> 
+
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://m.vipys.net/search/%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+    <script>
+      function search() {
+        var host = "http://m.vipys.net";
+        var root = document.getElementById("resize_list");
+        var datalist = root.getElementsByTagName("li");
+
+          if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        for (var i = 0; i < datalist.length; i++) {
+          var href = datalist[i].getElementsByTagName("a")[0].href;
+          var title = datalist[i].getElementsByTagName("a")[0].title;
+          var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
+          var content = datalist[i].getElementsByTagName("img")[0].alt;
+          var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
+          tmparray.push(obj);
+        }
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script> 
+   </rule> 
 </site>
