@@ -9343,7 +9343,7 @@
         $(datalist).each(function () {
           var host = "http://baiwanzy.com";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text().replace("-  　立","");
+          var title = $(this).find("span.xing_vb4").find("a").text().replace("-","").replace("立","");
           var imgurl;
           var content = $(this).find("span.xing_vb5").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
