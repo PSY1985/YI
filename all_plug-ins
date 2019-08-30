@@ -4025,7 +4025,7 @@
    <packgetname>com.doubanhot</packgetname> 
    <minapi>1</minapi> 
    <author name="demo" avatarUrl="" description="demo" donateUrl="" /> 
-   <info type="801" versionCode="002" versionName="v2.0" name="豆瓣热门" description="豆瓣热门点击跳转"
+   <info type="801" versionCode="003" versionName="v3.0" name="豆瓣热门" description="点击跳转"
      iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP769/k24643931.jpg" subscribeUrl="" /> 
 
    <rule type="101" subtypename="电影" jsmethod="list();"
@@ -4040,6 +4040,9 @@
                 var tmparray = []
                 datalist = eval(datalist.substring(8, datalist.length - 1));
                 for (var i in datalist) {
+                    if (i>9) {
+                      break;
+                    }
                     var href = ''
                     var title = datalist[i].title.replace(/\s/g, "")
                     var imgurl = datalist[i].cover
@@ -4065,6 +4068,9 @@
                 var tmparray = []
                 datalist = eval(datalist.substring(8, datalist.length - 1));
                 for (var i in datalist) {
+                    if (i>9) {
+                      break;
+                    }
                     var href = ''
                     var title = datalist[i].title.replace(/\s/g, "")
                     var imgurl = datalist[i].cover
@@ -4090,6 +4096,9 @@
                 var tmparray = []
                 datalist = eval(datalist.substring(8, datalist.length - 1));
                 for (var i in datalist) {
+                    if (i>9) {
+                      break;
+                    }
                     var href = ''
                     var title = datalist[i].title.replace(/\s/g, "")
                     var imgurl = datalist[i].cover
@@ -4115,6 +4124,9 @@
                 var tmparray = []
                 datalist = eval(datalist.substring(8, datalist.length - 1));
                 for (var i in datalist) {
+                    if (i>9) {
+                      break;
+                    }
                     var href = ''
                     var title = datalist[i].title.replace(/\s/g, "")
                     var imgurl = datalist[i].cover
@@ -4140,6 +4152,9 @@
                 var tmparray = []
                 datalist = eval(datalist.substring(8, datalist.length - 1));
                 for (var i in datalist) {
+                    if (i>9) {
+                      break;
+                    }
                     var href = ''
                     var title = datalist[i].title.replace(/\s/g, "")
                     var imgurl = datalist[i].cover
