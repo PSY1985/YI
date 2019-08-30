@@ -890,8 +890,9 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("来源：","");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("来源：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
@@ -1997,8 +1998,9 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("来源：", "");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("来源：", "");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
@@ -2231,8 +2233,9 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("来源：","");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("来源：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
@@ -2436,8 +2439,9 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("来源：","");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("来源：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
@@ -2641,13 +2645,14 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("播放器：","");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("播放器：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
             var tmp = $(downloadTmp[j]).text();
-            var title = tmp.substring(0, tmp.indexOf("$"));
+            var title = tmp.substring(0, tmp.indexOf("$")).replace(/\s/g, "").trim();
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
             var downloadBean = {"name": title, "href": href};
             oneDownList.push(downloadBean);
@@ -2875,8 +2880,9 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("播放类型：","");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("播放类型：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
@@ -3539,8 +3545,9 @@
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("来源：","");
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          if(i == 2) continue;
+          var titleSort = $(allDownTitleTmp[i]).text().replace("来源：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
