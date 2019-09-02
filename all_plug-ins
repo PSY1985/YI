@@ -2,11 +2,11 @@
   <packgetname>com.bajiezy</packgetname>
   <minapi>1</minapi>
   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-  <info type="801" versionCode="002" versionName="v2.0" name="八戒资源" description="不公开"
+  <info type="801" versionCode="003" versionName="v3.0" name="八戒资源" description="不公开"
     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP380/k22610214.jpg" subscribeUrl="" />
 
   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    url="http://bajieziyuan.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -16,7 +16,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zy.bajieziyuan.com";
+          var host = "http://bajieziyuan.com";
           var href = $(this).find("td.l").find("a").attr("href");
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
@@ -35,7 +35,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    url="http://bajieziyuan.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -45,7 +45,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zy.bajieziyuan.com";
+          var host = "http://bajieziyuan.com";
           var href = $(this).find("td.l").find("a").attr("href");
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
@@ -64,7 +64,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    url="http://bajieziyuan.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -74,7 +74,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zy.bajieziyuan.com";
+          var host = "http://bajieziyuan.com";
           var href = $(this).find("td.l").find("a").attr("href");
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
@@ -93,7 +93,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    url="http://bajieziyuan.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -103,7 +103,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zy.bajieziyuan.com";
+          var host = "http://bajieziyuan.com";
           var href = $(this).find("td.l").find("a").attr("href");
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
@@ -122,7 +122,7 @@
   </rule>
 
   <rule type="101" typeonclickaction="" subtypename="福利" jsmethod="list();"
-    url="http://zy.bajieziyuan.com/?m=vod-type-id-46-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+    url="http://bajieziyuan.com/?m=vod-type-id-46-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
     <script>
       function list() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -132,7 +132,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zy.bajieziyuan.com";
+          var host = "http://bajieziyuan.com";
           var href = $(this).find("td.l").find("a").attr("href");
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
@@ -210,7 +210,7 @@
   </rule>
 
   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://zy.bajieziyuan.com/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
+    url="http://bajieziyuan.com/index.php?m=vod-search" currentpagecountholder="%count%" searchPostData="wd=%keyword%" searchkeywordholder="%keyword%">
     <script>
       function search() {
         var datalist = $("tbody#data_list").find("tr.DianDian");
@@ -220,7 +220,7 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://zy.bajieziyuan.com";
+          var host = "http://bajieziyuan.com";
           var href = $(this).find("td.l").find("a").attr("href");
           var title = $(this).find("td.l").find("a").text().replace(/\s/g, "").trim();
           var imgurl;
