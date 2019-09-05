@@ -6340,7 +6340,7 @@
         $(datalist).each(function () {         
           var host = "http://www.gaoqingzy.com";
           var href = $(this).find("a").attr("href");
-          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").text().replace(/\s/g, "").trim();
+          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.btn_span").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};  
@@ -6369,7 +6369,7 @@
         $(datalist).each(function () {         
           var host = "http://www.gaoqingzy.com";
           var href = $(this).find("a").attr("href");
-          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").text().replace(/\s/g, "").trim();
+          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.btn_span").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};  
@@ -6398,7 +6398,7 @@
         $(datalist).each(function () {         
           var host = "http://www.gaoqingzy.com";
           var href = $(this).find("a").attr("href");
-          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").text().replace(/\s/g, "").trim();
+          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.btn_span").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};  
@@ -6427,7 +6427,7 @@
         $(datalist).each(function () {         
           var host = "http://www.gaoqingzy.com";
           var href = $(this).find("a").attr("href");
-          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").text().replace(/\s/g, "").trim();
+          var title =$(this).find("a").text().replace(" &nbsp;&nbsp;&nbsp;&nbsp;","").replace(/\s/g, "").trim();
           var imgurl;
           var content = $(this).find("span.btn_span").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};  
