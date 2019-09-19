@@ -7934,15 +7934,15 @@
 
 
 
-<site>
-  <packgetname>com.mahuazy</packgetname>
-  <minapi>1</minapi>
-  <author name="YI" avatarUrl="" description="demo" donateUrl="" />
-  <info type="801" versionCode="001" versionName="v1.0" name="麻花资源" description="未公开"
-    iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17257025.jpg" subscribeUrl="" />
+<site> 
+   <packgetname>com.maoaizy</packgetname> 
+   <minapi>1</minapi> 
+   <author name="noName" avatarUrl="" description="demo" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="猫爱资源" description="不公开"
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP996/k17257025.jpg" subscribeUrl="" /> 
 
-  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-1-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+     url="http://maoai.com/index.php/vod/type/id/1/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -7952,13 +7952,13 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://mahuazy.com";
+          var host = "http://maoai.com/";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text().replace("HD高清","");
+          var title = $(this).find("span.xing_vb4").find("a").text().trim().replace("[]","");
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb5").text()+$(this).find("span.xing_vb7").text();
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+          if (content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -7967,11 +7967,11 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 
-  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-2-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+     url="http://maoai.com/index.php/vod/type/id/2/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -7981,13 +7981,13 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://mahuazy.com";
+          var host = "http://maoai.com/";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().trim().replace("[]","");
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb5").text()+$(this).find("span.xing_vb7").text();;
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+          if (content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -7996,11 +7996,11 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 
-  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-4-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+     url="http://maoai.com/index.php/vod/type/id/4/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -8010,13 +8010,13 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://mahuazy.com";
+          var host = "http://maoai.com/";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().trim().replace("[]","");
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb5").text()+$(this).find("span.xing_vb7").text();;
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+          if (content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -8025,11 +8025,11 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 
-  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-    url="http://mahuazy.com/?m=vod-type-id-3-pg-%count%.html" currentpagecountholder="%count%" searchkeywordholder="">
+   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+     url="http://maoai.com/index.php/vod/type/id/3/page/%count%.html" currentpagecountholder="%count%" searchkeywordholder=""> 
     <script>
       function list() {
         var datalist = $("div.xing_vb").find("li");
@@ -8039,13 +8039,13 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://mahuazy.com";
+          var host = "http://maoai.com/";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().trim().replace("[]","");
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb5").text()+$(this).find("span.xing_vb7").text();;
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+          if (content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -8054,61 +8054,57 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 
-  <rule type="102" jsmethod="detail();">
+   <rule type="102" jsmethod="detail();"> 
     <script>
       function detail() {
         var posterUrl;
         var pageTitle = $("div.vodInfo").find("h2").text();
-        var allText = $("div.ibox.playBox").next().find("div.vodplayinfo").first().text().trim();
+        var allText = $("div.vodplayinfo").eq(0).text().trim();
         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
 
         var actor = "";
         var actorTmp = $("div.vodinfobox li").toArray();
         for (var i = 0; i < actorTmp.length; i++) {
           var stTmp = $(actorTmp[i]).text();
-          if (stTmp.indexOf("类型") != -1 || stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1 || stTmp.indexOf("地区") != -1) {
             actor = stTmp + "<br>" + actor;
-          }
         }
 
         var allDownList = new Array();
         var allDownTitleTmp = $("div.vodplayinfo h3").toArray();
         var allDownListTmp = $("div.vodplayinfo ul").toArray();
-        for (var i = 1; i < allDownListTmp.length; i++) {
-          var titleSort = $(allDownTitleTmp[i - 1]).text().replace("播放类型：","");
+        for (var i = allDownListTmp.length-1; i >=0; i--) {
+          var titleSort = $(allDownTitleTmp[i]).text().replace("播放类型：","");
           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
           var oneDownList = new Array();
           for (var j = 0; j < downloadTmp.length; j++) {
             var tmp = $(downloadTmp[j]).text();
             var title = tmp.substring(0, tmp.indexOf("$"));
             var href = tmp.substring(tmp.indexOf("$") + 1, tmp.length);
-            var downloadBean = {"name": title, "href": href};
+            var downloadBean = {
+              "name": title,
+              "href": href
+            };
             oneDownList.push(downloadBean);
           }
-          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
+          var pageDetail = {
+            "title": titleSort,
+            "downlistInfos": oneDownList
+          };
           allDownList.push(pageDetail);
         }
 
-        var pageInfo = {
-          "posterUrl": posterUrl,
-          "title": pageTitle,
-          "allText": allText,
-          "shortText": shortText,
-          "summary": actor,
-          "downlist": allDownList
-        };
+        var pageInfo = {"posterUrl": posterUrl, "title": pageTitle, "allText": allText, "shortText": shortText, "summary": actor, "downlist": allDownList};
         var response = {"code": "200", "msg": "suc", "content": pageInfo};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 
-  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-    url="http://mahuazy.com/index.php?m=vod-search" currentpagecountholder="%count%"
-    searchPostData="wd=%keyword%&submit=search" searchkeywordholder="%keyword%">
+   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+     url="http://maoai.com/index.php/vod/search/page/%count%/wd/%keyword%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
     <script>
       function search() {
         var datalist = $("div.xing_vb").find("li");
@@ -8118,13 +8114,13 @@
         }
         var tmparray = new Array();
         $(datalist).each(function () {
-          var host = "http://mahuazy.com";
+          var host = "http://maoai.com/";
           var href = $(this).find("span.xing_vb4").find("a").attr("href");
-          var title = $(this).find("span.xing_vb4").find("a").text();
+          var title = $(this).find("span.xing_vb4").find("a").text().trim().replace("[]","");
           var imgurl;
-          var content = $(this).find("span.xing_vb5").text();
+          var content = $(this).find("span.xing_vb5").text()+$(this).find("span.xing_vb7").text();;
           var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content, "itemType": 1};
-          if (content.indexOf("福利") == -1 && content.indexOf("伦理") == -1) {
+          if (content.indexOf("伦理") == -1) {
             if (title.length > 0) {
               tmparray.push(obj);
             }
@@ -8133,8 +8129,8 @@
         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
         return response;
       }
-    </script>
-  </rule>
+    </script> 
+   </rule> 
 </site>
 
 
