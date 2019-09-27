@@ -698,194 +698,190 @@
 
 
 
-<site>
-   <packgetname>com.baishixi</packgetname>
-   <minapi>1</minapi>
-   <author name="YI" avatarUrl="" description="自用" donateUrl="" />
-   <info type="801" versionCode="003" versionName="v3.0" name="百事影院" description="群共享"
-     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP707/k20139669.jpg" subscribeUrl="" />
+<site> 
+   <packgetname>www.52kkpp.com</packgetname> 
+   <minapi>1</minapi> 
+   <author name="YI" avatarUrl="" description="自用" donateUrl="" /> 
+   <info type="801" versionCode="001" versionName="v1.0" name="吾爱看片" description=""
+     iconUrl="https://fscomps.fotosearch.com/bigcomps/CSP/CSP707/k20139669.jpg" subscribeUrl="" /> 
 
-   <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
-     url="https://m.baishixi.com/movie/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
+  <rule type="101" typeonclickaction="" subtypename="电影" jsmethod="list();"
+    url="http://www.52kkpp.com/vodtype/dianying-%count%/" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("ul.myui-vodlist.clearfix").find("li.col-lg-8.col-md-6.col-sm-4.col-xs-3");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.52kkpp.com";
+          var href = $(this).find("a.myui-vodlist__thumb.lazyload").attr("href");
+          var title = $(this).find("a.myui-vodlist__thumb.lazyload").attr("title");
+          var imgurl = $(this).find("a.myui-vodlist__thumb.lazyload").attr("data-original");
+          var content = $(this).find("p.text.text-overflow.text-muted.hidden-xs").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
+    url="http://www.52kkpp.com/vodtype/lianxuju-%count%/" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("ul.myui-vodlist.clearfix").find("li.col-lg-8.col-md-6.col-sm-4.col-xs-3");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.52kkpp.com";
+          var href = $(this).find("a.myui-vodlist__thumb.lazyload").attr("href");
+          var title = $(this).find("a.myui-vodlist__thumb.lazyload").attr("title");
+          var imgurl = $(this).find("a.myui-vodlist__thumb.lazyload").attr("data-original");
+          var content = $(this).find("p.text.text-overflow.text-muted.hidden-xs").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
+    url="http://www.52kkpp.com/vodtype/zongyi-%count%/" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("ul.myui-vodlist.clearfix").find("li.col-lg-8.col-md-6.col-sm-4.col-xs-3");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.52kkpp.com";
+          var href = $(this).find("a.myui-vodlist__thumb.lazyload").attr("href");
+          var title = $(this).find("a.myui-vodlist__thumb.lazyload").attr("title");
+          var imgurl = $(this).find("a.myui-vodlist__thumb.lazyload").attr("data-original");
+          var content = $(this).find("p.text.text-overflow.text-muted.hidden-xs").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+  <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
+    url="http://www.52kkpp.com/vodtype/dongman-%count%/" currentpagecountholder="%count%" searchkeywordholder="">
+    <script>
+      function list() {
+        var datalist = $("ul.myui-vodlist.clearfix").find("li.col-lg-8.col-md-6.col-sm-4.col-xs-3");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.52kkpp.com";
+          var href = $(this).find("a.myui-vodlist__thumb.lazyload").attr("href");
+          var title = $(this).find("a.myui-vodlist__thumb.lazyload").attr("title");
+          var imgurl = $(this).find("a.myui-vodlist__thumb.lazyload").attr("data-original");
+          var content = $(this).find("p.text.text-overflow.text-muted.hidden-xs").text();
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
+
+   <rule type="102" jsmethod="detail();"> 
      <script>
-       function list() {
-         var root = document.getElementById("vod_list");
-         var datalist = root.getElementsByTagName("li");
+      function detail() {
+        var host = "http://www.52kkpp.com";
+        var posterUrl = "";
+        var pageTitle =  $("div.myui-content__detail").find("h1.title").text();
+        var allText = $("p.desc.text-collapse.hidden-xs").find("span.sketch").text();
+        var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
+        var actor = "";
 
-         if (datalist.length == 0) {
-           var response = {"code": "200", "msg": "suc", "content": ""};
-           return response;
-         }
-         var tmparray = new Array();
-         for (var i = 0; i < datalist.length; i++) {
-           var href = datalist[i].getElementsByTagName("a")[0].href;
-           var title = datalist[i].getElementsByTagName("img")[0].alt;
-           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-           var content = datalist[i].getElementsByTagName("a")[0].innerText;
-           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-           tmparray.push(obj);
-         }
-         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-         return response;
-       }
-     </script>
-   </rule>
+        var allDownList = new Array();
+        var allDownTitleTmp = $("ul.nav.nav-tabs.active a").toArray();
+        var allDownListTmp = $("div.tab-content.myui-panel_bd:first ul.myui-content__list.sort-list.clearfix").toArray();
+        for (var i = 0; i < allDownListTmp.length; i++) {
+          var titleSort = $(allDownTitleTmp[i]).text();
+          var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
+          var oneDownList = new Array();
+          for (var j = 0; j < downloadTmp.length; j++) {
+            var href = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
+            var title = downloadTmp[j].getElementsByTagName("a")[0].innerHTML;
+            var downloadBean = {"name": title, "href": host + href};
+            oneDownList.push(downloadBean);
+          }
+          var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
+          allDownList.push(pageDetail);
+        }
+        var pageInfo = {"posterUrl": posterUrl, "title": pageTitle, "allText": allText, "shortText": shortText, "summary": actor.replace("undefined", ""), "downlist": allDownList};
+        var response = {"code": "200", "msg": "suc", "content": pageInfo};
+        return response;
+      }
+     </script> 
+   </rule> 
 
-   <rule type="101" typeonclickaction="" subtypename="追剧" jsmethod="list();"
-     url="https://m.baishixi.com/tv/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
-     <script>
-       function list() {
-         var root = document.getElementById("vod_list");
-         var datalist = root.getElementsByTagName("li");
-
-         if (datalist.length == 0) {
-           var response = {"code": "200", "msg": "suc", "content": ""};
-           return response;
-         }
-         var tmparray = new Array();
-         for (var i = 0; i < datalist.length; i++) {
-           var href = datalist[i].getElementsByTagName("a")[0].href;
-           var title = datalist[i].getElementsByTagName("img")[0].alt;
-           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-           var content = datalist[i].getElementsByTagName("a")[0].innerText;
-           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-           tmparray.push(obj);
-         }
-         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-         return response;
-       }
-     </script>
-   </rule>
-
-   <rule type="101" typeonclickaction="" subtypename="动漫" jsmethod="list();"
-     url="https://m.baishixi.com/anime/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
-     <script>
-       function list() {
-         var root = document.getElementById("vod_list");
-         var datalist = root.getElementsByTagName("li");
-
-         if (datalist.length == 0) {
-           var response = {"code": "200", "msg": "suc", "content": ""};
-           return response;
-         }
-         var tmparray = new Array();
-         for (var i = 0; i < datalist.length; i++) {
-           var href = datalist[i].getElementsByTagName("a")[0].href;
-           var title = datalist[i].getElementsByTagName("img")[0].alt;
-           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-           var content = datalist[i].getElementsByTagName("a")[0].innerText;
-           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-           tmparray.push(obj);
-         }
-         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-         return response;
-       }
-     </script>
-   </rule>
-
-   <rule type="101" typeonclickaction="" subtypename="综艺" jsmethod="list();"
-     url="https://m.baishixi.com/variety/index_%count%_______1.html" currentpagecountholder="%count%" searchkeywordholder="">
-     <script>
-       function list() {
-         var root = document.getElementById("vod_list");
-         var datalist = root.getElementsByTagName("li");
-
-         if (datalist.length == 0) {
-           var response = {"code": "200", "msg": "suc", "content": ""};
-           return response;
-         }
-         var tmparray = new Array();
-         for (var i = 0; i < datalist.length; i++) {
-           var href = datalist[i].getElementsByTagName("a")[0].href;
-           var title = datalist[i].getElementsByTagName("img")[0].alt;
-           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-           var content = datalist[i].getElementsByTagName("a")[0].innerText;
-           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-           tmparray.push(obj);
-         }
-         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-         return response;
-       }
-     </script>
-   </rule>
-
-   <rule type="102" jsmethod="detail();">
-     <script>
-       function detail() {
-         var host = "https://m.baishixi.com";
-         var posterUrl = $("img.loading:first").get(0).getAttribute("data-original");
-         var pageTitle = $("img.loading").get(0).getAttribute("alt");
-         var allText = $("div.vod_content").get(0).innerHTML.trim().replace(" ", "").replace("\n", "");
-         var shortText = allText.substring(0, allText.length > 200 ? 200 : allText.length).trim();
-
-         var actor;
-         var actorTmp = $("div.vod-n-l:first p").toArray();
-         for (var i = 0; i < actorTmp.length; i++) {
-           var stTmp;
-           stTmp = actorTmp[i].getElementsByTagName("em")[0].innerHTML;
-           if (stTmp.indexOf("主演") != -1)
-             continue;
-           if (stTmp.indexOf("状态") != -1 || stTmp.indexOf("更新") != -1) {
-             stTmp = actorTmp[i].innerHTML;
-           }
-           var stDetail = actorTmp[i].getElementsByTagName("a");
-           for (var j = 0; j < stDetail.length; j++) {
-             var stDetailTmp = stDetail[j].innerHTML;
-             stTmp = stTmp + " " + stDetailTmp;
-           }
-           actor = actor + "<br>" + stTmp;
-         }
-
-         var allDownList = new Array();
-         var allDownTitleTmp = $("div.play-title a").toArray();
-         var allDownListTmp = $(".play-box").toArray();
-         for (var i = 0; i < allDownListTmp.length; i++) {
-           var titleSort = allDownTitleTmp[i].innerHTML;
-           var downloadTmp = allDownListTmp[i].getElementsByTagName("li");
-           var oneDownList = new Array();
-           for (var j = 0; j < downloadTmp.length; j++) {
-             var href = host + downloadTmp[j].getElementsByTagName("a")[0].getAttribute("href");
-             var title = downloadTmp[j].getElementsByTagName("a")[0].getAttribute("alt");
-             var downloadBean = {"name": title, "href": href};
-             oneDownList.push(downloadBean);
-           }
-           var pageDetail = {"title": titleSort, "downlistInfos": oneDownList};
-           allDownList.push(pageDetail);
-         }
-
-         var pageInfo = {"posterUrl": posterUrl, "title": pageTitle, "allText": allText, "shortText": shortText, "summary": actor.replace("undefined", ""), "downlist": allDownList};
-         var response = {"code": "200", "msg": "suc", "content": pageInfo};
-         return response;
-       }
-     </script>
-   </rule>
-
-   <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
-     url="https://m.baishixi.com/vod-search-wd-%keyword%-%count%.html" currentpagecountholder="%count%" searchkeywordholder="%keyword%">
-     <script>
-       function search() {
-         var host = "https://m.baishixi.com";
-         var root = document.getElementById("resize_list");
-         var datalist = root.getElementsByTagName("li");
-
-         if (datalist.length == 0) {
-           var response = {"code": "200", "msg": "suc", "content": ""};
-           return response;
-         }
-         var tmparray = new Array();
-         for (var i = 0; i < datalist.length; i++) {
-           var href = datalist[i].getElementsByTagName("a")[0].href;
-           var title = datalist[i].getElementsByTagName("a")[0].title;
-           var imgurl = datalist[i].getElementsByTagName("img")[0].getAttribute("data-original");
-           var content = datalist[i].getElementsByTagName("img")[0].alt;
-           var obj = {"title": title, "detailUrl": href, "posterUrl": imgurl, "content": content};
-           tmparray.push(obj);
-         }
-         var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
-         return response;
-       }
-     </script>
-   </rule>
+  <rule type="103" typeonclickaction="" subtypename="" jsmethod="search();"
+    url="http://www.52kkpp.com/vodsearch/%keyword%----------%count%---/" currentpagecountholder="%count%" searchkeywordholder="%keyword%"> 
+    <script>
+      function search() {
+        var datalist = $("ul.myui-vodlist__media.clearfix").find("li");
+        if (datalist.length == 0) {
+          var response = {"code": "200", "msg": "suc", "content": ""};
+          return response;
+        }
+        var tmparray = new Array();
+        $(datalist).each(function () {
+          var host = "http://www.52kkpp.com";
+          var href = $(this).find("a.myui-vodlist__thumb.img-lg-150.img-xs-100.lazyload").attr("href");
+          var title = $(this).find("div.detail").find("h4.title").text();
+          var imgurl = $(this).find("a.myui-vodlist__thumb.img-lg-150.img-xs-100.lazyload").attr("data-original");
+          var content = title;
+          var obj = {"title": title, "detailUrl": host + href, "posterUrl": imgurl, "content": content};
+          if (content.indexOf("伦理") == -1) {
+            if (title.length > 0) {
+              tmparray.push(obj);
+            }
+          }
+        });
+        var response = {"code": "200", "msg": "suc", "content": JSON.stringify(tmparray)};
+        return response;
+      }
+    </script>
+  </rule>
 </site>
 
 
