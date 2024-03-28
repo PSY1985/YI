@@ -599,15 +599,6 @@ proxies:
   private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
   remote-dns-resolve: false
   udp: true
-- name: ☁️ CFWarp-C2
-  type: wireguard
-  server: 262.259.292.207
-  port: 4298
-  ip: 192.168.0.2
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  private-key: mIOsfNOQ7hwE45oXnFL8ReIjdb0rHOYs/YYYRTD4wFw=
-  remote-dns-resolve: false
-  udp: true
 - name: ☁️ CFWarp-D2
   type: wireguard
   server: 162.159.192.152
@@ -1186,7 +1177,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1294,7 +1284,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1405,7 +1394,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1515,7 +1503,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1625,7 +1612,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1735,7 +1721,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1845,7 +1830,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -1955,7 +1939,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2065,7 +2048,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2175,7 +2157,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2285,7 +2266,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2395,7 +2375,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2505,7 +2484,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2615,7 +2593,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2725,7 +2702,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2835,7 +2811,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -2945,7 +2920,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3055,7 +3029,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3165,7 +3138,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3275,7 +3247,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3385,7 +3356,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3495,7 +3465,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3605,7 +3574,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3715,7 +3683,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3825,7 +3792,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -3933,7 +3899,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -4042,7 +4007,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
@@ -4151,7 +4115,6 @@ proxy-groups:
   - ☁️ CFWarp-Z1
   - ☁️ CFWarp-A2
   - ☁️ CFWarp-B2
-  - ☁️ CFWarp-C2
   - ☁️ CFWarp-D2
   - ☁️ CFWarp-E2
   - ☁️ CFWarp-F2
