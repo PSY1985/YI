@@ -1,0 +1,22 @@
+var data = [
+	"Clashmeta🔥https://github.com/MetaCubeX/ClashMetaForAndroid/releases🔥https://img.vinua.cn/images/IKPOU.png",
+	"Nekobox🔥https://github.com/MatsuriDayo/NekoBoxForAndroid/releases🔥https://img.vinua.cn/images/zrx4R.webp",
+	"Singbox🔥https://github.com/SagerNet/sing-box/releases🔥https://img.vinua.cn/images/IKaPE.png",
+	"V2rayNG🔥https://github.com/2dust/v2rayNG/releases🔥https://img.vinua.cn/images/IK2j4.png",
+	"Surfboard🔥https://github.com/getsurfboard/surfboard/releases🔥https://img.vinua.cn/images/zrrFJ.png",
+	"Karing🔥https://github.com/KaringX/karing/releases🔥https://img.vinua.cn/images/z7DWR.png",
+	"Hiddify🔥https://github.com/hiddify/hiddify-next/releases🔥https://img.vinua.cn/images/zpYBJ.png",
+	"Reqable🔥https://github.com/reqable/reqable-app/releases🔥https://img.vinua.cn/images/IKBnh.webp", 
+	"MusicFree🔥https://github.com/maotoumao/MusicFree/releases🔥https://musicfree.upup.fun/img/logo.png", 
+	"ZerotierFix🔥https://github.com/kaaass/ZerotierFix/releases🔥https://www.zerotier.com/favicon-32x32.png", 
+	"MYTV🔥https://github.com/lizongying/my-tv/releases🔥https://www.xzji.com/upload/y24/03x16/17093765f561d1377c0.png", 
+	"Nagram🔥https://github.com/NextAlone/Nagram/releases🔥https://iconpusher.com/images/icons/4662/9.3.3.png",
+	"TapClick🔥https://github.com/LGH1996/TapClick/releases🔥https://images.9k9k.com/m/appimg/202310/08140444qbjs.png", 
+	"Shizuku🔥https://github.com/RikkaApps/Shizuku/releases🔥https://img.vinua.cn/images/IKD7v.webp",
+	"Pixiv Slinky🔥https://github.com/ceuilisa/pixiv-slinky/releases🔥https://upload.wikimedia.org/wikipedia/commons/7/7e/Pixiv_Icon.svg",
+	"Ehviewer🔥https://github.com/xiaojieonly/ehviewer_cn_sxj/releases🔥https://github.com/xiaojieonly/Ehviewer_CN_SXJ/raw/BiLi_PC_Gamer/art/launcher_icon-web.png",
+	"bangumi🔥https://github.com/czy0729/Bangumi/releases🔥https://img.sharebits.link/images/2024/03/31/Nc2i.png",
+	"Ehviewer🔥https://github.com/ujuiujumandan/ehviewer/releases🔥https://img.sharebits.link/images/2024/03/31/NfYw.png",
+	"Jhentai🔥https://github.com/jiangtian616/JHenTai/releases🔥https://img.sharebits.link/images/2024/03/31/NwVJ.png",
+	"exhentai-manga-manager🔥https://github.com/SchneeHertz/exhentai-manga-manager/releases🔥https://raw.githubusercontent.com/SchneeHertz/exhentai-manga-manager/master/public/icon.png"
+]
